@@ -1,0 +1,109 @@
+---
+title: Course Description for IB Mathematics Functions
+description: A detailed course description for IB Mathematics Functions including overview, topics covered and learning objectives in the format of the 2001 Bloom Taxonomy
+quality_score: 100
+---
+
+# Course Description: IB Mathematics Functions
+
+## Overview
+The concept of a function is a foundational and unifying theme in mathematics. In this course, models are representations of real-world events using mathematical expressions, equations, or graphs, while a function represents a mapping that assigns each input exactly one output. Our spatial frame of reference affects the visible part of a function, and moving between different forms to represent functions—symbolically, visually as graphs, and tabularly—allows for deeper understanding. The parameters in an equation correspond to geometrical features of a graph and can represent physical quantities in spatial dimensions. This course helps students relate physical reality to mathematical abstraction, equipping them with essential problem-solving strategies, technological fluency, and deep conceptual understandings applicable across disciplines like economics, physics, and biology.
+
+## Target Audience
+High school students (International Baccalaureate Diploma Programme, SL and HL/AHL levels).
+
+## Prerequisites
+Basic algebra and coordinate geometry.
+
+## Topics Covered
+
+* **The Concept of a Function:** 
+  * Understanding a function as a conceptual mapping that assigns exactly one dependent output variable to each independent input variable.
+  * Distinguishing domains and ranges, and employing structural function notation (e.g., $f(x)$, $v(t)$, $C(n)$).
+  * Understanding inverse functions as mathematical operations that "undo" each other, represented geometrically as a reflection over the line $y = x$.
+  * Concept of identity function and composite functions where $(f \circ g)(x) = f(g(x))$.
+
+* **Linear Functions and Straight Lines:** 
+  * Constructing different forms of equations for lines: gradient-intercept form ($y = mx + c$), general form ($ax + by + d = 0$), and point-gradient form ($y - y_1 = m(x - x_1)$).
+  * Analyzing slopes: finding gradients ($m$) including parallel lines ($m_1 = m_2$) and perpendicular intersections ($m_1 \times m_2 = -1$).
+  * Applying linear systems to real-world gradients like access ramps and mountain roads.
+
+* **Graphing & Key Features:** 
+  * Sketching mathematical curves vs accurately drawing them; effectively moving from screen limits (graphing calculators) to paper.
+  * Utilizing technology to determine key features: exact intercepts, maximum/minimum turning points, axes of symmetry, roots/zeros, and intersections of two distinct curves.
+
+* **Quadratic Functions:** 
+  * Transitioning between quadratic equation forms: the standard form with y-intercept ($f(x) = ax^2 + bx + c$), factored form with roots ($f(x) = a(x - p)(x - q)$), and vertex form ($f(x) = a(x - h)^2 + k$).
+  * Exploring algebraic techniques to solve inequalities and equations: factoring, completing the square, and using the quadratic formula.
+  * Utilizing the discriminant ($\Delta = b^2 - 4ac$) to determine the nature of the roots (two real roots, two equal real roots, or no real roots).
+
+* **Rational and Reciprocal Functions:** 
+  * Analyzing the self-inverse nature of the foundational reciprocal function $f(x) = 1/x$.
+  * Sketching rational equations shaped as $f(x) = (ax + b) / (cx + d)$ or AHL extensions like $f(x) = (ax^2 + bx + c) / (dx + e)$.
+  * Delineating equations of varying boundaries: horizontal, vertical, and oblique asymptotes.
+
+* **Exponential and Logarithmic Functions:** 
+  * Interpreting exponential sequences ($f(x) = a^x$, $f(x) = e^x$) and logarithmic bases ($f(x) = \log_a x$, $f(x) = \ln x$).
+  * Converting expressions using exponential and logarithmic relationships, emphasizing their relationship as inverses.
+  * Utilizing graphing resources to solve complex exponent relations and real-world issues where an analytic option does not apply (e.g., $e^x = \sin x$).
+
+* **Polynomial Functions (AHL Focus):** 
+  * Investigating polynomials of degree $n$, evaluating behaviors of higher-order roots and zero intersections.
+  * Identifying factorizations and utilizing both the factor theorem and remainder theorem to parse polynomials.
+  * Deriving the sum formulas ($-a_{n-1} / a_n$) and product formulas ($(-1)^n a_0 / a_n$) of root matrices.
+
+* **Function Classifications (AHL Focus):** 
+  * Verifying symmetries algebraically for Even functions ($f(-x) = f(x)$) and Odd functions ($f(-x) = -f(x)$).
+  * Characterizing periodic cyclical behaviors, restricting domains to allow proper inverses of varying functions, and evaluating self-inverse limits.
+  * Graphing modifications of function bounds using modulus logic ($y = |f(x)|$, $y = f(|x|)$) and powers like $y = [f(x)]^2$.
+
+* **Transformations:** 
+  * Executing geometric manipulation sequences with translation offsets ($y = f(x) + b$, $y = f(x - a)$).
+  * Computing axis reflections and determining scale factors for vertical ($p$) and horizontal ($1/q$) stretching.
+  * Combining multiple rigid and non-rigid adjustments into composite transformations on graphs.
+
+## Topics Not Covered
+* Differential and Integral Calculus for functions.
+* Trigonometric functions (in-depth analysis is covered in a separate Geometry/Trigonometry topic).
+* Probability density functions and statistics.
+* Matrix representations of transformations.
+
+## Learning Objectives
+
+After this course, students will be able to:
+
+### Remember
+* Define the core terminology of functions, relations, domains, ranges, and inverses.
+* List the mathematical equations and parameters of straight lines, quadratic properties, and polynomials.
+* Recall the foundational properties of logarithmic operators and exponential notation.
+* State the mathematical formulas for the factor theorem and the remainder theorem for polynomials.
+
+### Understand
+* Explain how different representations of functions (graphs, equations, tables) communicate equivalent mathematical relationships.
+* Interpret the practical relevance of geometric parameters of graphs, translating algebra to visualizations.
+* Describe the self-inverse nature of reciprocal operations and the visual symmetry of odd or even functions.
+* Summarize how inverses, such as exponential curves and logarithmic curves, reflect over the line y = x.
+
+### Apply
+* Calculate gradients for parallel and perpendicular lines to model physical inclines like roads and structural ramps.
+* Use dynamic graphing software to trace functions, reveal intersecting points, and identify zeros when equations lack straightforward analytic solutions.
+* Solve algebraic inequalities and contextual problems utilizing the quadratic formula and factorizations.
+* Execute translations, reflections, and dimensional stretches on any given graph to produce composite transformations.
+
+### Analyze
+* Break down polynomial expressions recursively using remainder rules to identify systematic root properties and complex behaviors.
+* Differentiate between the algebraic frameworks (general form, factored form, vertex form) of parabolic equations to identify specific characteristics.
+* Compare multiple models and intersect systems of equations graphically and analytically to find solutions that satisfy given constraints.
+* Examine the discriminant of quadratic equations to deduce the nature and variation of its roots.
+
+### Evaluate
+* Assess the suitability of specific mathematical models (such as logarithmic decay or parabolic motion) for presented scientific and real-world data distributions.
+* Appraise graphical inequality representations to validate algebraic computations and logic steps.
+* Justify the use of technological instruments to investigate behaviors of complex functions where manual calculations are limiting.
+* Verify domain constraints boundaries rigorously, determining exactly where rational and inverse functions are undefined.
+
+### Create
+* Formulate novel composite relationships by mapping one structural function directly into another.
+* Construct robust real-world equations (like compound financial interest, physics kinematics, or population metrics) setting necessary ranges based on scenario limitations.
+* Design complex visual representations combining modulus boundaries and dynamic parameters that accurately reflect realistic behaviors.
+* Develop broad generalized conclusions from specific functional iterations to theorize behaviors in larger physical systems.
