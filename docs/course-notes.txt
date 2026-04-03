@@ -1,0 +1,377 @@
+IB Mathematics Functions
+
+Mathematics: analysis and approaches guide
+
+Concepts
+Essential understandings
+Models are depictions of real-life events using expressions, equations or graphs while a function is defined
+as a relation or expression involving one or more variables. Creating different representations of functions
+to model the relationships between variables, visually and symbolically as graphs, equations and tables
+represents different ways to communicate mathematical ideas.
+Suggested concepts embedded in this topic:
+Representation, relationships, space, quantity, equivalence.
+AHL: Systems, patterns.
+Content-specific conceptual understandings:
+• Different representations of functions, symbolically and visually as graphs, equations and tables
+provide different ways to communicate mathematical relationships.
+• The parameters in a function or equation correspond to geometrical features of a graph and can
+represent physical quantities in spatial dimensions.
+• Moving between different forms to represent functions allows for deeper understanding and provides
+different approaches to problem solving.
+• Our spatial frame of reference affects the visible part of a function and by changing this “window” can
+show more or less of the function to best suit our needs.
+• Equivalent representations of quadratic functions can reveal different characteristics of the same
+relationship.
+• Functions represent mappings that assign to each value of the independent variable (input) one and
+only one dependent variable (output).
+AHL
+• Extending results from a specific case to a general form can allow us to apply them to a larger system.
+• Patterns can be identified in behaviors which can give us insight into appropriate strategies to model
+or solve them.
+• The intersection of a system of equations may be represented graphically and algebraically and
+represents the solution that satisfies the equations.
+SL content
+Recommended teaching hours: 21
+36 Mathematics: analysis and approaches guide
+Syllabus content
+The aim of the SL content in the functions topic is to introduce students to the important unifying theme of
+a function in mathematics and to apply functional methods to a variety of mathematical situations.
+Throughout this topic students should be given the opportunity to use technology, such as graphing
+packages and graphing calculators to develop and apply their knowledge of functions, rather than using
+elaborate analytic techniques.
+On examination papers:
+• questions may be set requiring the graphing of functions that do not explicitly appear on the syllabus
+• the domain will be the largest possible domain for which a function is defined unless otherwise stated;
+this will usually be the real numbers
+Sections SL2.1 to SL2.4 are content common to both Mathematics: analysis and approaches and
+Mathematics: applications and interpretation.
+SL 2.1
+Content Guidance, clarification and syllabus links
+Different forms of the equation of a straight line.
+Gradient; intercepts.
+Lines with gradients m1 and m2
+Parallel lines m1 = m2.
+Perpendicular lines m1 × m2 = − 1.
+y = mx + c (gradient-intercept form).
+ax + by + d = 0 (general form).
+y− y1 = m(x− x1) (point-gradient form).
+Calculate gradients of inclines such as mountain
+roads, bridges, etc.
+Connections
+Other contexts: Gradients of mountain roads, gradients of access ramps.
+Links to other subjects: Exchange rates and price and income elasticity, demand and supply curves
+(economics); graphical analysis in experimental work (sciences group subjects).
+TOK: Descartes showed that geometric problems could be solved algebraically and vice versa. What does
+this tell us about mathematical representation and mathematical knowledge?
+Download connections template
+SL 2.2
+Content Guidance, clarification and syllabus links
+Concept of a function, domain, range and graph.
+Function notation, for example f (x), v(t), C(n).
+The concept of a function as a mathematical model.
+Example: f (x) = 2 − x, the domain is x ≤ 2,
+range is f (x) ≥ 0.
+A graph is helpful in visualizing the range.
+Informal concept that an inverse function reverses
+or undoes the effect of a function.
+Inverse function as a reflection in the line y = x, and
+the notation f −1(x).
+Example: Solving f (x) = 10 is equivalent to finding
+f −1(10).
+Students should be aware that inverse functions
+exist for one to one functions; the domain of f −1(x)is
+equal to the range of f (x).
+Connections
+Other contexts: Temperature and currency conversions.
+Links to other subjects: Currency conversions and cost functions (economics and business management);
+projectile motion (physics).
+Aim 8: What is the relationship between real-world problems and mathematical models?
+
+
+Syllabus content
+International-mindedness: The development of functions by Rene Descartes (France), Gottfried Wilhelm
+Leibnitz (Germany) and Leonhard Euler (Switzerland); the notation for functions was developed by a
+number of different mathematicians in the 17th and 18th centuries–how did the notation we use today
+become internationally accepted?
+TOK: Do you think mathematics or logic should be classified as a language?
+Download connections template
+SL 2.3
+Content Guidance, clarification and syllabus links
+The graph of a function; its equation y = f (x). Students should be aware of the difference between
+the command terms “draw” and “sketch”.
+Creating a sketch from information given or a
+context, including transferring a graph from screen
+to paper.
+Using technology to graph functions including their
+sums and differences.
+All axes and key features should be labelled.
+This may include functions not specifically
+mentioned in topic 2.
+Connections
+Links to other subjects: Sketching and interpreting graphs (sciences group subjects, geography,
+economics).
+TOK: Does studying the graph of a function contain the same level of mathematical rigour as studying the
+function algebraically? What are the advantages and disadvantages of having different forms and symbolic
+language in mathematics?
+Download connections template
+SL 2.4
+Content Guidance, clarification and syllabus links
+Determine key features of graphs. Maximum and minimum values; intercepts;
+symmetry; vertex; zeros of functions or roots of
+equations; vertical and horizontal asymptotes using
+graphing technology.
+Finding the point of intersection of two curves or
+lines using technology.
+Connections
+Links to other subjects: Identification and interpretation of key features of graphs (sciences group
+subjects, geography, economics); production possibilities curve model, market equilibrium (economics).
+International-mindedness: Bourbaki group analytical approach versus the Mandlebrot visual approach.
+Use of technology: Graphing technology with sliders to determine the effects of altering parameters and
+variables.
+Download connections template
+38 Mathematics: analysis and approaches guide
+Syllabus content
+SL 2.5
+Content Guidance, clarification and syllabus links
+Composite functions. ( f∘ g)(x) = f (g(x))
+Identity function. Finding the inverse function
+f −1(x).
+( f∘ f −1)(x) = ( f −1
+∘ f )(x) = x
+The existence of an inverse for one-to-one functions.
+Link to: concept of inverse function as a reflection in
+the line y = x (SL 2.2).
+Connections
+TOK: Do you think mathematics or logic should be classified as a language?
+Download connections template
+SL 2.6
+Content Guidance, clarification and syllabus links
+The quadratic function f (x) = ax2 + bx + c: its
+graph, y -intercept (0, c). Axis of symmetry.
+The form f (x) = a(x− p)(x− q), x-
+intercepts (p, 0) and (q, 0).
+The form f (x) = a (x− h)2 + k, vertex (h, k).
+A quadratic graph is also called a parabola.
+Link to: transformations (SL 2.11).
+Candidates are expected to be able to change from
+one form to another.
+Connections
+Links to other subjects: Kinematics, projectile motion and simple harmonic motion (physics).
+TOK: Are there fundamental differences between mathematics and other areas of knowledge? If so, are
+these differences more than just methodological differences?
+Download connections template
+SL 2.7
+Content Guidance, clarification and syllabus links
+Solution of quadratic equations and inequalities.
+The quadratic formula.
+Using factorization, completing the square (vertex
+form), and the quadratic formula.
+Solutions may be referred to as roots or zeros.
+The discriminant Δ= b2 − 4ac and the nature of the
+roots, that is, two distinct real roots, two equal real
+roots, no real roots.
+Example: For the equation 3kx2 + 2x + k = 0, find
+the possible values of k, which will give two distinct
+real roots, two equal real roots or no real roots.
+Connections
+Links to other subjects: Projectile motion and energy changes in simple harmonic motion (physics);
+equilibrium equations (chemistry).
+(a + b)2 − a2− b2
+International-mindedness: The Babylonian method of multiplication: ab=
+2 . Sulba Sutras
+in ancient India and the Bakhshali Manuscript contained an algebraic formula for solving quadratic
+equations.
+Mathematics: analysis and approaches guide39
+Syllabus content
+TOK: What are the key concepts that provide the building blocks for mathematical knowledge?
+Use of technology: Dynamic graphing software with a slider.
+Enrichment: Deriving the quadratic formula by completing the square.
+Download connections template
+SL 2.8
+Content Guidance, clarification and syllabus links
+The reciprocal function f (x) = 1
+x
+and self-inverse nature.
+, x ≠ 0: its graph
+Rational functions of the form f (x) = ax + b
+cx + d and
+their graphs.
+Equations of vertical and horizontal asymptotes.
+Sketches should include all horizontal and vertical
+asymptotes and any intercepts with the axes.
+Link to: transformations (SL2.11).
+d
+Vertical asymptote: x = −
+;
+c
+a
+Horizontal asymptote: y =
+c.
+Connections
+International-mindedness: The development of functions, Rene Descartes (France), Gottfried Wilhelm
+Leibniz (Germany) and Leonhard Euler (Switzerland).
+TOK: What are the implications of accepting that mathematical knowledge changes over time?
+Download connections template
+SL 2.9
+Content Guidance, clarification and syllabus links
+Exponential functions and their graphs:
+f (x) = ax
+, a > 0, f (x) = ex
+Logarithmic functions and their graphs:
+f (x) = logax, x > 0, f (x) = lnx, x > 0.
+Link to: financial applications of geometric
+sequences and series (SL 1.4).
+Relationships between these functions:
+ax = exlna; logaax
+= x, a, x > 0, a ≠ 1
+Exponential and logarithmic functions as inverses of
+each other.
+Connections
+Links to other subjects: Radioactive decay, charging and discharging capacitors (physics); first order
+reactions and activation energy (chemistry); growth curves (biology).
+Aim 8: The phrase “exponential growth” is used popularly to describe a number of phenomena. Is ths a
+misleading use of a mathematical term?
+TOK: What role do “models” play in mathematics? Do they play a different role in mathematics compared to
+their role in other areas of knowledge?
+Download connections template
+40 Mathematics: analysis and approaches guide
+Syllabus content
+SL 2.10
+Content Guidance, clarification and syllabus links
+Solving equations, both graphically and analytically. Example: e2x − 5ex + 4 = 0 .
+Link to: function graphing skills (SL 2.3).
+Use of technology to solve a variety of equations,
+including those where there is no appropriate
+analytic approach.
+Examples:
+ex = sinx
+x4 + 5x − 6 = 0.
+Applications of graphing skills and solving
+equations that relate to real-life situations.
+Link to: exponential growth (SL 2.9)
+Connections
+Other contexts: Radioactive decay and population growth and decay, compound interest, projectile
+motion, braking distances.
+Links to other subjects: Radioactive decay (physics); modelling (sciences group subjects); production
+possibilities curve model (economics).
+TOK: What assumptions do mathematicians make when they apply mathematics to real-life situations?
+Download connections template
+SL 2.11
+Content Guidance, clarification and syllabus links
+Transformations of graphs.
+Translations: y = f (x) + b; y = f (x− a).
+Reflections (in both axes): y = − f (x); y = f ( − x).
+Vertical stretch with scale factor p: y = p f (x).
+Horizontal stretch with scale factor 1
+: y = f (qx).
+q
+Students should be aware of the relevance of the
+order in which transformations are performed.
+Dynamic graphing packages could be used to
+investigate these transformations.
+Composite transformations. Example: Using y = x2 to sketch y = 3x2 + 2
+Link to: composite functions (SL2.5).
+Not required at SL: transformations of the form
+f (ax + b).
+Connections
+Links to other subjects: Shift in supply and demand curves (Economics); induced emf and simple
+harmonic motion (physics).
+Download connections template
+AHL content
+Recommended teaching hours: 11
+The aim of the AHL functions topic is to extend and build upon the aims, concepts and skills from the SL
+content. It introduces students to useful techniques for finding and using roots of polynomials, graphing
+and interpreting rational functions, additional ways to classify functions, solving inequations and solving
+equations involving modulus notation.
+Mathematics: analysis and approaches guide
+41
+Syllabus content
+HL students may be required to use technology to solve equations where there is no appropriate analytic
+approach.
+AHL 2.12
+Content Guidance, clarification and syllabus links
+Polynomial functions, their graphs and equations;
+zeros, roots and factors.
+The factor and remainder theorems.
+Sum and product of the roots of polynomial
+equations. n
+For the polynomial equation: ∑
+r = 0
+arxr = 0,
+the sum is −an − 1
+an
+the product is ( − 1)na0
+an
+Link to: complex roots of quadratic and polynomial
+equations (AHL 1.14).
+Connections
+Links to other subjects: Modelling (sciences group subjects)
+TOK: Is it an oversimplification to say that some areas of knowledge give us facts whereas other areas of
+knowledge give us interpretations?
+Enrichment: Viete’s theorem in full, “The equation that couldn’t be solved” quadratic formula reducing a
+quadratic to a linear, Cardano and Bombelli.
+Download connections template
+AHL 2.13
+Content Guidance, clarification and syllabus links
+Rational functions of the form
+f (x) = ax + b
+, and f (x) = ax2 + bx + c
+cx2 + dx + e
+dx + e
+The reciprocal function is a particular case.
+Graphs should include all asymptotes (horizontal,
+vertical and oblique) and any intercepts with axes.
+Dynamic graphing packages could be used to
+investigate these functions.
+Link to: rational functions (SL 2.8).
+Connections
+International mindedness: Bourbaki group analytical approach versus Mandlebrot visual approach.
+TOK: Does studying the graph of a function contain the same level of mathematical rigour as studying the
+function algebraically? What are the advantages and disadvantages of having different forms and symbolic
+language in mathematics?
+Download connections template
+42 Mathematics: analysis and approaches guide
+Syllabus content
+AHL 2.14
+Content Guidance, clarification and syllabus links
+Odd and even functions. Even: f ( − x) = f (x)
+Odd: f ( − x) = − f (x)
+Includes periodic functions.
+Finding the inverse function, f −1(x),
+including domain restriction.
+Self-inverse functions.
+Connections
+International-mindedness: The notation for functions was developed by a number of different
+mathematicians in the 17th and 18th centuries. How did the notation we use today become internationally
+accepted?
+TOK: If systems of notation and measurement are culturally and historically situated, does this mean
+mathematics cannot be seen as independent of culture?
+Download connections template
+AHL 2.15
+Content Guidance, clarification and syllabus links
+Solutions of g(x) ≥ f (x), both graphically and
+analytically.
+Graphical or algebraic methods for simple
+polynomials up to degree 3. Use of technology for
+these and other functions.
+Connections
+TOK: Are there differences in terms of value that different cultures ascribe to mathematics, or to the relative
+value that they ascribe to different areas of knowledge?
+Download connections template
+AHL 2.16
+Content Guidance, clarification and syllabus links
+The graphs of the functions, y = | f (x)|
+Dynamic graphing packages could be used to
+investigate these transformations.
+and
+y = f (|x|), y =
+1
+f (x) , y = f (ax + b), y = [ f (x)]2
+.
+Solution of modulus equations and inequalities. Example: |3xarccos(x)| > 1
+Connections
+International-mindedness: The Bourbaki group analytic approach versus Mandlebrot visual approach.
+Download connections template
+Mathematics: analysis and approaches guide
+43
+Syllabus content
