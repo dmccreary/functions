@@ -1,1 +1,41 @@
-site_name: My Docs
+site_name: IB Mathematics Functions
+repo_url: https://github.com/dmccreary/functions
+site_url: https://dmccreary.github.io/functions/
+site_description: An interactive intelligent textbook for IB Mathematics Functions.
+site_author: Dan McCreary
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+
+plugins:
+  - search
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
