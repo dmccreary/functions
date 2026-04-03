@@ -7,6 +7,21 @@ site_author: Dan McCreary
 nav:
   - Home: index.md
   - Course Description: course-description.md
+  - Chapters:
+    - List of Chapters: chapters/index.md
+    - 1. Algebra Foundations: chapters/01-algebra-foundations/index.md
+    - 2. Relations and Functions: chapters/02-relations-and-functions/index.md
+    - 3. Graphing and Key Features: chapters/03-graphing-and-key-features/index.md
+    - 4. Linear Functions: chapters/04-linear-functions/index.md
+    - 5. Quadratic Functions: chapters/05-quadratic-functions/index.md
+    - 6. Inverse and Composite: chapters/06-inverse-and-composite-functions/index.md
+    - 7. Exponential Functions: chapters/07-exponential-functions/index.md
+    - 8. Logarithmic Functions: chapters/08-logarithmic-functions/index.md
+    - 9. Polynomial Functions: chapters/09-polynomial-functions/index.md
+    - 10. Rational Functions: chapters/10-rational-functions/index.md
+    - 11. Function Classifications: chapters/11-function-classifications/index.md
+    - 12. Transformations: chapters/12-transformations/index.md
+    - 13. Modeling and Applications: chapters/13-modeling-and-applications/index.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
     - Concept List: learning-graph/concept-list.md
