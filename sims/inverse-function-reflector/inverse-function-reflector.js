@@ -1,10 +1,12 @@
 // Inverse Function Reflector MicroSim
-// CANVAS_HEIGHT: 480
+// CANVAS_HEIGHT: 500
 let canvasWidth = 400;
-let drawHeight = 400;
+let drawHeight = 420;
 let controlHeight = 80;
-let canvasHeight = drawHeight + controlHeight;
+let titleHeight = 10;
+let canvasHeight = drawHeight + controlHeight + titleHeight;
 let margin = 40;
+let sliderLeftMargin = 210;
 let defaultTextSize = 14;
 
 let funcSelect;
@@ -18,24 +20,27 @@ function setup() {
   canvas.parent(document.querySelector('main'));
   textSize(defaultTextSize);
 
-  // Controls
+  // Controls - Row 1: dropdown and checkboxes
   funcSelect = createSelect();
-  funcSelect.position(10, drawHeight + 8);
+  funcSelect.position(10, titleHeight + drawHeight + 2);
   funcSelect.option('f(x) = 2x + 1');
   funcSelect.option('f(x) = x² (x≥0)');
   funcSelect.option('f(x) = x³');
   funcSelect.option('f(x) = 1/x');
   funcSelect.selected('f(x) = 2x + 1');
-
-  traceSlider = createSlider(-4, 4, 1, 0.1);
-  traceSlider.position(160, drawHeight + 50);
-  traceSlider.size(150);
+  funcSelect.changed(onFuncChange);
 
   showLineCheckbox = createCheckbox('Show y=x line', true);
-  showLineCheckbox.position(10, drawHeight + 40);
+  showLineCheckbox.position(10, titleHeight + drawHeight + 28);
 
   showConnectCheckbox = createCheckbox('Show connecting lines', true);
-  showConnectCheckbox.position(10, drawHeight + 58);
+  showConnectCheckbox.position(10, titleHeight + drawHeight + 48);
+
+  // Controls - Row 2: trace label + slider on same row
+  // values are from -4 to 4 with step of 0.1
+  traceSlider = createSlider(-4, 4, 1, 0.1);
+  traceSlider.position(sliderLeftMargin, drawHeight + 10);
+  traceSlider.size(canvasWidth - sliderLeftMargin - margin);
 
   describe('Interactive graph showing a function and its inverse reflected over y=x', LABEL);
 }
@@ -43,7 +48,7 @@ function setup() {
 function draw() {
   updateCanvasSize();
 
-  // Drawing area
+  // Fill the Drawing area will a light blue background and the control area with white
   fill('aliceblue');
   stroke('silver');
   rect(0, 0, canvasWidth, drawHeight);
@@ -52,10 +57,18 @@ function draw() {
   stroke('silver');
   rect(0, drawHeight, canvasWidth, controlHeight);
 
+  // Title
+  noStroke();
+  fill('black');
+  noStroke();
+  textSize(24);
+  textAlign(CENTER, TOP);
+  text('Inverse Function Reflector', canvasWidth / 2, 10);
+
   let plotW = canvasWidth - 2 * margin;
   let plotH = drawHeight - 2 * margin;
   let cx = canvasWidth / 2;
-  let cy = drawHeight / 2;
+  let cy = titleHeight + drawHeight / 2;
   let range = 6;
 
   // Grid lines
@@ -250,21 +263,35 @@ function draw() {
   textSize(13);
   textAlign(LEFT, TOP);
   fill('blue');
-  text(fLabel, 10, 10);
+  text(fLabel, 10, titleHeight + 10);
   fill('red');
-  text(fInvLabel, 10, 26);
+  text(fInvLabel, 10, titleHeight + 26);
 
-  // Control labels
+  // Control labels - label and value to the left of the slider on same row
   noStroke();
   fill('black');
-  textSize(12);
+  textSize(16);
   textAlign(LEFT, CENTER);
-  text('Trace x: ' + nf(traceSlider.value(), 0, 1), 160, drawHeight + 45);
+  text('Trace x: ' + nf(traceSlider.value(), 0, 1), sliderLeftMargin - 90, drawHeight + 20);
+}
+
+function onFuncChange() {
+  let sel = funcSelect.value();
+  if (sel === 'f(x) = 2x + 1') {
+    traceSlider.value(0);
+  } else if (sel === 'f(x) = x² (x≥0)') {
+    traceSlider.value(1.6);
+  } else if (sel === 'f(x) = x³') {
+    traceSlider.value(0);
+  } else if (sel === 'f(x) = 1/x') {
+    traceSlider.value(2);
+  }
 }
 
 function windowResized() {
   updateCanvasSize();
   resizeCanvas(canvasWidth, canvasHeight);
+  traceSlider.size(canvasWidth - sliderLeftMargin - margin);
 }
 
 function updateCanvasSize() {
