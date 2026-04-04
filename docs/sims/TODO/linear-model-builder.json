@@ -1,0 +1,14 @@
+{
+  "sim_id": "linear-model-builder",
+  "diagram_name": "Linear Model Builder",
+  "chapter_number": 4,
+  "chapter_title": "Linear Functions",
+  "chapter_dir": "04-linear-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will construct linear models from verbal descriptions and use them to make predictions (Create L6 — construct, formulate).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** linear-model-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Let students build linear models from real-world scenarios by identifying the gradient (rate of change) and y-intercept (starting value), then see the resulting graph and use it to make predictions.\n\nLearning Objective: Students will construct linear models from verbal descriptions and use them to make predictions (Create L6 — construct, formulate).\n\nInstructional Rationale: Translating a verbal scenario into a linear equation is a higher-order skill that integrates all the concepts in this chapter. The visual feedback of seeing the model graph appear confirms whether the translation is correct.\n\nVisual elements:\n\n- A scenario panel at the top displaying a real-world situation in text\n- Input fields for the student to enter the gradient and y-intercept\n- A coordinate grid showing the resulting linear function graph\n- A prediction panel where students enter an input value and see the model's prediction\n- Feedback: correct/incorrect indicators when the student's model is checked\n\nInteractive controls:\n\n- Dropdown: Select scenario from a bank of 6 real-world situations (taxi fare, phone plan, water tank draining, savings account, temperature conversion, plumber's bill)\n- Input field: \"Gradient (rate of change)\" — student enters a number\n- Input field: \"$y$-intercept (starting value)\" — student enters a number\n- Button: \"Plot My Model\" — graphs the student's linear function\n- Button: \"Check Answer\" — compares the student's model to the correct one, highlighting differences\n- Input field: \"Predict for input =\" — student enters an $x$ value and the model returns the prediction\n- Button: \"Next Scenario\" — loads a new scenario\n\nDefault: Taxi fare scenario displayed, input fields empty.\n\nCanvas: Responsive, full width, 550px height"
+}

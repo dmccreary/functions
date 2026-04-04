@@ -1,0 +1,14 @@
+{
+  "sim_id": "number-system-hierarchy",
+  "diagram_name": "Number System Hierarchy",
+  "chapter_number": 1,
+  "chapter_title": "Algebra Foundations",
+  "chapter_dir": "01-algebra-foundations",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will classify numbers into the correct number system (Remember L1 — identify, classify).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: diagram\n**sim-id:** number-system-hierarchy<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Visualise the nested relationship between integers, rational numbers, irrational numbers, and real numbers as concentric regions on a number line.\n\nLearning Objective: Students will classify numbers into the correct number system (Remember L1 — identify, classify).\n\nVisual elements:\n\n- A horizontal real number line from -5 to 5 with tick marks at each integer\n- Concentric colored regions (nested sets): Integers (innermost, blue), Rationals (middle, green), Reals (outermost, orange)\n- Plotted example numbers: $-3$, $0$, $2$ (integers), $\\frac{1}{2}$, $-0.75$, $1.\\overline{3}$ (rationals), $\\sqrt{2}$, $\\pi$, $-\\sqrt{5}$ (irrationals)\n- Each number displayed as a draggable dot with a label\n\nInteractive controls:\n\n- Dropdown to select a number type filter (All, Integers, Rationals, Irrationals)\n- Hover over any plotted number to see its classification and decimal expansion\n- Button: \"Add a Number\" — enter a value and the sim classifies it and plots it\n\nColor scheme: Integers blue, Rationals (non-integer) green, Irrationals orange, background light gray\n\nCanvas: Responsive, full width, 450px height"
+}

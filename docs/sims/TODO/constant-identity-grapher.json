@@ -1,0 +1,14 @@
+{
+  "sim_id": "constant-identity-grapher",
+  "diagram_name": "Constant and Identity Function Grapher",
+  "chapter_number": 2,
+  "chapter_title": "Relations and Functions",
+  "chapter_dir": "02-relations-and-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will compare the graphs of constant and identity functions and describe how the parameter $c$ affects the constant function's graph (Understand L2 — compare, describe).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** constant-identity-grapher<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Let students explore the graphs of constant and identity functions by adjusting parameters and observing how the graph changes.\n\nLearning Objective: Students will compare the graphs of constant and identity functions and describe how the parameter $c$ affects the constant function's graph (Understand L2 — compare, describe).\n\nInstructional Rationale: Adjusting the constant $c$ with a slider and seeing the horizontal line move in real time makes the relationship between the algebraic rule and the graph concrete. Overlaying the identity function provides a reference for comparison.\n\nVisual elements:\n\n- A coordinate grid from $-10$ to $10$ in both axes\n- The identity function $f(x) = x$ drawn as a dashed blue line (always visible as a reference)\n- The constant function $g(x) = c$ drawn as a solid red horizontal line\n- Labels showing $f(x) = x$ and $g(x) = c$ with the current value of $c$\n- A point on each graph at the current $x$ position showing the output value\n\nInteractive controls:\n\n- Slider: Value of $c$ (from $-8$ to $8$, default $3$, step $0.5$)\n- Slider: Trace $x$ — moves a vertical dashed line across the graph, showing the output of both functions at that $x$ value\n- Checkbox: \"Show Table\" — displays a small table of values for both functions at integer $x$ values\n- Button: \"Reset\" — returns $c$ to $3$ and trace to $0$\n\nDefault: $c = 3$, trace at $x = 0$, table hidden.\n\nCanvas: Responsive, full width, 500px height"
+}

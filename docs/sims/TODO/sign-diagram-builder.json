@@ -1,0 +1,14 @@
+{
+  "sim_id": "sign-diagram-builder",
+  "diagram_name": "Sign Diagram Builder",
+  "chapter_number": 5,
+  "chapter_title": "Quadratic Functions",
+  "chapter_dir": "05-quadratic-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will solve quadratic inequalities by constructing and interpreting sign diagrams (Apply L3 — execute, solve).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** sign-diagram-builder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Guide students through constructing sign diagrams for quadratic expressions, showing the connection between the roots on the number line and the sign of the expression in each interval.\n\nLearning Objective: Students will solve quadratic inequalities by constructing and interpreting sign diagrams (Apply L3 — execute, solve).\n\nInstructional Rationale: A step-by-step sign diagram builder makes the abstract process of inequality solving visual and procedural. Seeing the parabola above/below the x-axis alongside the number line signs reinforces the geometric meaning.\n\nVisual elements:\n\n- Top area: The parabola graph showing where it is above ($+$) and below ($-$) the $x$-axis, with those regions shaded green and red respectively\n- Bottom area: A number line sign diagram with roots marked, interval signs displayed, and the solution interval highlighted\n- The parabola and sign diagram are vertically aligned so students see the correspondence\n\nInteractive controls:\n\n- Slider: $a$ ($-3$ to $3$, default $1$, step $0.5$, excluding $0$)\n- Slider: Root 1 ($-8$ to $8$, default $2$, step $0.5$)\n- Slider: Root 2 ($-8$ to $8$, default $5$, step $0.5$)\n- Dropdown: Inequality type ($> 0$, $\\geq 0$, $< 0$, $\\leq 0$)\n- The solution interval is highlighted in blue on both the graph and the number line\n- Button: \"Show Step-by-Step\" — walks through the process: find roots, test intervals, select solution\n- Button: \"Reset\"\n\nDefault: $a = 1$, roots at $2$ and $5$, inequality $> 0$.\n\nCanvas: Responsive, full width, 500px height"
+}

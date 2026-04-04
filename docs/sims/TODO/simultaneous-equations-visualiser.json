@@ -1,0 +1,14 @@
+{
+  "sim_id": "simultaneous-equations-visualiser",
+  "diagram_name": "Simultaneous Equations Visualiser",
+  "chapter_number": 4,
+  "chapter_title": "Linear Functions",
+  "chapter_dir": "04-linear-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will solve systems of two linear equations graphically and verify the solution algebraically (Apply L3 — solve, demonstrate).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** simultaneous-equations-visualiser<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Let students graph two linear equations simultaneously and see how the intersection point corresponds to the algebraic solution of the system.\n\nLearning Objective: Students will solve systems of two linear equations graphically and verify the solution algebraically (Apply L3 — solve, demonstrate).\n\nInstructional Rationale: Seeing two lines intersect on a graph while the algebraic solution appears alongside reinforces the connection between graphical and analytic methods. Adjustable equations let students explore how changes affect the intersection.\n\nVisual elements:\n\n- A coordinate grid with two straight lines drawn in different colours (blue and red)\n- The intersection point highlighted with a large dot and its coordinates displayed\n- Each line's equation shown in gradient-intercept form near the line\n- When lines are parallel (no intersection), a message appears: \"No solution — parallel lines\"\n\nInteractive controls:\n\n- Slider: $m_1$ gradient of line 1 ($-5$ to $5$, default $2$, step $0.5$)\n- Slider: $c_1$ y-intercept of line 1 ($-8$ to $8$, default $-1$, step $0.5$)\n- Slider: $m_2$ gradient of line 2 ($-5$ to $5$, default $-1$, step $0.5$)\n- Slider: $c_2$ y-intercept of line 2 ($-8$ to $8$, default $7$, step $0.5$)\n- Checkbox: \"Show Algebraic Solution\" — displays the step-by-step substitution solution\n- Checkbox: \"Show Parallel/Perpendicular Status\" — indicates if lines are parallel or perpendicular\n- Button: \"Reset\" — returns to default values\n\nDefault: Line 1: $y = 2x - 1$ (blue), Line 2: $y = -x + 7$ (red), intersection at $(2.67, 4.33)$.\n\nCanvas: Responsive, full width, 550px height"
+}

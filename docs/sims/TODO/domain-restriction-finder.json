@@ -1,0 +1,14 @@
+{
+  "sim_id": "domain-restriction-finder",
+  "diagram_name": "Domain Restriction Finder",
+  "chapter_number": 2,
+  "chapter_title": "Relations and Functions",
+  "chapter_dir": "02-relations-and-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will determine the domain of a function by identifying values that cause division by zero or negative square root arguments (Apply L3 — solve, calculate).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** domain-restriction-finder<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Let students explore how domain restrictions arise by entering function rules and seeing which input values are excluded and why.\n\nLearning Objective: Students will determine the domain of a function by identifying values that cause division by zero or negative square root arguments (Apply L3 — solve, calculate).\n\nInstructional Rationale: Interactive exploration of domain restrictions builds procedural fluency. Seeing the excluded values highlighted on a number line connects the algebraic condition to a geometric picture.\n\nVisual elements:\n\n- Top area: Display of the function rule (pre-loaded examples or student-entered)\n- Middle area: A number line from $-10$ to $10$ showing the domain, with excluded points marked as open circles in red and valid regions shaded in blue\n- Bottom area: Step-by-step explanation of why each restriction exists\n\nInteractive controls:\n\n- Dropdown: Select from preset functions: $\\frac{1}{x}$, $\\frac{3}{x-2}$, $\\sqrt{x}$, $\\sqrt{x-4}$, $\\frac{1}{\\sqrt{x-1}}$, $\\frac{x+1}{x^2-9}$\n- The number line updates immediately when a new function is selected\n- Hover over any red excluded point to see the explanation (e.g., \"x = 2 makes the denominator zero\")\n- Button: \"Show Interval Notation\" — reveals the domain in interval notation\n- Button: \"Show Set Builder\" — reveals the domain in set builder notation\n\nData Visibility Requirements:\n\n- Stage 1: Show the function rule with the \"dangerous\" part highlighted (denominator or radicand)\n- Stage 2: Show the equation or inequality that identifies excluded values\n- Stage 3: Show the number line with domain shaded and excluded points marked\n- Stage 4: Show the domain in both interval and set builder notation\n\nDefault: $\\frac{1}{x}$ selected, all annotations visible.\n\nCanvas: Responsive, full width, 500px height"
+}
