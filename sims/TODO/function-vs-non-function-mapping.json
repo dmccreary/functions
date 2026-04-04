@@ -1,0 +1,14 @@
+{
+  "sim_id": "function-vs-non-function-mapping",
+  "diagram_name": "Function vs Non-Function Mapping",
+  "chapter_number": 2,
+  "chapter_title": "Relations and Functions",
+  "chapter_dir": "02-relations-and-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will distinguish between relations that are functions and those that are not by examining mapping diagrams (Understand L2 — classify, compare).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: diagram\n**sim-id:** function-vs-non-function-mapping<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Show side-by-side mapping diagrams comparing a relation that IS a function with one that is NOT, making the \"one output per input\" rule visual and concrete.\n\nLearning Objective: Students will distinguish between relations that are functions and those that are not by examining mapping diagrams (Understand L2 — classify, compare).\n\nInstructional Rationale: Side-by-side comparison with mapping arrows makes the abstract \"one output per input\" rule tangible. Students can visually trace arrows to verify the function property.\n\nVisual elements:\n\n- Two mapping diagrams displayed side by side, each with an oval on the left (domain) and an oval on the right (range)\n- Left diagram (labelled \"Function\"): Domain {1, 2, 3, 4}, Range {A, B, C}. Arrows: 1→A, 2→B, 3→B, 4→C. Each input has exactly one arrow.\n- Right diagram (labelled \"Not a Function\"): Domain {1, 2, 3}, Range {A, B, C}. Arrows: 1→A, 1→B, 2→C, 3→A. Input 1 has TWO arrows (highlighted in red).\n- Labels: \"Every input has exactly one arrow\" (green) under the function, \"Input 1 has two arrows!\" (red) under the non-function\n\nInteractive controls:\n\n- Button: \"Randomise\" — generates a new pair of mapping diagrams (one function, one non-function) with random values\n- Button: \"Build Your Own\" — lets the student draw arrows between inputs and outputs, then checks if the result is a function\n- Toggle: \"Show Labels\" — reveals or hides the explanatory annotations\n\nColor scheme: Function arrows in blue, non-function conflicting arrows in red, domain ovals in light blue, range ovals in light green\n\nCanvas: Responsive, full width, 500px height"
+}

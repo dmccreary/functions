@@ -1,0 +1,14 @@
+{
+  "sim_id": "composite-function-machine",
+  "diagram_name": "Composite Function Machine",
+  "chapter_number": 6,
+  "chapter_title": "Inverse and Composite Functions",
+  "chapter_dir": "06-inverse-and-composite-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will evaluate composite functions by tracing inputs through two function machines and will distinguish $(f \\circ g)$ from $(g \\circ f)$ (Understand L2 — explain, compare).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** composite-function-machine<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Visualise composite functions as two \"machines\" connected in series, where the output of the first machine feeds into the second, showing how composition works step by step.\n\nLearning Objective: Students will evaluate composite functions by tracing inputs through two function machines and will distinguish $(f \\circ g)$ from $(g \\circ f)$ (Understand L2 — explain, compare).\n\nInstructional Rationale: The function machine metaphor makes the abstract idea of composition tangible. Seeing the intermediate value between the two machines clarifies why order matters and where domain restrictions arise.\n\nVisual elements:\n\n- Two \"machine\" boxes connected by an arrow, each labelled with its function rule\n- An input value entering the first machine on the left\n- The intermediate value displayed on the connecting arrow\n- The final output emerging from the second machine on the right\n- Below: the algebraic expression for the composite shown step by step\n\nInteractive controls:\n\n- Dropdown: Function $f$ from bank: $x^2$, $2x+1$, $\\sqrt{x}$, $\\frac{1}{x}$, $x-3$\n- Dropdown: Function $g$ from bank: $x+4$, $3x$, $x^2$, $x-1$, $2x+5$\n- Slider: Input value $x$ ($-5$ to $5$, default $2$, step $0.5$)\n- Toggle: \"Swap Order\" — switches between $(f \\circ g)$ and $(g \\circ f)$, rearranging the machines\n- The intermediate and final values update in real time as $x$ changes\n- Red warning appears if the intermediate value is outside the domain of the second function\n\nDefault: $f(x) = x^2$, $g(x) = x + 4$, input $x = 2$, order $(f \\circ g)$.\n\nCanvas: Responsive, full width, 500px height"
+}

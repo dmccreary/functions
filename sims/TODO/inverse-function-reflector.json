@@ -1,0 +1,14 @@
+{
+  "sim_id": "inverse-function-reflector",
+  "diagram_name": "Inverse Function Reflector",
+  "chapter_number": 6,
+  "chapter_title": "Inverse and Composite Functions",
+  "chapter_dir": "06-inverse-and-composite-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will verify that a function and its inverse are reflections over $y = x$ by examining corresponding points (Understand L2 — explain, interpret).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** inverse-function-reflector<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Show a function and its inverse as reflections over the line $y = x$, with corresponding points highlighted to build geometric intuition for inverse functions.\n\nLearning Objective: Students will verify that a function and its inverse are reflections over $y = x$ by examining corresponding points (Understand L2 — explain, interpret).\n\nInstructional Rationale: Seeing the reflection in real time as parameters change makes the abstract algebraic operation of \"swapping $x$ and $y$\" visually concrete. Highlighting corresponding point pairs reinforces that $(a, b)$ maps to $(b, a)$.\n\nVisual elements:\n\n- A coordinate grid with the line $y = x$ drawn as a dashed gray line\n- The function $f$ drawn in blue\n- The inverse $f^{-1}$ drawn in red\n- Corresponding points highlighted: when the student hovers over a point on $f$, the reflected point on $f^{-1}$ lights up, and a dotted line connects them perpendicular to $y = x$\n- Labels showing the coordinates of both points\n\nInteractive controls:\n\n- Dropdown: Select function from a bank: $f(x) = 2x + 1$, $f(x) = x^2$ (restricted to $x \\geq 0$), $f(x) = x^3$, $f(x) = \\frac{1}{x}$, $f(x) = e^x$\n- Slider: Trace — moves a point along $f$, with the corresponding inverse point moving on $f^{-1}$\n- Checkbox: \"Show $y = x$ line\"\n- Checkbox: \"Show connecting lines\" — draws perpendicular bisectors from point pairs to $y = x$\n- Button: \"Reset\"\n\nDefault: $f(x) = 2x + 1$ selected, $y = x$ line shown, trace at origin.\n\nCanvas: Responsive, full width, 550px height"
+}

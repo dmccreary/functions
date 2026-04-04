@@ -1,0 +1,14 @@
+{
+  "sim_id": "transformation-explorer",
+  "diagram_name": "Transformation Explorer",
+  "chapter_number": 12,
+  "chapter_title": "Transformations",
+  "chapter_dir": "12-transformations",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will predict and verify the effect of translations, reflections, and stretches on function graphs (Apply L3 — execute, demonstrate).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** transformation-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Let students apply individual and combined transformations to a base function graph and observe the effects in real time, building intuition for how each parameter affects the graph.\n\nLearning Objective: Students will predict and verify the effect of translations, reflections, and stretches on function graphs (Apply L3 — execute, demonstrate).\n\nInstructional Rationale: Real-time parameter adjustment makes the relationship between algebraic notation and geometric transformation immediate. Students can test their predictions by adjusting one slider at a time.\n\nVisual elements:\n\n- A coordinate grid showing the original function $f(x)$ in gray and the transformed function in blue\n- Labels showing the current transformation equation in the form $y = p \\cdot f(q(x - a)) + b$\n- Key points on both graphs connected by dotted lines showing the mapping\n- Parameter values displayed prominently\n\nInteractive controls:\n\n- Dropdown: Select base function: $x^2$, $x^3$, $|x|$, $\\sqrt{x}$, $\\frac{1}{x}$, $2^x$\n- Slider: $a$ (horizontal shift, $-5$ to $5$, default $0$)\n- Slider: $b$ (vertical shift, $-5$ to $5$, default $0$)\n- Slider: $p$ (vertical stretch, $-3$ to $3$, default $1$, step $0.25$)\n- Slider: $q$ (horizontal stretch, $-3$ to $3$, default $1$, step $0.25$, excluding $0$)\n- Checkbox: \"Show original function\" — toggle gray reference graph\n- Checkbox: \"Show point mapping\" — connect corresponding points with dotted lines\n- Button: \"Reset All\" — returns all parameters to default\n\nDefault: $f(x) = x^2$, all parameters at identity (no transformation).\n\nCanvas: Responsive, full width, 550px height"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "quadratic-equation-solver",
+  "diagram_name": "Quadratic Equation Solver",
+  "chapter_number": 5,
+  "chapter_title": "Quadratic Functions",
+  "chapter_dir": "05-quadratic-functions",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will solve quadratic equations using factoring, completing the square, and the quadratic formula, and relate the solutions to the graph (Apply L3 — solve, calculate).",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-03",
+  "specification": "Type: microsim\n**sim-id:** quadratic-equation-solver<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nPurpose: Let students enter coefficients $a$, $b$, $c$ and see the quadratic solved by all three methods side by side, with the graph showing the roots visually.\n\nLearning Objective: Students will solve quadratic equations using factoring, completing the square, and the quadratic formula, and relate the solutions to the graph (Apply L3 — solve, calculate).\n\nInstructional Rationale: Showing all three solution methods simultaneously for the same equation helps students see that they yield the same result through different paths. The graph reinforces that algebraic solutions correspond to visual x-intercepts.\n\nVisual elements:\n\n- Left panel: A coordinate grid showing the parabola with x-intercepts (roots) marked\n- Right panel: Three solution methods displayed step by step:\n  - Factoring (if possible, or \"Does not factor neatly\" message)\n  - Completing the square\n  - Quadratic formula\n- Discriminant value displayed prominently with colour coding (positive = green, zero = yellow, negative = red)\n- Vertex marked on the graph with coordinates\n\nInteractive controls:\n\n- Slider: $a$ ($-5$ to $5$, default $1$, step $0.5$, excluding $0$)\n- Slider: $b$ ($-10$ to $10$, default $-2$, step $1$)\n- Slider: $c$ ($-10$ to $10$, default $-3$, step $1$)\n- Checkbox: \"Show Step-by-Step\" — expands each method to show intermediate steps\n- Button: \"Random Equation\" — generates random integer coefficients\n- Button: \"Reset\" — returns to $a=1, b=-2, c=-3$\n\nDefault: $a = 1$, $b = -2$, $c = -3$, showing $x^2 - 2x - 3 = 0$ with roots at $x = 3$ and $x = -1$.\n\nCanvas: Responsive, full width, 550px height"
+}
