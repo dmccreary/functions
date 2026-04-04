@@ -179,6 +179,8 @@ Detected `trim-padding-from-image.py` in the `book-installer` skill directory. R
 
 ## Conclusion
 
-The extensive technical workarounds documented in this session—including the development of a custom `mascot-image-generator` skill, iterative pixel thresholding, halo-reduction, and padding removal scripts—were necessitated entirely by the defects in the native capabilities of the underlying Imagen text-to-image model. Specifically, the model's inability to natively generate correctly encoded transparent alpha channels requires forcing solid color backgrounds and executing secondary routines to artificially execute transparency. The root cause of the friction and pipeline complexity in this workflow can be cleanly traced back exclusively to this core algorithmic limitation.
+The extensive technical workarounds documented in this session—including the development of a custom `mascot-image-generator` skill, iterative pixel thresholding, halo-reduction, and padding removal scripts—were necessitated entirely by the limitations in the native capabilities of the underlying image generation models. 
+
+Subsequent API research confirmed that Antigravity's generator routes directly through **Google Nano Banana** (the internal codename for Gemini's image generation models). Official Nano Banana API documentation explicitly confirms that the engine *does not* support native transparent alpha channels out of the box, and formally directs developers to prompt for solid background colors and execute client-side color-stripping algorithms. Therefore, the Python `floodfill` workflow built during this session perfectly implements the official requirements for solving Nano Banana's transparency limitations natively within the Antigravity automation framework.
 
 
