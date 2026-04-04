@@ -11,7 +11,7 @@ quality_score: 0
 
 # Inverse Function Reflector
 
-<iframe src="main.html" height="482" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="510" width="100%" scrolling="no"></iframe>
 
 [Run the Inverse Function Reflector MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

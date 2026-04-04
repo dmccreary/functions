@@ -1,8 +1,8 @@
 // Number System Hierarchy MicroSim
-// CANVAS_HEIGHT: 510
+// CANVAS_HEIGHT: 440
 let canvasWidth = 400;
-let drawHeight = 430;
-let controlHeight = 80;
+let drawHeight = 380;
+let controlHeight = 40;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 25;
 let defaultTextSize = 16;
@@ -60,12 +60,14 @@ function draw() {
   text('Number System Hierarchy', canvasWidth / 2, 8);
 
   let cx = canvasWidth / 2;
-  let cy = 180;
+  let cy = 155;
   let maxW = canvasWidth - 60;
 
   // Draw nested ellipses (Reals > Rationals > Integers)
   noStroke();
 
+  push();
+  translate(0, 20); // Move down to create space for title
   // Reals (outermost) - orange
   fill(255, 200, 150, 100);
   stroke(200, 120, 50);
@@ -119,7 +121,7 @@ function draw() {
     if (!show) continue;
 
     let d = dist(mouseX, mouseY, n.x, n.y);
-    let isHover = d < 18;
+    let isHover = d < 28;
     if (isHover) hoverNumber = n;
 
     // Dot
@@ -136,6 +138,7 @@ function draw() {
     noStroke();
     text(n.label, n.x, n.y - 10);
   }
+  pop();
 
   // Hover tooltip
   if (hoverNumber) {
@@ -161,8 +164,11 @@ function draw() {
     text(classification, tx, ty + 10);
   }
 
-  // Number line at bottom
-  let nlY = drawHeight - 50;
+  // Number line and legend
+  push();
+  // use this to move the number line and legend down a bit to create more space from the nested ellipses
+  translate(0, 20);
+  let nlY = drawHeight - 70;
   let nlLeft = margin + 30;
   let nlRight = canvasWidth - margin - 30;
 
@@ -210,10 +216,11 @@ function draw() {
   noStroke();
   textSize(13);
   textAlign(LEFT, CENTER);
-  let legY = drawHeight - 20;
+  let legY = drawHeight - 40;
   fill(50, 80, 200); ellipse(margin + 10, legY, 10); fill('black'); text('Integer', margin + 20, legY);
   fill(50, 150, 50); ellipse(margin + 90, legY, 10); fill('black'); text('Rational', margin + 100, legY);
   fill(200, 120, 50); ellipse(margin + 180, legY, 10); fill('black'); text('Irrational', margin + 190, legY);
+  pop();
 
   // Control labels
   noStroke();
@@ -221,6 +228,9 @@ function draw() {
   textSize(defaultTextSize);
   textAlign(LEFT, CENTER);
   text('Filter:', 10, drawHeight + 20);
+  textSize(14);
+  fill('gray');
+  text('Hover over the points to see their properties', 200, drawHeight + 20);
 }
 
 function getPositions(cx, cy, maxW) {
