@@ -28,6 +28,7 @@ nav:
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Quality Metrics: learning-graph/quality-metrics.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Mascot Render Test: learning-graph/mascot-render-test.md
   - MicroSims:
     - Learning Graph Viewer: sims/graph-viewer/index.md
 
@@ -58,6 +59,9 @@ markdown_extensions:
       linenums: true
   - pymdownx.arithmatex:
       generic: true
+
+extra_css:
+  - css/mascot.css
 
 extra_javascript:
   - js/mathjax.js
