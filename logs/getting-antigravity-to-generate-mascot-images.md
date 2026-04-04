@@ -170,6 +170,15 @@ Detected `trim-padding-from-image.py` in the `book-installer` skill directory. R
 
 ---
 
+## Session Metrics
+
+- **Start Time:** ~19:12 (Local)
+- **Stop Time:** ~20:08 (Local)
+- **Elapsed Time:** 56 minutes
+- **Token Usage:** *Not available. The Antigravity system architecture abstracts token billing and metrics away from the agent interface, meaning exact token counts consumed during this workflow cannot be tracked or exported directly by the agent.*
+
 ## Conclusion
 
 The extensive technical workarounds documented in this session—including the development of a custom `mascot-image-generator` skill, iterative pixel thresholding, halo-reduction, and padding removal scripts—were necessitated entirely by the defects in the native capabilities of the underlying Imagen text-to-image model. Specifically, the model's inability to natively generate correctly encoded transparent alpha channels requires forcing solid color backgrounds and executing secondary routines to artificially execute transparency. The root cause of the friction and pipeline complexity in this workflow can be cleanly traced back exclusively to this core algorithmic limitation.
+
+
