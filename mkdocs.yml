@@ -48,21 +48,45 @@ theme:
 plugins:
   - search
 
+# Markdown extensions for enhanced functionality
 markdown_extensions:
+  # Allow Markdown inside HTML blocks
   - md_in_html
+
+  # Enable attribute lists for HTML elements (e.g., {#id .class})
   - attr_list
+
+  # Support for admonitions (notes, warnings, tips, etc.)
   - admonition
+
+  # Footnote support
   - footnotes
+
+  # Collapsible details sections
   - pymdownx.details
+
+  # Enhanced code blocks with syntax highlighting
   - pymdownx.superfences
+
+  # Syntax highlighting with line numbers
   - pymdownx.highlight:
       linenums: true
+
+  # Mathematical expression support using MathJax
+  # Converts $...$ (inline) and $$...$$ (display) to LaTeX format
+  # Works with the custom MathJax configuration in js/mathjax.js
   - pymdownx.arithmatex:
+      # Enable generic delimiters: $ for inline, $$ for display math
+      # This allows natural math syntax in Markdown without LaTeX backslashes
       generic: true
 
 extra_css:
   - css/mascot.css
 
+# Additional JavaScript files to load
 extra_javascript:
+  # Custom MathJax configuration optimized for MkDocs Material
   - js/mathjax.js
+
+  # MathJax library for rendering mathematical expressions
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
