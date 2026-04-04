@@ -59,7 +59,9 @@ nav:
     - Simultaneous Equations Visualiser: sims/simultaneous-equations-visualiser/index.md
     - Transformation Explorer: sims/transformation-explorer/index.md
     - Window Settings Simulator: sims/window-settings-simulator/index.md
-
+  - Glossary: glossary.md
+  - Contact: contact.md
+  - License: license.md
 
 
 theme:
@@ -77,6 +79,8 @@ theme:
 
 plugins:
   - search
+  - social
+  - social_override
 
 # Markdown extensions for enhanced functionality
 markdown_extensions:
