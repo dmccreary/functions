@@ -11,7 +11,7 @@ quality_score: 0
 
 # Simultaneous Equations Visualiser
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="372" width="100%" scrolling="no"></iframe>
 
 [Run the Simultaneous Equations Visualiser MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

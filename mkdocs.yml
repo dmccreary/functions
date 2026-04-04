@@ -30,7 +30,37 @@ nav:
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
     - Mascot Render Test: learning-graph/mascot-render-test.md
   - MicroSims:
+    - List of MicroSims: sims/index.md
+    - Composite Function Machine: sims/composite-function-machine/index.md
+    - Constant and Identity Function Grapher: sims/constant-identity-grapher/index.md
+    - Coordinate Plane Explorer: sims/coordinate-plane-explorer/index.md
+    - Domain Restriction Finder: sims/domain-restriction-finder/index.md
+    - Exponential Growth and Decay Explorer: sims/exponential-growth-decay-explorer/index.md
+    - Exponential Model Simulator: sims/exponential-model-simulator/index.md
+    - Expression Builder MicroSim: sims/expression-builder/index.md
+    - Factoring Decision Flowchart: sims/factoring-decision-flowchart/index.md
+    - Function Feature Identifier: sims/function-feature-identifier/index.md
+    - Function Property Classifier: sims/function-property-classifier/index.md
+    - Function vs Non-Function Mapping: sims/function-vs-non-function-mapping/index.md
+    - Gradient Explorer: sims/gradient-explorer/index.md
+    - Inverse Function Reflector: sims/inverse-function-reflector/index.md
+    - Key Graph Features Explorer: sims/key-graph-features-explorer/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Linear Model Builder: sims/linear-model-builder/index.md
+    - Logarithm Equation Solver: sims/logarithm-equation-solver/index.md
+    - Modulus Transformation Explorer: sims/modulus-transformation-explorer/index.md
+    - Number System Hierarchy: sims/number-system-hierarchy/index.md
+    - Polynomial Graph Explorer: sims/polynomial-graph-explorer/index.md
+    - Projectile Motion Simulator: sims/projectile-motion-simulator/index.md
+    - Quadratic Equation Solver: sims/quadratic-equation-solver/index.md
+    - Rational Function Grapher: sims/rational-function-grapher/index.md
+    - Regression Model Fitter: sims/regression-model-fitter/index.md
+    - Sign Diagram Builder: sims/sign-diagram-builder/index.md
+    - Simultaneous Equations Visualiser: sims/simultaneous-equations-visualiser/index.md
+    - Transformation Explorer: sims/transformation-explorer/index.md
+    - Window Settings Simulator: sims/window-settings-simulator/index.md
+
+
 
 theme:
   name: material

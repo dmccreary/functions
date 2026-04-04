@@ -11,7 +11,7 @@ quality_score: 0
 
 # Number System Hierarchy
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="432" width="100%" scrolling="no"></iframe>
 
 [Run the Number System Hierarchy MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

@@ -11,7 +11,7 @@ quality_score: 0
 
 # Regression Model Fitter
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="402" width="100%" scrolling="no"></iframe>
 
 [Run the Regression Model Fitter MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
