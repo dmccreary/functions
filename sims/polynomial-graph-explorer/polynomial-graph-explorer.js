@@ -5,7 +5,8 @@ let drawHeight = 380;
 let controlHeight = 140;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 40;
-let defaultTextSize = 14;
+let sliderLeftMargin = 100;
+let defaultTextSize = 16;
 
 let gridRange = 6;
 let rootSliders = [];
@@ -20,25 +21,28 @@ function setup() {
   canvas.parent(document.querySelector('main'));
   textSize(defaultTextSize);
 
-  // Number of roots selector
+  // Row 0: Number of roots selector + show turning points checkbox
   numRootsSelect = createSelect();
-  numRootsSelect.position(80, drawHeight + 6);
+  numRootsSelect.position(sliderLeftMargin, drawHeight + 6);
   numRootsSelect.option('1');
   numRootsSelect.option('2');
   numRootsSelect.option('3');
   numRootsSelect.option('4');
   numRootsSelect.selected('3');
 
-  // Root sliders and multiplicity selects
+  showTurningPts = createCheckbox('Show turning points', false);
+  showTurningPts.position(sliderLeftMargin + 60, drawHeight + 6);
+
+  // Rows 1-4: Root sliders with multiplicity selects to the right
   let defaults = [-3, 0, 2, 4];
   for (let i = 0; i < 4; i++) {
     let s = createSlider(-5, 5, defaults[i], 0.5);
-    s.position(80, drawHeight + 30 + i * 24);
-    s.size(120);
+    s.position(sliderLeftMargin, drawHeight + 28 + i * 22);
+    s.size(canvasWidth - sliderLeftMargin - 100);
     rootSliders.push(s);
 
     let m = createSelect();
-    m.position(210, drawHeight + 30 + i * 24);
+    m.position(canvasWidth - 90, drawHeight + 28 + i * 22);
     m.option('1');
     m.option('2');
     m.option('3');
@@ -46,14 +50,10 @@ function setup() {
     multSelects.push(m);
   }
 
-  // Leading coefficient slider
+  // Row 5: Leading coefficient slider
   aSlider = createSlider(-3, 3, 1, 0.5);
-  aSlider.position(340, drawHeight + 6);
-  aSlider.size(100);
-
-  // Show turning points checkbox
-  showTurningPts = createCheckbox('Show turning points', false);
-  showTurningPts.position(340, drawHeight + 32);
+  aSlider.position(sliderLeftMargin, drawHeight + 116);
+  aSlider.size(canvasWidth - sliderLeftMargin - margin);
 
   describe('Polynomial graph explorer with adjustable roots, multiplicities, and leading coefficient', LABEL);
 }
@@ -257,20 +257,27 @@ function draw() {
   // Control labels
   noStroke();
   fill('black');
-  textSize(12);
+  textSize(defaultTextSize);
   textAlign(LEFT, CENTER);
   text('Roots:', 10, drawHeight + 15);
   for (let i = 0; i < numRoots; i++) {
-    text('r' + (i + 1) + '=' + nf(rootSliders[i].value(), 0, 1), 10, drawHeight + 42 + i * 24);
+    text('r' + (i + 1) + '=' + nf(rootSliders[i].value(), 0, 1), 10, drawHeight + 39 + i * 22);
   }
-  text('a = ' + nf(aVal, 0, 1), 280, drawHeight + 15);
-
-  textSize(defaultTextSize);
+  text('a=' + nf(aVal, 0, 1), 10, drawHeight + 126);
+  // Multiplicity column header
+  textSize(12);
+  fill('gray');
+  text('mult', canvasWidth - 90, drawHeight + 15);
 }
 
 function windowResized() {
   updateCanvasSize();
   resizeCanvas(canvasWidth, canvasHeight);
+  for (let i = 0; i < 4; i++) {
+    rootSliders[i].size(canvasWidth - sliderLeftMargin - 100);
+    multSelects[i].position(canvasWidth - 90, drawHeight + 28 + i * 22);
+  }
+  aSlider.size(canvasWidth - sliderLeftMargin - margin);
 }
 
 function updateCanvasSize() {
