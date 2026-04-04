@@ -93,7 +93,7 @@ Starting at the origin, move $3$ units to the left (because $-3$ is negative) an
     $(2, -1)$: right 2, down 1. $(0, 3)$: stay at zero horizontally, up 3. $(-4, -2)$: left 4, down 2.
 
 #### Diagram: Coordinate Plane Explorer
-<iframe src="../../sims/coordinate-plane-explorer/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/coordinate-plane-explorer/main.html" width="100%" height="532" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Coordinate Plane Explorer</summary>
@@ -230,7 +230,7 @@ A **mapping diagram** shows the domain on the left and the range on the right, w
 Before we look at the diagram below, here's what to watch for: each element on the left (the input) should have exactly one arrow pointing to the right (the output). Multiple inputs are allowed to share the same output, but a single input must never point to two different outputs.
 
 #### Diagram: Function vs Non-Function Mapping
-<iframe src="../../sims/function-vs-non-function-mapping/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/function-vs-non-function-mapping/main.html" width="100%" height="582" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Function vs Non-Function Mapping</summary>
@@ -357,7 +357,7 @@ $$\text{Domain} = [-3, \infty)$$
     When you have a square root in the denominator, like $\frac{1}{\sqrt{x}}$, you need $x > 0$, not $x \geq 0$. That zero sneaks in and causes division by zero — it's a double threat! Always check what's *under* the root and what's *in* the denominator separately.
 
 #### Diagram: Domain Restriction Finder
-<iframe src="../../sims/domain-restriction-finder/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/domain-restriction-finder/main.html" width="100%" height="562" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Domain Restriction Finder</summary>
@@ -444,7 +444,7 @@ The graph of the identity function is a straight line through the origin with a 
     The constant function and the identity function are like the "zero" and "one" of the function world. The constant function ignores its input completely, while the identity function respects it completely. Every other function falls somewhere in between — transforming the input by some rule. Keep these two in your back pocket; they'll come up again when we study transformations and composition.
 
 #### Diagram: Constant and Identity Function Grapher
-<iframe src="../../sims/constant-identity-grapher/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/constant-identity-grapher/main.html" width="100%" height="602" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Constant and Identity Function Grapher</summary>
@@ -492,7 +492,7 @@ The constant function $f(x) = 5$ is bounded — its outputs never leave $5$. The
 **Boundedness** becomes important later when we study how function families behave. Some families (like quadratics with a maximum or minimum) are bounded in one direction, while others (like exponentials) grow without bound.
 
 #### Diagram: Function Property Classifier
-<iframe src="../../sims/function-property-classifier/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/function-property-classifier/main.html" width="100%" height="652" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Function Property Classifier</summary>

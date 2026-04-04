@@ -11,7 +11,7 @@ quality_score: 0
 
 # Rational Function Grapher
 
-<iframe src="main.html" height="382" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="502" width="100%" scrolling="no"></iframe>
 
 [Run the Rational Function Grapher MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/rational-function-grapher/main.html"
-        height="450px"
+        height="502"
         width="100%"
         scrolling="no"></iframe>
 ```

@@ -193,7 +193,7 @@ The graph looks like the line $y = x + 2$ with a single point removed at $(2, 4)
 7. **Plot and sketch** — connect the pieces smoothly
 
 #### Diagram: Rational Function Grapher
-<iframe src="../../sims/rational-function-grapher/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/rational-function-grapher/main.html" width="100%" height="502" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Rational Function Grapher</summary>

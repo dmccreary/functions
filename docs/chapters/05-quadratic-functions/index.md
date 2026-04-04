@@ -250,7 +250,7 @@ $$x = \frac{4}{4} = 1 \quad \text{or} \quad x = \frac{-10}{4} = -\frac{5}{2}$$
     Which method should you use? Try factoring first — it's fastest when it works. If the numbers don't cooperate, go straight to the quadratic formula. Completing the square is best when you need to find the vertex or convert to vertex form. Think of it like choosing a tool: screwdriver for screws, hammer for nails, quadratic formula for everything.
 
 #### Diagram: Quadratic Equation Solver
-<iframe src="../../sims/quadratic-equation-solver/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/quadratic-equation-solver/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Quadratic Equation Solver</summary>
@@ -375,7 +375,7 @@ Here's the process for solving a quadratic inequality:
     Don't divide both sides of a quadratic inequality by $x$! Unlike equations, dividing an inequality by a variable can flip the inequality sign if the variable is negative. Always factor and use a sign diagram instead. It's the safe route every time.
 
 #### Diagram: Sign Diagram Builder
-<iframe src="../../sims/sign-diagram-builder/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/sign-diagram-builder/main.html" width="100%" height="502" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Sign Diagram Builder</summary>
@@ -467,7 +467,7 @@ Maximum revenue: $R(12.50) = -20(156.25) + 500(12.50) = -3125 + 6250 = \$3125$.
     If width $= w$, then length $= 100 - 2w$. Area $= w(100 - 2w) = -2w^2 + 100w$. Maximum at $w = -\frac{100}{2(-2)} = 25$. Maximum area $= 25(50) = 1250$ m².
 
 #### Diagram: Projectile Motion Simulator
-<iframe src="../../sims/projectile-motion-simulator/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/projectile-motion-simulator/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Projectile Motion Simulator</summary>

@@ -244,7 +244,7 @@ Check: $x = -5$ gives $\log(-5)$, which is undefined. So $x = 2$ is the only sol
     $\log(3^{2x+1}) = \log 54$. $(2x+1)\log 3 = \log 54$. $2x + 1 = \frac{\log 54}{\log 3} = \frac{1.7324}{0.4771} = 3.6309$. $2x = 2.6309$. $x \approx 1.315$.
 
 #### Diagram: Logarithm Equation Solver
-<iframe src="../../sims/logarithm-equation-solver/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/logarithm-equation-solver/main.html" width="100%" height="482" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Logarithm Equation Solver</summary>

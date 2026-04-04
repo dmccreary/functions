@@ -125,7 +125,7 @@ $$\mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 This means every integer is rational, and every rational number is real, but not every real number is rational.
 
 #### Diagram: Number System Hierarchy
-<iframe src="../../sims/number-system-hierarchy/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/number-system-hierarchy/main.html" width="100%" height="512" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Number System Hierarchy</summary>
@@ -331,7 +331,7 @@ $$x^3 - 8 = (x - 2)(x^2 + 2x + 4)$$
     $27y^3 = (3y)^3$ and $1 = (1)^3$. Using the sum of cubes: $27y^3 + 1 = (3y + 1)(9y^2 - 3y + 1)$.
 
 #### Diagram: Factoring Decision Flowchart
-<iframe src="../../sims/factoring-decision-flowchart/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/factoring-decision-flowchart/main.html" width="100%" height="532" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Factoring Decision Flowchart</summary>
@@ -419,7 +419,7 @@ $$\begin{cases} x + 2y = 7 \\ 3x - y = 7 \end{cases}$$
     **Using substitution:** From equation 1, $x = 7 - 2y$. Substitute into equation 2: $3(7 - 2y) - y = 7$, so $21 - 6y - y = 7$, giving $-7y = -14$ and $y = 2$. Then $x = 7 - 2(2) = 3$. Solution: $x = 3$, $y = 2$.
 
 #### Diagram: Expression Builder MicroSim
-<iframe src="../../sims/expression-builder/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/expression-builder/main.html" width="100%" height="532" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Expression Builder MicroSim</summary>

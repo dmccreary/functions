@@ -11,7 +11,7 @@ quality_score: 0
 
 # Domain Restriction Finder
 
-<iframe src="main.html" height="422" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="562" width="100%" scrolling="no"></iframe>
 
 [Run the Domain Restriction Finder MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/domain-restriction-finder/main.html"
-        height="450px"
+        height="562"
         width="100%"
         scrolling="no"></iframe>
 ```

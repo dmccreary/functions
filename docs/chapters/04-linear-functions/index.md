@@ -116,7 +116,7 @@ An **undefined gradient** occurs when the line is vertical. A vertical line has 
     The steeper the line, the larger the absolute value of the gradient. A gradient of $10$ is steeper than a gradient of $2$. A gradient of $-10$ is just as steep as $10$, but going in the opposite direction. And a gradient of $0$? That's as flat as a pancake. A delicious, mathematical pancake.
 
 #### Diagram: Gradient Explorer
-<iframe src="../../sims/gradient-explorer/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/gradient-explorer/main.html" width="100%" height="502" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Gradient Explorer</summary>
@@ -341,7 +341,7 @@ The intersection point is $(4, 2)$.
     From the second equation: $x = 3y - 5$. Substitute: $2(3y - 5) + y = 10$, so $6y - 10 + y = 10$, giving $7y = 20$ and $y = \frac{20}{7}$. Then $x = 3(\frac{20}{7}) - 5 = \frac{25}{7}$. The intersection is $\left(\frac{25}{7}, \frac{20}{7}\right)$.
 
 #### Diagram: Simultaneous Equations Visualiser
-<iframe src="../../sims/simultaneous-equations-visualiser/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/simultaneous-equations-visualiser/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Simultaneous Equations Visualiser</summary>
@@ -433,7 +433,7 @@ The ramp must be at least $9$ metres long horizontally.
     $m = \frac{150}{3000} = 0.05 = 5\%$
 
 #### Diagram: Linear Model Builder
-<iframe src="../../sims/linear-model-builder/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/linear-model-builder/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Linear Model Builder</summary>

@@ -207,7 +207,7 @@ The turning point is $(2, 3)$. Since the parabola opens downward ($a = -1 < 0$),
     $x = -\frac{-6}{2(1)} = 3$. $h(3) = 9 - 18 + 5 = -4$. The turning point is $(3, -4)$. Since $a = 1 > 0$ (parabola opens upward), this is a **minimum point**.
 
 #### Diagram: Key Graph Features Explorer
-<iframe src="../../sims/key-graph-features-explorer/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/key-graph-features-explorer/main.html" width="100%" height="552" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Key Graph Features Explorer</summary>
@@ -350,7 +350,7 @@ The $x$-intercepts are at $x = \pm 10$, which are at the very edge of the defaul
     The roots are at $x = 0$ and $x = \pm 10$. A good window might be $x \in [-12, 12]$, $y \in [-8, 8]$. You might need to adjust after seeing the graph.
 
 #### Diagram: Window Settings Simulator
-<iframe src="../../sims/window-settings-simulator/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/window-settings-simulator/main.html" width="100%" height="502" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Window Settings Simulator</summary>
@@ -460,7 +460,7 @@ When using technology to find intersections or turning points, round your final 
     Don't be intimidated by the calculator side of things. Your GDC is like a powerful assistant — it does the heavy lifting, but you're the one who decides what questions to ask and how to interpret the answers. The more you practise with it, the more natural it becomes.
 
 #### Diagram: Function Feature Identifier
-<iframe src="../../sims/function-feature-identifier/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/function-feature-identifier/main.html" width="100%" height="502" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Function Feature Identifier</summary>

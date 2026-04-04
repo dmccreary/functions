@@ -11,7 +11,7 @@ quality_score: 0
 
 # Factoring Decision Flowchart
 
-<iframe src="main.html" height="492" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="532" width="100%" scrolling="no"></iframe>
 
 [Run the Factoring Decision Flowchart MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/factoring-decision-flowchart/main.html"
-        height="450px"
+        height="532"
         width="100%"
         scrolling="no"></iframe>
 ```

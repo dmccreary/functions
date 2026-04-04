@@ -188,7 +188,7 @@ The transformation **$y = [f(x)]^2$** squares all the outputs. This makes every 
     These three transformations are easy to confuse in exams. Here's the cheat sheet: $|f(x)|$ — flip the negatives up. $f(|x|)$ — mirror the right half to the left. $[f(x)]^2$ — square everything. Say it three times fast before the exam starts.
 
 #### Diagram: Modulus Transformation Explorer
-<iframe src="../../sims/modulus-transformation-explorer/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/modulus-transformation-explorer/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Modulus Transformation Explorer</summary>

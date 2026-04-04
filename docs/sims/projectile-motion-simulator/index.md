@@ -11,7 +11,7 @@ quality_score: 0
 
 # Projectile Motion Simulator
 
-<iframe src="main.html" height="402" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="522" width="100%" scrolling="no"></iframe>
 
 [Run the Projectile Motion Simulator MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/projectile-motion-simulator/main.html"
-        height="450px"
+        height="522"
         width="100%"
         scrolling="no"></iframe>
 ```

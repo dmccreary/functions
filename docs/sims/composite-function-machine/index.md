@@ -11,7 +11,7 @@ quality_score: 0
 
 # Composite Function Machine
 
-<iframe src="main.html" height="352" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="452" width="100%" scrolling="no"></iframe>
 
 [Run the Composite Function Machine MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/composite-function-machine/main.html"
-        height="450px"
+        height="452"
         width="100%"
         scrolling="no"></iframe>
 ```

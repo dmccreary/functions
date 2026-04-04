@@ -132,7 +132,7 @@ Both start at $1$, but $3^x$ grows much faster. By $x = 5$, $3^x$ is nearly $8$ 
     $1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \frac{1}{16}$. The values halve each time — this is exponential decay with base $\frac{1}{2}$.
 
 #### Diagram: Exponential Growth and Decay Explorer
-<iframe src="../../sims/exponential-growth-decay-explorer/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/exponential-growth-decay-explorer/main.html" width="100%" height="482" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Exponential Growth and Decay Explorer</summary>
@@ -288,7 +288,7 @@ $$A(24) = 200 \cdot \left(\frac{1}{2}\right)^{24/8} = 200 \cdot \left(\frac{1}{2
     $A = 1000\left(1 + \frac{0.05}{12}\right)^{120} = 1000(1.004167)^{120} \approx \$1647.01$
 
 #### Diagram: Exponential Model Simulator
-<iframe src="../../sims/exponential-model-simulator/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/exponential-model-simulator/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Exponential Model Simulator</summary>

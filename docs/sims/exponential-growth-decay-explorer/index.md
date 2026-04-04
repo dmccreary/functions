@@ -11,7 +11,7 @@ quality_score: 0
 
 # Exponential Growth and Decay Explorer
 
-<iframe src="main.html" height="402" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="482" width="100%" scrolling="no"></iframe>
 
 [Run the Exponential Growth and Decay Explorer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/exponential-growth-decay-explorer/main.html"
-        height="450px"
+        height="482"
         width="100%"
         scrolling="no"></iframe>
 ```

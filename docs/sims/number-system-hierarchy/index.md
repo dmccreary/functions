@@ -11,7 +11,7 @@ quality_score: 0
 
 # Number System Hierarchy
 
-<iframe src="main.html" height="432" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="512" width="100%" scrolling="no"></iframe>
 
 [Run the Number System Hierarchy MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/number-system-hierarchy/main.html"
-        height="450px"
+        height="512"
         width="100%"
         scrolling="no"></iframe>
 ```

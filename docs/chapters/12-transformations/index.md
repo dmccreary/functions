@@ -183,7 +183,7 @@ Every point $(x, y)$ maps to $\left(\frac{x}{q}, y\right)$.
     Horizontal: $x \to \frac{x}{3} = \frac{4}{3}$. Vertical: $y \to 2y = 12$. New point: $\left(\frac{4}{3}, 12\right)$.
 
 #### Diagram: Transformation Explorer
-<iframe src="../../sims/transformation-explorer/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/transformation-explorer/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Transformation Explorer</summary>

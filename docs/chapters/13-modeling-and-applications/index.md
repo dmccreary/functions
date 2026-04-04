@@ -123,7 +123,7 @@ The key question in curve fitting is: **which function family should I choose?**
 | Rapid start, then levelling off | Logarithmic |
 
 #### Diagram: Regression Model Fitter
-<iframe src="../../sims/regression-model-fitter/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/regression-model-fitter/main.html" width="100%" height="502" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Regression Model Fitter</summary>

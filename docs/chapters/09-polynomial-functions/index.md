@@ -295,7 +295,7 @@ The degree is $3$ (sum of multiplicities: $2 + 1 = 3$).
 6. **Plot and connect** → smooth curve through all known points
 
 #### Diagram: Polynomial Graph Explorer
-<iframe src="../../sims/polynomial-graph-explorer/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/polynomial-graph-explorer/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Polynomial Graph Explorer</summary>

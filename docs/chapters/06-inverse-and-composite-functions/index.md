@@ -149,7 +149,7 @@ The graph of $f^{-1}$ is the **reflection** of the graph of $f$ **over the line 
 If the point $(2, 7)$ is on the graph of $f$, then the point $(7, 2)$ is on the graph of $f^{-1}$.
 
 #### Diagram: Inverse Function Reflector
-<iframe src="../../sims/inverse-function-reflector/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/inverse-function-reflector/main.html" width="100%" height="482" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Inverse Function Reflector</summary>
@@ -297,7 +297,7 @@ Then $(f \circ g)(x) = f(2x + 5) = (2x + 5)^3 = h(x)$. ✓
     Let $g(x) = x^2 + 1$ and $f(x) = \sqrt{x}$. Then $(f \circ g)(x) = \sqrt{x^2 + 1} = k(x)$.
 
 #### Diagram: Composite Function Machine
-<iframe src="../../sims/composite-function-machine/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/composite-function-machine/main.html" width="100%" height="452" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Composite Function Machine</summary>
