@@ -5,6 +5,8 @@
 **Generation engine:** Google Gemini 2.5 Flash Image (codename "Nano Banana") via the `google-genai` Python SDK
 **Aspect ratio:** 16:9 native (1344×768), no post-processing
 
+> **Outcome:** The user was **extremely happy** with the final result. All 16 stories generated successfully at native 16:9 resolution, the full textbook came in well under the $10 budget ceiling at $7.56 (and $0.00 on the free tier that real users will actually hit), and the workflow is now fully reproducible for future projects and for downstream users like teachers in Africa building their own textbooks on limited budgets.
+
 ---
 
 ## Headline Numbers
