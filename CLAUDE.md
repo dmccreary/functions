@@ -33,6 +33,18 @@ This textbook is for **IB Diploma Programme high school students** (SL and HL/AH
 - General form: $ax + by + d = 0$
 - Always define variables before using them in equations
 - Never place two `$$` display math blocks on consecutive lines — always separate them with a blank line. MathJax merges the closing `$$` and opening `$$` into `$$$$`, breaking rendering.
+- Never use inline `$$...$$` display math embedded mid-sentence — use `$...$` for anything that flows with prose. Reserve `$$...$$` for standalone display equations on their own line.
+
+### MathJax + arithmatex delimiter gotcha
+
+This project uses `pymdownx.arithmatex` with `generic: true`, which converts `$...$` and `$$...$$` in markdown into `\(...\)` and `\[...\]` in the final HTML before MathJax sees it. Therefore `docs/js/mathjax.js` MUST declare **both** delimiter forms:
+
+```js
+inlineMath:  [["\\(", "\\)"], ["$", "$"]],
+displayMath: [["\\[", "\\]"], ["$$", "$$"]],
+```
+
+If you ever see literal `\(...\)` text on a rendered page instead of typeset math, the MathJax config is missing the backslash-paren delimiters — fix the config, not the source markdown. Author source should always use `$...$` / `$$...$$`.
 
 ---
 

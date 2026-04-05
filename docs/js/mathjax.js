@@ -11,10 +11,11 @@
 
 window.MathJax = {
   tex: {
-    // Math delimiters - only using dollar syntax for simplicity and compatibility
-    // Format: [startDelimiter, endDelimiter]
-    inlineMath: [["$", "$"]],      // Inline math: $expression$
-    displayMath: [["$$", "$$"]],   // Display math: $$expression$$
+    // Math delimiters - accept both $...$ / $$...$$ (author source) and
+    // \(...\) / \[...\] (what pymdownx.arithmatex with generic:true emits in HTML).
+    // Without \(...\) here, arithmatex-converted equations render as literal text.
+    inlineMath: [["\\(", "\\)"], ["$", "$"]],
+    displayMath: [["\\[", "\\]"], ["$$", "$$"]],
 
     // Process LaTeX escape sequences like \frac, \sqrt, etc.
     processEscapes: true,

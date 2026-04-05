@@ -11,7 +11,7 @@ quality_score: 0
 
 # Logarithm Equation Solver
 
-<iframe src="main.html" height="482" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="492" width="100%" scrolling="no"></iframe>
 
 [Run the Logarithm Equation Solver MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
@@ -31,7 +31,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/functions/sims/logarithm-equation-solver/main.html"
-        height="482"
+        height="512"
         width="100%"
         scrolling="no"></iframe>
 ```

@@ -67,6 +67,8 @@ nav:
 
 theme:
   name: material
+  logo: img/mascot/neutral.png
+  favicon: img/favicon.ico
   features:
     - content.code.copy
     - navigation.expand
@@ -117,6 +119,7 @@ markdown_extensions:
 
 extra_css:
   - css/mascot.css
+  - css/extra.css
 
 # Additional JavaScript files to load
 extra_javascript:
@@ -125,3 +128,6 @@ extra_javascript:
 
   # MathJax library for rendering mathematical expressions
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+  # Iframe auto-resize and prompt admonition copy button
+  - js/extra.js
