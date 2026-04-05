@@ -6,6 +6,7 @@ site_author: Dan McCreary
 
 nav:
   - Home: index.md
+  - About: about.md
   - Course Description: course-description.md
   - Chapters:
     - List of Chapters: chapters/index.md
@@ -61,6 +62,7 @@ nav:
     - Window Settings Simulator: sims/window-settings-simulator/index.md
   - FAQ: faq.md
   - Glossary: glossary.md
+  - Teachers Guide: teachers-guide/index.md
   - Contact: contact.md
   - License: license.md
 
