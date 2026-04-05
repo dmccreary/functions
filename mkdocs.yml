@@ -59,6 +59,7 @@ nav:
     - Simultaneous Equations Visualiser: sims/simultaneous-equations-visualiser/index.md
     - Transformation Explorer: sims/transformation-explorer/index.md
     - Window Settings Simulator: sims/window-settings-simulator/index.md
+  - FAQ: faq.md
   - Glossary: glossary.md
   - Contact: contact.md
   - License: license.md

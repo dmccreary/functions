@@ -44,7 +44,7 @@ A system of locating points in the plane using an ordered pair $(x, y)$ of signe
 
 #### Change of Base Rule
 
-The identity $$\log_b x = \frac{\log_a x}{\log_a b},$$ which converts a logarithm from base $b$ to any other positive base $a \neq 1$. Useful for calculator evaluation.
+The identity $\log_b x = \frac{\log_a x}{\log_a b}$, which converts a logarithm from base $b$ to any other positive base $a \neq 1$. Useful for calculator evaluation.
 
 #### Coefficient
 
@@ -358,7 +358,7 @@ The equation of a straight line written as $ax + by + d = 0$, where $a$, $b$, $d
 
 #### Gradient Calculation
 
-The gradient between two points $(x_1, y_1)$ and $(x_2, y_2)$ is $$m = \frac{y_2 - y_1}{x_2 - x_1}, \quad x_1 \neq x_2.$$
+The gradient between two points $(x_1, y_1)$ and $(x_2, y_2)$ is $m = \frac{y_2 - y_1}{x_2 - x_1}$, where $x_1 \neq x_2$.
 
 **Example:** Between $(1, 2)$ and $(4, 11)$: $m = \tfrac{11 - 2}{4 - 1} = 3$.
 
@@ -732,7 +732,7 @@ A gradient $m > 0$, indicating that $y$ increases as $x$ increases. The line ris
 
 #### Product of Roots Formula
 
-For a polynomial $a_n x^n + \cdots + a_0$ with roots $r_1, \ldots, r_n$, $$\prod r_i = (-1)^n \frac{a_0}{a_n}.$$
+For a polynomial $a_n x^n + \cdots + a_0$ with roots $r_1, \ldots, r_n$, $\prod r_i = (-1)^n \frac{a_0}{a_n}$.
 
 **Example:** For $x^2 - 5x + 6$, the product of roots is $6$.
 
@@ -748,7 +748,7 @@ Real-world problems modeled by quadratic functions, including projectile motion,
 
 #### Quadratic Formula
 
-The formula giving the roots of $ax^2 + bx + c = 0$: $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.$$ It solves any quadratic equation, real or complex.
+The formula giving the roots of $ax^2 + bx + c = 0$: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$. It solves any quadratic equation, real or complex.
 
 #### Quadratic Function
 
@@ -950,7 +950,7 @@ The factorization identities $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$ and $a^3 - b^
 
 #### Sum of Roots Formula
 
-For a polynomial $a_n x^n + \cdots + a_0$ with roots $r_1, \ldots, r_n$ (counted with multiplicity), $$\sum r_i = -\frac{a_{n-1}}{a_n}.$$
+For a polynomial $a_n x^n + \cdots + a_0$ with roots $r_1, \ldots, r_n$ (counted with multiplicity), $\sum r_i = -\frac{a_{n-1}}{a_n}$.
 
 **Example:** For $x^2 - 5x + 6$, the sum of roots is $5$.
 
