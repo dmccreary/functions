@@ -106,13 +106,13 @@ This function is arguably the most important in mathematics. It has the unique p
 
 ## Exponential Growth and Decay
 
-The behaviour of an exponential function depends on its base:
+The behavior of an exponential function depends on its base:
 
 **Exponential growth** occurs when $a > 1$. As $x$ increases, $a^x$ increases rapidly — the function "takes off" to the right. The larger the base, the faster the growth.
 
 **Exponential decay** occurs when $0 < a < 1$. As $x$ increases, $a^x$ decreases toward zero — the function "dies away" to the right. Alternatively, exponential decay can be written as $a^{-x}$ where $a > 1$.
 
-| Behaviour | Base Condition | As $x \to \infty$ | Example |
+| Behavior | Base Condition | As $x \to \infty$ | Example |
 |-----------|---------------|-------------------|---------|
 | Growth | $a > 1$ | $f(x) \to \infty$ | $2^x$, $e^x$, $10^x$ |
 | Decay | $0 < a < 1$ | $f(x) \to 0$ | $0.5^x$, $e^{-x}$, $0.9^x$ |
@@ -143,7 +143,7 @@ Type: microsim
 
 Purpose: Let students explore how the base of an exponential function affects the growth or decay rate by adjusting the base with a slider and observing the graph in real time.
 
-Learning Objective: Students will compare exponential growth and decay functions and explain how the base value determines the behaviour (Understand L2 — compare, explain).
+Learning Objective: Students will compare exponential growth and decay functions and explain how the base value determines the behavior (Understand L2 — compare, explain).
 
 Instructional Rationale: Adjusting the base continuously and seeing the graph morph between rapid growth, gentle growth, and decay builds intuition for the role of the base parameter. The transition point at $a = 1$ (constant function) is particularly illuminating.
 
@@ -307,7 +307,7 @@ Visual elements:
 
 - A coordinate grid with time on the $x$-axis and quantity on the $y$-axis
 - The exponential curve plotted based on the selected model
-- Key values labelled: initial amount, final amount at a specified time, doubling time (growth) or half-life (decay)
+- Key values labeled: initial amount, final amount at a specified time, doubling time (growth) or half-life (decay)
 - A data table showing values at regular intervals
 
 Interactive controls:

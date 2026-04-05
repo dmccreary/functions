@@ -103,7 +103,7 @@ $$f(x) = a(x - h)^2 + k$$
 
 where $(h, k)$ is the **vertex of the parabola** — the maximum or minimum point. This form tells you exactly where the parabola's peak or valley is located.
 
-The following table summarises what each form reveals:
+The following table summarizes what each form reveals:
 
 | Form | Equation | Reveals |
 |------|----------|---------|
@@ -148,7 +148,7 @@ The vertex is $(2, -5)$. Since $a = 2 > 0$, this is a **minimum point**.
 
 ## Factoring Quadratics
 
-**Factoring quadratics** means rewriting $ax^2 + bx + c$ as a product of two linear factors. This is the reverse of expanding brackets, which we practised in Chapter 1.
+**Factoring quadratics** means rewriting $ax^2 + bx + c$ as a product of two linear factors. This is the reverse of expanding brackets, which we practiced in Chapter 1.
 
 For a simple quadratic $x^2 + bx + c$, we look for two numbers $p$ and $q$ such that:
 
@@ -272,7 +272,7 @@ Visual elements:
   - Factoring (if possible, or "Does not factor neatly" message)
   - Completing the square
   - Quadratic formula
-- Discriminant value displayed prominently with colour coding (positive = green, zero = yellow, negative = red)
+- Discriminant value displayed prominently with color coding (positive = green, zero = yellow, negative = red)
 - Vertex marked on the graph with coordinates
 
 Interactive controls:
@@ -413,7 +413,7 @@ Canvas: Responsive, full width, 500px height
 
 ## Quadratic Applications
 
-Quadratic functions model many real-world situations. Two of the most common are projectile motion and optimisation problems.
+Quadratic functions model many real-world situations. Two of the most common are projectile motion and optimization problems.
 
 ### Projectile Motion Model
 
@@ -449,7 +449,7 @@ The ball hits the ground at $t \approx 4.07$ seconds (we discard the negative va
 
 **Revenue optimization** uses the vertex of a downward-opening parabola to find the maximum revenue.
 
-**Worked Example 13:** A cinema finds that when tickets are priced at $\$p$, the number of tickets sold is $500 - 20p$. Find the price that maximises revenue.
+**Worked Example 13:** A cinema finds that when tickets are priced at $\$p$, the number of tickets sold is $500 - 20p$. Find the price that maximizes revenue.
 
 Revenue = price × quantity:
 
@@ -486,7 +486,7 @@ Visual elements:
 
 - A side-view scene showing the ground, a launch platform, and the ball's trajectory as a parabolic arc
 - The quadratic equation displayed in standard form with current parameter values
-- Key features labelled: maximum height (vertex), time of flight, landing point
+- Key features labeled: maximum height (vertex), time of flight, landing point
 - A height-vs-time graph alongside the animation, with the parabola traced as the ball flies
 - Dotted vertical lines marking the axis of symmetry and time of landing
 

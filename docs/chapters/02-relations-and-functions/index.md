@@ -68,7 +68,7 @@ A **relation** is any set of ordered pairs. That's it — any collection of pair
 - $\{(1, 3), (1, 5), (2, 4)\}$ — notice that the input $1$ appears twice, paired with different outputs
 - $\{(\text{Alice}, 85), (\text{Bob}, 72), (\text{Cara}, 91)\}$ — a relation pairing students with test scores
 
-Relations are everywhere. Any time you can match items from one group with items from another group, you have a relation. But not all relations are created equal — some have a special property that makes them incredibly useful. To see what that property is, we first need a way to *visualise* our ordered pairs.
+Relations are everywhere. Any time you can match items from one group with items from another group, you have a relation. But not all relations are created equal — some have a special property that makes them incredibly useful. To see what that property is, we first need a way to *visualize* our ordered pairs.
 
 ## The Coordinate Plane
 
@@ -110,11 +110,11 @@ Instructional Rationale: Direct manipulation of points on the plane builds spati
 
 Visual elements:
 
-- A coordinate grid with $x$-axis and $y$-axis clearly labelled, extending from $-10$ to $10$ in each direction
+- A coordinate grid with $x$-axis and $y$-axis clearly labeled, extending from $-10$ to $10$ in each direction
 - Grid lines at every integer
-- The origin marked and labelled $(0, 0)$
+- The origin marked and labeled $(0, 0)$
 - Quadrant labels (I, II, III, IV) displayed in faint text
-- Points placed by the student shown as coloured dots with their coordinates displayed
+- Points placed by the student shown as colored dots with their coordinates displayed
 
 Interactive controls:
 
@@ -207,7 +207,7 @@ $$h(-1) = (-1)^2 - 3(-1) + 2 = 1 + 3 + 2 = 6$$
 ??? note "Click to reveal answer"
     $p(0) = 0 - 0 = 0$. $p(2) = 8 - 4 = 4$. $p(4) = 16 - 16 = 0$.
 
-## Visualising Functions: Tables, Mappings, and Graphs
+## Visualizing Functions: Tables, Mappings, and Graphs
 
 Functions can be represented in several ways. Being able to move between these representations is a key skill throughout this course.
 
@@ -248,8 +248,8 @@ Instructional Rationale: Side-by-side comparison with mapping arrows makes the a
 Visual elements:
 
 - Two mapping diagrams displayed side by side, each with an oval on the left (domain) and an oval on the right (range)
-- Left diagram (labelled "Function"): Domain {1, 2, 3, 4}, Range {A, B, C}. Arrows: 1→A, 2→B, 3→B, 4→C. Each input has exactly one arrow.
-- Right diagram (labelled "Not a Function"): Domain {1, 2, 3}, Range {A, B, C}. Arrows: 1→A, 1→B, 2→C, 3→A. Input 1 has TWO arrows (highlighted in red).
+- Left diagram (labeled "Function"): Domain {1, 2, 3, 4}, Range {A, B, C}. Arrows: 1→A, 2→B, 3→B, 4→C. Each input has exactly one arrow.
+- Right diagram (labeled "Not a Function"): Domain {1, 2, 3}, Range {A, B, C}. Arrows: 1→A, 1→B, 2→C, 3→A. Input 1 has TWO arrows (highlighted in red).
 - Labels: "Every input has exactly one arrow" (green) under the function, "Input 1 has two arrows!" (red) under the non-function
 
 Interactive controls:
@@ -505,7 +505,7 @@ Purpose: Present students with function graphs and ask them to classify each fun
 
 Learning Objective: Students will classify functions by their properties (continuous/discrete, bounded/unbounded) by examining their graphs (Analyze L4 — classify, distinguish).
 
-Instructional Rationale: A classification quiz using visual graphs forces students to apply definitions to concrete cases, strengthening conceptual understanding beyond rote memorisation.
+Instructional Rationale: A classification quiz using visual graphs forces students to apply definitions to concrete cases, strengthening conceptual understanding beyond rote memorization.
 
 Visual elements:
 
@@ -522,7 +522,7 @@ Interactive controls:
 
 Data Visibility Requirements:
 
-- Stage 1: Show the graph clearly with axes labelled
+- Stage 1: Show the graph clearly with axes labeled
 - Stage 2: Student selects classifications
 - Stage 3: Feedback reveals correct classifications with brief justification
 

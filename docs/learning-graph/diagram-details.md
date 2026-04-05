@@ -111,7 +111,7 @@
 - **UI Elements:** 14
 - **Difficulty:** Hard
 
-### [Simultaneous Equations Visualiser](../chapters/04-linear-functions/index.md#diagram-simultaneous-equations-visualiser)
+### [Simultaneous Equations Visualizer](../chapters/04-linear-functions/index.md#diagram-simultaneous-equations-visualiser)
 - **Status:** Specified
 - **Type:** Microsim
 - **Bloom's Taxonomy:** Not specified

@@ -1,6 +1,6 @@
 # Quiz: Polynomial Functions
 
-Test your understanding of polynomial functions, end behaviour, division techniques, and root finding with these review questions.
+Test your understanding of polynomial functions, end behavior, division techniques, and root finding with these review questions.
 
 ---
 
@@ -20,7 +20,7 @@ Test your understanding of polynomial functions, end behaviour, division techniq
 
 ---
 
-#### 2. Describe the end behaviour of $f(x) = -3x^4 + 2x^2 - 1$ as $x \to \infty$.
+#### 2. Describe the end behavior of $f(x) = -3x^4 + 2x^2 - 1$ as $x \to \infty$.
 
 <div class="upper-alpha" markdown>
 1. $f(x) \to \infty$
@@ -30,7 +30,7 @@ Test your understanding of polynomial functions, end behaviour, division techniq
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. The degree is $4$ (even) and the leading coefficient is $-3$ (negative). For even degree with negative leading coefficient, both ends of the graph go down, so as $x \to \infty$, $f(x) \to -\infty$ (and same as $x \to -\infty$). Only the leading term matters for end behaviour because it dominates all lower-order terms for large $|x|$.
+    The correct answer is **C**. The degree is $4$ (even) and the leading coefficient is $-3$ (negative). For even degree with negative leading coefficient, both ends of the graph go down, so as $x \to \infty$, $f(x) \to -\infty$ (and same as $x \to -\infty$). Only the leading term matters for end behavior because it dominates all lower-order terms for large $|x|$.
 
     **Concept Tested:** End Behavior
 
@@ -126,7 +126,7 @@ Test your understanding of polynomial functions, end behaviour, division techniq
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. A cubic function has degree $3$, and by the rule "at most $n - 1$ turning points," it can have up to $2$ turning points. Cubics always have at least one real root (the graph must cross the $x$-axis at least once because of the opposing end behaviour of odd-degree polynomials). Option A describes a quadratic, B describes a quartic, and D describes a quintic.
+    The correct answer is **C**. A cubic function has degree $3$, and by the rule "at most $n - 1$ turning points," it can have up to $2$ turning points. Cubics always have at least one real root (the graph must cross the $x$-axis at least once because of the opposing end behavior of odd-degree polynomials). Option A describes a quadratic, B describes a quartic, and D describes a quintic.
 
     **Concept Tested:** Cubic Function
 

@@ -200,7 +200,7 @@ Rearrange to get everything on one side:
 
 $$2x - 3y - 12 = 0$$
 
-The following table summarises when each form is most useful:
+The following table summarizes when each form is most useful:
 
 | Form | Equation | Best Used When... |
 |------|----------|------------------|
@@ -259,7 +259,7 @@ The gradient of a linear function has a powerful real-world interpretation: it i
 If $f(x) = mx + c$, then $m$ tells you how much $f(x)$ changes for each unit increase in $x$. For instance:
 
 - If a taxi charges $\$2.50$ per kilometre, the rate of change is $2.50$ dollars per km
-- If a tank drains at $3$ litres per minute, the rate of change is $-3$ litres per minute (negative because it's decreasing)
+- If a tank drains at $3$ liters per minute, the rate of change is $-3$ liters per minute (negative because it's decreasing)
 
 A special case occurs when the $y$-intercept is zero: $f(x) = mx$. This is called **direct proportion** — the output is directly proportional to the input, and the graph passes through the origin. We write $y \propto x$, which means $y = kx$ for some constant $k$.
 
@@ -340,11 +340,11 @@ The intersection point is $(4, 2)$.
 ??? note "Click to reveal answer"
     From the second equation: $x = 3y - 5$. Substitute: $2(3y - 5) + y = 10$, so $6y - 10 + y = 10$, giving $7y = 20$ and $y = \frac{20}{7}$. Then $x = 3(\frac{20}{7}) - 5 = \frac{25}{7}$. The intersection is $\left(\frac{25}{7}, \frac{20}{7}\right)$.
 
-#### Diagram: Simultaneous Equations Visualiser
+#### Diagram: Simultaneous Equations Visualizer
 <iframe src="../../sims/simultaneous-equations-visualiser/main.html" width="100%" height="522" scrolling="no"></iframe>
 
 <details markdown="1">
-<summary>Simultaneous Equations Visualiser</summary>
+<summary>Simultaneous Equations Visualizer</summary>
 Type: microsim
 **sim-id:** simultaneous-equations-visualiser<br/>
 **Library:** p5.js<br/>
@@ -358,7 +358,7 @@ Instructional Rationale: Seeing two lines intersect on a graph while the algebra
 
 Visual elements:
 
-- A coordinate grid with two straight lines drawn in different colours (blue and red)
+- A coordinate grid with two straight lines drawn in different colors (blue and red)
 - The intersection point highlighted with a large dot and its coordinates displayed
 - Each line's equation shown in gradient-intercept form near the line
 - When lines are parallel (no intersection), a message appears: "No solution — parallel lines"
@@ -415,7 +415,7 @@ The rate of change is $45$ — it represents the hourly charge in dollars per ho
     <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Rick warns you">
     When writing linear models, students often confuse the gradient with the $y$-intercept. The gradient is the *rate* — the amount that changes *per unit*. The $y$-intercept is the *starting value* — what you get when the input is zero. In the plumber example, $\$45$/hour is the gradient and $\$60$ is the $y$-intercept. Swapping them gives a very different (and wrong!) bill.
 
-**Worked Example 12:** An access ramp must have a gradient no steeper than $\frac{1}{12}$ (a rise of $1$ metre for every $12$ metres of horizontal distance). If a ramp needs to reach a height of $0.75$ m, what is the minimum horizontal length?
+**Worked Example 12:** An access ramp must have a gradient no steeper than $\frac{1}{12}$ (a rise of $1$ meter for every $12$ meters of horizontal distance). If a ramp needs to reach a height of $0.75$ m, what is the minimum horizontal length?
 
 The gradient requirement gives us:
 
@@ -425,7 +425,7 @@ $$\frac{0.75}{\text{run}} \leq \frac{1}{12}$$
 
 $$\text{run} \geq 0.75 \times 12 = 9 \text{ m}$$
 
-The ramp must be at least $9$ metres long horizontally.
+The ramp must be at least $9$ meters long horizontally.
 
 **Try it yourself:** A mountain road rises $150$ m over a horizontal distance of $3$ km. What is the gradient? Express it as a percentage.
 
@@ -485,4 +485,4 @@ This chapter covered everything about the straight line — the simplest and mos
 
 !!! mascot-celebration "Nice Work!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Rick celebrates">
-    You've mastered the straight line! Gradients, intercepts, parallel lines, perpendicular lines, real-world models — that's a lot of ground covered, and you've walked every metre of it (with a gradient you can now calculate). Next up: quadratic functions. Things are about to get curvy!
+    You've mastered the straight line! Gradients, intercepts, parallel lines, perpendicular lines, real-world models — that's a lot of ground covered, and you've walked every meter of it (with a gradient you can now calculate). Next up: quadratic functions. Things are about to get curvy!

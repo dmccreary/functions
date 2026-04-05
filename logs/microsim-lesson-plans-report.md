@@ -1,5 +1,8 @@
 # Session Report: Generating MicroSim Lesson Plans & Quizzes
 
+This log was created by my first use of Google's new Antigravity IDE.
+Although the prompt was straightforward (create lesson plans for each microsim), Antigravity failed after generating only 15 of the 68 lesson plans. It is clearly not nearly as capable as Claude Code.
+
 ## 1. Executive Summary
 This report summarizes the recent AI pair-programming session (Conversation ID: `1aa91a09-398b-4dae-aeb9-884fc6a30553`) dedicated to systematically generating structured lesson plans and interactive MkDocs quizzes for a library of 68 individual MicroSims specifications stored in `docs/sims/TODO/`.
 

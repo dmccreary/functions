@@ -96,6 +96,24 @@ nav:
     - learning-graph/diagram-table.md
 
 
+  - Stories:
+    - Overview: stories/index.md
+    - René Descartes - The Language of Change: stories/rene-descartes/index.md
+    - Leibniz vs. Newton - The Notation Wars: stories/leibniz-vs-newton/index.md
+    - Leonhard Euler - The Symbol That Stuck: stories/leonhard-euler/index.md
+    - Joseph Fourier - From Waves to Music: stories/joseph-fourier/index.md
+    - Ada Lovelace - The First Programmer: stories/ada-lovelace/index.md
+    - Ronald Ross - The Pandemic Modeler: stories/ronald-ross/index.md
+    - Emmy Noether - The Equation of Hope: stories/emmy-noether/index.md
+    - Srinivasa Ramanujan - The Infinity Dreamer: stories/srinivasa-ramanujan/index.md
+    - Alan Turing - The Secret Codebreaker: stories/alan-turing/index.md
+    - Claude Shannon - The Network Weaver: stories/claude-shannon/index.md
+    - Katherine Johnson - Mapping the Unknown: stories/katherine-johnson/index.md
+    - Benoit Mandelbrot - The Shape of Nature: stories/benoit-mandelbrot/index.md
+    - Frank Drake - Are We Alone?: stories/frank-drake/index.md
+    - Syukuro Manabe - The Climate Function: stories/syukuro-manabe/index.md
+    - Karen Uhlenbeck - Functions for the Future: stories/karen-uhlenbeck/index.md
+    - Maryam Mirzakhani - The Invisible Architect: stories/maryam-mirzakhani/index.md
   - FAQ: faq.md
   - Glossary: glossary.md
   - Teachers Guide: teachers-guide/index.md

@@ -121,7 +121,7 @@ Test your understanding of graphs, intercepts, turning points, concavity, and gr
 <div class="upper-alpha" markdown>
 1. Use graph paper to plot exact points to scale
 2. Use a calculator to produce a printout
-3. Produce a quick freehand diagram with labelled key features
+3. Produce a quick freehand diagram with labeled key features
 4. Describe the graph in words only
 </div>
 

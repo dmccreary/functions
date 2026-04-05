@@ -33,7 +33,7 @@ hide:
 | 3 | [Window Settings Simulator](../chapters/03-graphing-and-key-features/index.md#diagram-window-settings-simulator) | Specified | Microsim | Not specified | 7 | Hard |  |
 | 4 | [Gradient Explorer](../chapters/04-linear-functions/index.md#diagram-gradient-explorer) | Specified | Microsim | Not specified | 11 | Hard |  |
 | 4 | [Linear Model Builder](../chapters/04-linear-functions/index.md#diagram-linear-model-builder) | Specified | Microsim | Not specified | 14 | Hard |  |
-| 4 | [Simultaneous Equations Visualiser](../chapters/04-linear-functions/index.md#diagram-simultaneous-equations-visualiser) | Specified | Microsim | Not specified | 9 | Hard |  |
+| 4 | [Simultaneous Equations Visualizer](../chapters/04-linear-functions/index.md#diagram-simultaneous-equations-visualiser) | Specified | Microsim | Not specified | 9 | Hard |  |
 | 5 | [Projectile Motion Simulator](../chapters/05-quadratic-functions/index.md#diagram-projectile-motion-simulator) | Specified | Microsim | Not specified | 9 | Hard |  |
 | 5 | [Quadratic Equation Solver](../chapters/05-quadratic-functions/index.md#diagram-quadratic-equation-solver) | Specified | Microsim | Not specified | 9 | Hard |  |
 | 5 | [Sign Diagram Builder](../chapters/05-quadratic-functions/index.md#diagram-sign-diagram-builder) | Specified | Microsim | Not specified | 7 | Hard |  |

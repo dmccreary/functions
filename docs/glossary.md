@@ -1008,7 +1008,7 @@ The gradient of a vertical line $x = k$, where the change in $x$ is zero and the
 
 #### Units and Dimensions
 
-The physical quantities (e.g., metres, seconds, kg) attached to variables and constants in an applied model. Dimensional consistency is essential for valid results.
+The physical quantities (e.g., meters, seconds, kg) attached to variables and constants in an applied model. Dimensional consistency is essential for valid results.
 
 **Example:** In $d = vt$, if $v$ is in m/s and $t$ in s, then $d$ is in m.
 

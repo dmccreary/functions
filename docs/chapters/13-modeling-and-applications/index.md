@@ -39,7 +39,7 @@ This chapter builds on concepts from:
 
 ## The Mathematical Modeling Cycle
 
-**Mathematical modeling** is the process of using mathematics to represent, analyse, and solve real-world problems. It's not a one-step process — it's a cycle that you repeat and refine.
+**Mathematical modeling** is the process of using mathematics to represent, analyze, and solve real-world problems. It's not a one-step process — it's a cycle that you repeat and refine.
 
 The **mathematical modeling cycle** has four stages:
 
@@ -69,7 +69,7 @@ This cycle reflects how mathematics is actually used in science, engineering, an
 
 !!! mascot-thinking "Rick's Key Insight"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Rick is thinking">
-    Models are like maps — they're not the territory, they're a simplification of it. A map that was as detailed as the real world would be useless! The art of modelling is choosing the right level of simplification: detailed enough to be useful, simple enough to be manageable. And just like maps, you should always check whether your model matches reality before trusting it.
+    Models are like maps — they're not the territory, they're a simplification of it. A map that was as detailed as the real world would be useless! The art of modeling is choosing the right level of simplification: detailed enough to be useful, simple enough to be manageable. And just like maps, you should always check whether your model matches reality before trusting it.
 
 ## Regression Models
 
@@ -85,7 +85,7 @@ The most common regression types correspond to our function families:
 | Power | $y = ax^b$ | Data follows a power relationship |
 | Logarithmic | $y = a + b\ln x$ | Data increases rapidly then levels off |
 
-Each regression calculates the "line (or curve) of best fit" — the function that minimises the overall distance between the data points and the curve.
+Each regression calculates the "line (or curve) of best fit" — the function that minimizes the overall distance between the data points and the curve.
 
 **Worked Example 2:** The table shows the population of a bacterial colony over time:
 
@@ -109,7 +109,7 @@ This tells us the initial population was about $102$ and the growth factor is ap
 **Curve fitting** is the broader practice of finding a mathematical function that passes through or near a set of data points. While regression is the most common method, curve fitting also includes:
 
 - **Exact fit:** Finding a function that passes through every data point (possible with polynomial interpolation — a degree-$n$ polynomial can pass through $n + 1$ points exactly)
-- **Best fit:** Finding the function that minimises the overall error (regression)
+- **Best fit:** Finding the function that minimizes the overall error (regression)
 - **Model selection:** Deciding which type of function (linear, quadratic, exponential, etc.) best describes the data pattern
 
 The key question in curve fitting is: **which function family should I choose?** Here are visual clues:
@@ -141,7 +141,7 @@ Instructional Rationale: Comparing multiple regression curves on the same data m
 Visual elements:
 
 - A coordinate grid with data points plotted as large dots
-- Up to three regression curves displayed simultaneously in different colours (linear = blue, quadratic = green, exponential = red)
+- Up to three regression curves displayed simultaneously in different colors (linear = blue, quadratic = green, exponential = red)
 - $R^2$ (coefficient of determination) displayed for each active model, indicating goodness of fit
 - Residuals optionally shown as vertical lines from each data point to the curve
 
@@ -197,11 +197,11 @@ This is extrapolation (beyond the data range) and should be treated cautiously �
 
 Common practices:
 
-- Always state units when defining variables ($t$ in seconds, $d$ in metres, $C$ in dollars)
+- Always state units when defining variables ($t$ in seconds, $d$ in meters, $C$ in dollars)
 - Check that both sides of an equation have the same units
 - Convert units before substituting into formulas (e.g., convert minutes to hours if the rate is per hour)
 
-**Worked Example 4:** A car travelling at $v$ km/h covers a distance $d$ km in $t$ hours:
+**Worked Example 4:** A car traveling at $v$ km/h covers a distance $d$ km in $t$ hours:
 
 $$d = vt$$
 
@@ -213,10 +213,10 @@ $$d = 80 \times 2.5 = 200 \text{ km}$$
 
 If you accidentally use minutes instead of hours: $d = 80 \times 150 = 12{,}000$ — clearly wrong! Units matter.
 
-**Try it yourself:** A tank fills at $3$ litres per minute. How many litres does it contain after $2$ hours? Be careful with units.
+**Try it yourself:** A tank fills at $3$ liters per minute. How many liters does it contain after $2$ hours? Be careful with units.
 
 ??? note "Click to reveal answer"
-    Convert: $2$ hours $= 120$ minutes. Volume $= 3 \times 120 = 360$ litres.
+    Convert: $2$ hours $= 120$ minutes. Volume $= 3 \times 120 = 360$ liters.
 
 ## Exact vs Approximate Values
 
@@ -284,4 +284,4 @@ This capstone chapter connected all your function knowledge to real-world proble
 
 !!! mascot-celebration "Nice Work!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Rick celebrates">
-    You've made it to the end of the book! From algebraic foundations all the way to real-world modelling, you've built an incredible toolkit of mathematical skills. Linear, quadratic, exponential, logarithmic, polynomial, rational — you know them all. You can transform them, compose them, invert them, and model the real world with them. That's not just a function worth knowing — that's a whole *course* worth knowing! Trust the process — and the math. You've earned this! 🎓
+    You've made it to the end of the book! From algebraic foundations all the way to real-world modeling, you've built an incredible toolkit of mathematical skills. Linear, quadratic, exponential, logarithmic, polynomial, rational — you know them all. You can transform them, compose them, invert them, and model the real world with them. That's not just a function worth knowing — that's a whole *course* worth knowing! Trust the process — and the math. You've earned this! 🎓

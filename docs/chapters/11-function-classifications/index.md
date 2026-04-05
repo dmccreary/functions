@@ -1,6 +1,6 @@
 ---
 title: Function Classifications
-description: Classifying functions by symmetry (even/odd), periodicity, modulus transformations, piecewise definitions, and behaviour analysis (AHL)
+description: Classifying functions by symmetry (even/odd), periodicity, modulus transformations, piecewise definitions, and behavior analysis (AHL)
 generated_by: claude skill chapter-content-generator
 date: 2026-04-03 22:00:00
 version: 0.07
@@ -201,7 +201,7 @@ Purpose: Let students compare the original function $f(x)$ with the three modulu
 
 Learning Objective: Students will distinguish between $|f(x)|$, $f(|x|)$, and $[f(x)]^2$ by comparing the transformations applied to various base functions (Analyze L4 — compare, differentiate).
 
-Instructional Rationale: Side-by-side comparison of the original and transformed graphs makes the distinct effects of each transformation unmistakable. Switching between base functions generalises the understanding beyond a single example.
+Instructional Rationale: Side-by-side comparison of the original and transformed graphs makes the distinct effects of each transformation unmistakable. Switching between base functions generalizes the understanding beyond a single example.
 
 Visual elements:
 
@@ -265,9 +265,9 @@ Its graph is a staircase that steps up at each integer but with open circles at 
 ??? note "Click to reveal answer"
     $\lfloor 2.99 \rfloor = 2$, $\lfloor -0.1 \rfloor = -1$, $\lfloor 4 \rfloor = 4$.
 
-## Function Behaviour Analysis
+## Function Behavior Analysis
 
-**Function behaviour analysis** brings together the tools from this chapter and Chapter 3 to give a complete description of a function. A thorough analysis includes:
+**Function behavior analysis** brings together the tools from this chapter and Chapter 3 to give a complete description of a function. A thorough analysis includes:
 
 1. **Domain and range** — what inputs are valid, what outputs are produced
 2. **Symmetry** — even, odd, or neither
@@ -276,11 +276,11 @@ Its graph is a staircase that steps up at each integer but with open circles at 
 5. **Increasing/decreasing intervals** — where the function rises or falls
 6. **Turning points** — maxima and minima
 7. **Concavity** — where the graph curves up or down
-8. **End behaviour** — what happens as $x \to \pm\infty$
+8. **End behavior** — what happens as $x \to \pm\infty$
 9. **Asymptotes** — if applicable
 10. **Continuity** — any breaks or jumps?
 
-This comprehensive checklist is your toolkit for analysing any function you encounter in the IB.
+This comprehensive checklist is your toolkit for analyzing any function you encounter in the IB.
 
 !!! mascot-warning "Rick's Common Mistake Alert"
     <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Rick warns you">
@@ -297,8 +297,8 @@ This chapter classified functions by their structural properties:
 - Three modulus transformations: **$|f(x)|$** reflects negatives up; **$f(|x|)$** mirrors the right half; **$[f(x)]^2$** squares all outputs
 - **Piecewise functions** use different rules on different intervals
 - **Step functions**, the **signum function**, and the **greatest integer function** are key piecewise examples
-- **Function behaviour analysis** is the comprehensive checklist for describing any function
+- **Function behavior analysis** is the comprehensive checklist for describing any function
 
 !!! mascot-celebration "Nice Work!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Rick celebrates">
-    You can now classify any function by its properties — even, odd, periodic, piecewise, or something else entirely. That's like being able to identify bird species by their silhouette. And just like birdwatching, the more you practise, the faster you get. Next up: transformations — where we learn to slide, stretch, and flip any function!
+    You can now classify any function by its properties — even, odd, periodic, piecewise, or something else entirely. That's like being able to identify bird species by their silhouette. And just like birdwatching, the more you practice, the faster you get. Next up: transformations — where we learn to slide, stretch, and flip any function!

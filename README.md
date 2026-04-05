@@ -19,7 +19,22 @@ The textbook structures its outcomes around Bloom's Taxonomy (2001 revision) ens
 
 Whether you're a student building a foundational understanding of mathematical equations or exploring complex limits and compositions, this living document bridges practical realities with abstraction—enhanced continuously by interactive components.
 
+## Site Status and Metrics
 
+| Metric | Value |
+|--------|------:|
+| Chapters | 13 |
+| Concepts in Learning Graph | 208 |
+| Glossary Terms | 208 |
+| FAQs | 85 |
+| MicroSims | 29 |
+| Diagrams | 27 |
+| Equations (LaTeX) | 3,937 |
+| Total Words | 70,513 |
+| Links | 225 |
+| Equivalent Printed Pages | 303 |
+
+See the full breakdown in [`docs/learning-graph/book-metrics.md`](docs/learning-graph/book-metrics.md) and per-chapter metrics in [`docs/learning-graph/chapter-metrics.md`](docs/learning-graph/chapter-metrics.md).
 
 ## Getting Started
 

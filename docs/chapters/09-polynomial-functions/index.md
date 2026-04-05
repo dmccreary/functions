@@ -1,6 +1,6 @@
 ---
 title: Polynomial Functions
-description: Investigating higher-degree polynomials, end behaviour, factor and remainder theorems, division techniques, root formulas, and graphing polynomials (AHL)
+description: Investigating higher-degree polynomials, end behavior, factor and remainder theorems, division techniques, root formulas, and graphing polynomials (AHL)
 generated_by: claude skill chapter-content-generator
 date: 2026-04-03 21:48:00
 version: 0.07
@@ -14,7 +14,7 @@ version: 0.07
 
 ## Summary
 
-This chapter extends beyond quadratics to investigate polynomial functions of higher degree. Students learn about the degree and leading coefficient of polynomials, and analyse end behaviour and turning point counts. The factor theorem and remainder theorem provide tools for parsing polynomials, supported by polynomial division and synthetic division techniques. Advanced topics include root finding strategies, sum and product of roots formulas, multiplicity of roots, and graphing polynomial functions.
+This chapter extends beyond quadratics to investigate polynomial functions of higher degree. Students learn about the degree and leading coefficient of polynomials, and analyze end behavior and turning point counts. The factor theorem and remainder theorem provide tools for parsing polynomials, supported by polynomial division and synthetic division techniques. Advanced topics include root finding strategies, sum and product of roots formulas, multiplicity of roots, and graphing polynomial functions.
 
 ## Concepts Covered
 
@@ -84,7 +84,7 @@ A **cubic function** has degree $3$:
 
 $$f(x) = ax^3 + bx^2 + cx + d, \quad a \neq 0$$
 
-The graph of a cubic can have up to $2$ turning points and up to $3$ real roots. Its distinctive S-shaped curve makes it visually recognisable. Unlike quadratics, cubics always have at least one real root — the graph must cross the $x$-axis at least once.
+The graph of a cubic can have up to $2$ turning points and up to $3$ real roots. Its distinctive S-shaped curve makes it visually recognizable. Unlike quadratics, cubics always have at least one real root — the graph must cross the $x$-axis at least once.
 
 ### Quartic Functions
 
@@ -94,9 +94,9 @@ $$f(x) = ax^4 + bx^3 + cx^2 + dx + e, \quad a \neq 0$$
 
 Quartic graphs can have up to $3$ turning points and up to $4$ real roots. They share the "both ends go the same direction" property with quadratics — both ends go up (if $a > 0$) or both ends go down (if $a < 0$).
 
-## End Behaviour
+## End Behavior
 
-**End behaviour** describes what happens to $f(x)$ as $x$ becomes very large positively ($x \to \infty$) or very large negatively ($x \to -\infty$). End behaviour is determined entirely by the degree and leading coefficient.
+**End behavior** describes what happens to $f(x)$ as $x$ becomes very large positively ($x \to \infty$) or very large negatively ($x \to -\infty$). End behavior is determined entirely by the degree and leading coefficient.
 
 The rules are straightforward. As $x \to \pm\infty$, only the leading term matters because it grows faster than all the other terms.
 
@@ -109,7 +109,7 @@ The rules are straightforward. As $x \to \pm\infty$, only the leading term matte
 
 A helpful mnemonic: **odd degree** → ends go in **opposite** directions. **Even degree** → ends go in the **same** direction.
 
-**Worked Example 1:** Describe the end behaviour of $f(x) = -2x^5 + 3x^2 - 1$.
+**Worked Example 1:** Describe the end behavior of $f(x) = -2x^5 + 3x^2 - 1$.
 
 Degree $5$ (odd), leading coefficient $-2$ (negative). So:
 
@@ -150,7 +150,7 @@ Since $f(2) = 0$, the factor theorem tells us $(x - 2)$ is a factor.
 
 ## The Remainder Theorem
 
-The **remainder theorem** is a generalisation of the factor theorem:
+The **remainder theorem** is a generalization of the factor theorem:
 
 $$\text{When } f(x) \text{ is divided by } (x - c), \text{ the remainder is } f(c)$$
 
@@ -208,7 +208,7 @@ Result: $[1, -4, 3, 0]$ → quotient $x^2 - 4x + 3$, remainder $0$. ✓
 
 !!! mascot-tip "Rick's Tip"
     <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Rick shares a tip">
-    Synthetic division is one of those tricks that saves massive amounts of time in exams. Once you practise it a few times, you'll never want to do long division again. Just remember: it only works for divisors of the form $(x - c)$, not more complex divisors.
+    Synthetic division is one of those tricks that saves massive amounts of time in exams. Once you practice it a few times, you'll never want to do long division again. Just remember: it only works for divisors of the form $(x - c)$, not more complex divisors.
 
 ## Root Finding
 
@@ -287,10 +287,10 @@ The degree is $3$ (sum of multiplicities: $2 + 1 = 3$).
 
 **Graphing polynomials** brings together everything in this chapter. To sketch a polynomial graph:
 
-1. **Determine the degree and leading coefficient** → end behaviour
+1. **Determine the degree and leading coefficient** → end behavior
 2. **Find the $y$-intercept** → substitute $x = 0$
 3. **Find the roots** → use factor theorem, synthetic division, GDC
-4. **Determine multiplicity of each root** → crossing vs bouncing behaviour
+4. **Determine multiplicity of each root** → crossing vs bouncing behavior
 5. **Count possible turning points** → at most $n - 1$
 6. **Plot and connect** → smooth curve through all known points
 
@@ -314,7 +314,7 @@ Visual elements:
 
 - A coordinate grid showing the polynomial graph
 - Roots marked on the $x$-axis with their multiplicity displayed
-- End behaviour arrows indicating the direction at both ends
+- End behavior arrows indicating the direction at both ends
 - The expanded polynomial equation displayed above the graph
 - Turning points highlighted
 
@@ -337,9 +337,9 @@ Canvas: Responsive, full width, 550px height
 
 This chapter expanded your polynomial toolkit far beyond quadratics:
 
-- The **degree** and **leading coefficient** determine a polynomial's end behaviour and maximum complexity
+- The **degree** and **leading coefficient** determine a polynomial's end behavior and maximum complexity
 - **Cubic** (degree 3) and **quartic** (degree 4) functions extend the family beyond quadratics
-- **End behaviour** depends on whether the degree is odd or even and whether the leading coefficient is positive or negative
+- **End behavior** depends on whether the degree is odd or even and whether the leading coefficient is positive or negative
 - A degree-$n$ polynomial has at most $n - 1$ **turning points**
 - The **factor theorem** links roots to factors: $f(c) = 0 \iff (x-c)$ is a factor
 - The **remainder theorem** gives the remainder when dividing by $(x-c)$ as $f(c)$

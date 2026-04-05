@@ -306,7 +306,7 @@ Type: microsim
 **Library:** p5.js<br/>
 **Status:** Specified
 
-Purpose: Visualise composite functions as two "machines" connected in series, where the output of the first machine feeds into the second, showing how composition works step by step.
+Purpose: Visualize composite functions as two "machines" connected in series, where the output of the first machine feeds into the second, showing how composition works step by step.
 
 Learning Objective: Students will evaluate composite functions by tracing inputs through two function machines and will distinguish $(f \circ g)$ from $(g \circ f)$ (Understand L2 — explain, compare).
 
@@ -314,7 +314,7 @@ Instructional Rationale: The function machine metaphor makes the abstract idea o
 
 Visual elements:
 
-- Two "machine" boxes connected by an arrow, each labelled with its function rule
+- Two "machine" boxes connected by an arrow, each labeled with its function rule
 - An input value entering the first machine on the left
 - The intermediate value displayed on the connecting arrow
 - The final output emerging from the second machine on the right

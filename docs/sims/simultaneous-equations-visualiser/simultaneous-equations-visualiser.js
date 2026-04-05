@@ -1,4 +1,4 @@
-// Simultaneous Equations Visualiser MicroSim
+// Simultaneous Equations Visualizer MicroSim
 // CANVAS_HEIGHT: 520
 let canvasWidth = 400;
 let drawHeight = 370;
@@ -43,7 +43,7 @@ function setup() {
   showStatusCheckbox = createCheckbox('Parallel/Perpendicular Status', false);
   showStatusCheckbox.position(10, drawHeight + 128);
 
-  describe('Interactive visualiser for simultaneous linear equations showing two lines and their intersection', LABEL);
+  describe('Interactive visualizer for simultaneous linear equations showing two lines and their intersection', LABEL);
 }
 
 function draw() {
@@ -73,7 +73,7 @@ function draw() {
   noStroke();
   textSize(18);
   textAlign(CENTER, TOP);
-  text('Simultaneous Equations Visualiser', canvasWidth / 2, 5);
+  text('Simultaneous Equations Visualizer', canvasWidth / 2, 5);
 
   let plotW = canvasWidth - 2 * margin;
   let plotH = drawHeight - 2 * margin - 20;

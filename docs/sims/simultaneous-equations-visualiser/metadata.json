@@ -1,8 +1,8 @@
 {
-  "title": "Simultaneous Equations Visualiser",
+  "title": "Simultaneous Equations Visualizer",
   "creator": "Dan McCreary",
   "subject": "High School Geometry",
-  "description": "Interactive MicroSim for simultaneous equations visualiser",
+  "description": "Interactive MicroSim for simultaneous equations visualizer",
   "date": "2026-04-03",
   "educational": {
     "gradeLevel": [
@@ -12,7 +12,7 @@
       "12"
     ],
     "subjectArea": "Mathematics",
-    "topic": "Simultaneous Equations Visualiser",
+    "topic": "Simultaneous Equations Visualizer",
     "learningObjectives": [
       "TODO: Add learning objectives"
     ],

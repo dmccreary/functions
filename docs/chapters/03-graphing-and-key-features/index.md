@@ -119,7 +119,7 @@ Together, the $x$-intercept and $y$-intercept are called the **function intercep
 
 The $x$-intercepts have special names that you'll encounter throughout the IB course.
 
-The **roots of a function** are the input values $x$ where $f(x) = 0$. These are also called the **zeros of a function** because they're the values that make the output zero. The terminology differs slightly in context — "roots" is used when solving equations, while "zeros" emphasises the function perspective — but they refer to the same values.
+The **roots of a function** are the input values $x$ where $f(x) = 0$. These are also called the **zeros of a function** because they're the values that make the output zero. The terminology differs slightly in context — "roots" is used when solving equations, while "zeros" emphasizes the function perspective — but they refer to the same values.
 
 In Worked Example 2 above, the roots (or zeros) of $f(x) = x^2 - 4$ are $x = -2$ and $x = 2$.
 
@@ -129,7 +129,7 @@ In Worked Example 2 above, the roots (or zeros) of $f(x) = x^2 - 4$ are $x = -2$
 
 ## Slope: The Steepness of a Graph
 
-Before we analyse how graphs rise and fall, we need the concept of **slope** — a measure of how steep a line or curve is at any point. In IB Mathematics, slope is most often called the **gradient**, and we'll use both terms interchangeably.
+Before we analyze how graphs rise and fall, we need the concept of **slope** — a measure of how steep a line or curve is at any point. In IB Mathematics, slope is most often called the **gradient**, and we'll use both terms interchangeably.
 
 For a straight line passing through two points $(x_1, y_1)$ and $(x_2, y_2)$, the slope is:
 
@@ -152,7 +152,7 @@ For curved functions, the slope changes from point to point. We'll explore this 
 
 ## Increasing and Decreasing Functions
 
-Looking at a graph from left to right, the function's output may rise, fall, or stay level. These behaviours have precise names.
+Looking at a graph from left to right, the function's output may rise, fall, or stay level. These behaviors have precise names.
 
 A function is **increasing** on an interval if, as $x$ moves to the right, the output $f(x)$ goes up. Formally, $f$ is increasing on an interval if for any two values $a$ and $b$ in that interval with $a < b$, we have $f(a) < f(b)$.
 
@@ -160,7 +160,7 @@ A function is **decreasing** on an interval if, as $x$ moves to the right, the o
 
 Think of walking along a hiking trail from left to right. When the trail goes uphill, the function is increasing. When it goes downhill, the function is decreasing.
 
-| Behaviour | Graph Direction | Slope Sign |
+| Behavior | Graph Direction | Slope Sign |
 |-----------|----------------|------------|
 | Increasing | Rises from left to right | Positive |
 | Decreasing | Falls from left to right | Negative |
@@ -220,12 +220,12 @@ Purpose: Allow students to explore a function graph and identify its key feature
 
 Learning Objective: Students will identify and label key features of a function graph including intercepts, turning points, and intervals of increase/decrease (Analyze L4 — examine, distinguish).
 
-Instructional Rationale: Interactive feature identification forces active reading of graphs rather than passive viewing. Highlighting intervals and labelling points connects visual patterns to mathematical vocabulary.
+Instructional Rationale: Interactive feature identification forces active reading of graphs rather than passive viewing. Highlighting intervals and labeling points connects visual patterns to mathematical vocabulary.
 
 Visual elements:
 
 - A coordinate grid displaying a function graph (from a bank of pre-loaded examples)
-- Coloured highlights for increasing intervals (green shading) and decreasing intervals (red shading)
+- Colored highlights for increasing intervals (green shading) and decreasing intervals (red shading)
 - Marked points for x-intercepts (blue dots), y-intercept (purple dot), turning points (orange dots)
 - Labels appearing when a feature is identified
 
@@ -257,7 +257,7 @@ A function is **concave down** on an interval if its graph curves downward like 
 
 Here's a practical way to think about it: if you imagine pouring water onto the graph, a concave-up section would hold the water like a cup, while a concave-down section would let the water run off.
 
-An **inflection point** is a point where the concavity changes — from concave up to concave down, or vice versa. At an inflection point, the graph shifts from curving one way to curving the other. Inflection points are often subtle on a graph, but they mark important changes in the function's behaviour.
+An **inflection point** is a point where the concavity changes — from concave up to concave down, or vice versa. At an inflection point, the graph shifts from curving one way to curving the other. Inflection points are often subtle on a graph, but they mark important changes in the function's behavior.
 
 | Concavity | Shape | Analogy | Rate of Change |
 |-----------|-------|---------|----------------|
@@ -281,7 +281,7 @@ An **inflection point** is a point where the concavity changes — from concave 
 
 ## Key Graph Features: The Complete Checklist
 
-Now that we've met all the individual features, let's assemble them into a complete **key graph features** checklist. When analysing any function graph, look for:
+Now that we've met all the individual features, let's assemble them into a complete **key graph features** checklist. When analyzing any function graph, look for:
 
 1. **Domain and range** — what inputs are valid and what outputs are produced
 2. **$y$-intercept** — where the graph crosses the $y$-axis (substitute $x = 0$)
@@ -291,7 +291,7 @@ Now that we've met all the individual features, let's assemble them into a compl
 6. **Turning points** — maximum and minimum points where direction changes
 7. **Concavity** — where the graph is concave up or concave down
 8. **Inflection points** — where the concavity changes
-9. **End behaviour** — what happens to the graph as $x \to \infty$ and $x \to -\infty$
+9. **End behavior** — what happens to the graph as $x \to \infty$ and $x \to -\infty$
 
 This checklist will serve you throughout every chapter of this course. Whether you're studying linear functions, quadratics, or exponentials, these are always the features to examine first.
 
@@ -299,7 +299,7 @@ This checklist will serve you throughout every chapter of this course. Whether y
 
 In IB Mathematics, there's an important distinction between **sketching** and **drawing** a graph.
 
-**Sketching** means producing a quick, freehand diagram that captures the essential shape and features of a graph — intercepts, turning points, general trend — without worrying about exact coordinates or perfect curves. A sketch should be labelled with key features but doesn't require a ruler or graph paper.
+**Sketching** means producing a quick, freehand diagram that captures the essential shape and features of a graph — intercepts, turning points, general trend — without worrying about exact coordinates or perfect curves. A sketch should be labeled with key features but doesn't require a ruler or graph paper.
 
 **Drawing** means producing an accurate graph with precise coordinates, typically using graph paper or technology. Drawn graphs show exact positions of points and are measured to scale.
 
@@ -311,11 +311,11 @@ In IB Mathematics, there's an important distinction between **sketching** and **
 | Time | Quick (1-2 minutes) | Slower (5-10 minutes) |
 | When used | Exam questions saying "sketch" | Exam questions saying "draw" |
 
-In an IB exam, the instruction word matters. If the question says "sketch," you need the right shape with labelled features. If it says "draw," you need accuracy.
+In an IB exam, the instruction word matters. If the question says "sketch," you need the right shape with labeled features. If it says "draw," you need accuracy.
 
 !!! mascot-warning "Rick's Common Mistake Alert"
     <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Rick warns you">
-    Many students lose marks by sketching when asked to draw, or by drawing elaborate graphs when a sketch would do. Read the command term carefully! A sketch with correctly labelled key features will earn full marks on a "sketch" question — don't waste exam time making it pixel-perfect.
+    Many students lose marks by sketching when asked to draw, or by drawing elaborate graphs when a sketch would do. Read the command term carefully! A sketch with correctly labeled key features will earn full marks on a "sketch" question — don't waste exam time making it pixel-perfect.
 
 ## Graphing Technology
 
@@ -336,9 +336,9 @@ One critical skill with any graphing tool is choosing appropriate **window setti
 
 Default window settings on most calculators show $x$ and $y$ from $-10$ to $10$. This works for simple functions, but you often need to adjust:
 
-- **Zoom out** to see the full behaviour (end behaviour, all intercepts)
+- **Zoom out** to see the full behavior (end behavior, all intercepts)
 - **Zoom in** to examine details (turning points, intersections)
-- **Shift the window** to centre on the interesting region
+- **Shift the window** to center on the interesting region
 
 **Worked Example 7:** You want to graph $f(x) = x^2 - 100$. Why would the default window $[-10, 10]$ be a problem?
 
@@ -378,7 +378,7 @@ Interactive controls:
 - Dropdown: Select function from bank: $f(x) = x^2 - 100$, $f(x) = 0.01x^3 - x$, $f(x) = 2^x$, $f(x) = \frac{1}{x-3}$, $f(x) = (x-8)(x+8)$
 - Button: "Auto Fit" — automatically adjusts window to show all key features (for comparison)
 - Button: "Reset to Default" — returns to $[-10, 10] \times [-10, 10]$
-- Checklist: Shows which key features are currently visible (y-intercept, x-intercepts, turning points, end behaviour)
+- Checklist: Shows which key features are currently visible (y-intercept, x-intercepts, turning points, end behavior)
 
 Default: $f(x) = x^2 - 100$, default window $[-10, 10] \times [-10, 10]$.
 
@@ -389,7 +389,7 @@ Canvas: Responsive, full width, 500px height
 
 **Technology in mathematics** goes beyond just graphing. In the IB, you're expected to use technology to:
 
-- Graph functions and explore their behaviour
+- Graph functions and explore their behavior
 - Find exact intercepts, turning points, and intersections
 - Solve equations that don't have neat algebraic solutions
 - Verify algebraic work
@@ -457,7 +457,7 @@ When using technology to find intersections or turning points, round your final 
 
 !!! mascot-encourage "You've Got This!"
     <img src="../../img/mascot/encouraging.png" class="mascot-admonition-img" alt="Rick encouraging you">
-    Don't be intimidated by the calculator side of things. Your GDC is like a powerful assistant — it does the heavy lifting, but you're the one who decides what questions to ask and how to interpret the answers. The more you practise with it, the more natural it becomes.
+    Don't be intimidated by the calculator side of things. Your GDC is like a powerful assistant — it does the heavy lifting, but you're the one who decides what questions to ask and how to interpret the answers. The more you practice with it, the more natural it becomes.
 
 #### Diagram: Function Feature Identifier
 <iframe src="../../sims/function-feature-identifier/main.html" width="100%" height="502" scrolling="no"></iframe>
@@ -471,7 +471,7 @@ Type: microsim
 
 Purpose: Present students with a function graph and challenge them to identify and label all key features — intercepts, turning points, increasing/decreasing intervals, concavity, and inflection points — as a comprehensive practice tool.
 
-Learning Objective: Students will analyse a function graph to identify all key features and describe the function's behaviour using correct mathematical terminology (Analyze L4 — examine, deconstruct).
+Learning Objective: Students will analyze a function graph to identify all key features and describe the function's behavior using correct mathematical terminology (Analyze L4 — examine, deconstruct).
 
 Instructional Rationale: A comprehensive identification exercise ties together all the vocabulary and concepts from this chapter into a single, integrated task. The quiz format with feedback reinforces correct terminology usage.
 

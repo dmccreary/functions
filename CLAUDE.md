@@ -11,6 +11,7 @@ This textbook is for **IB Diploma Programme high school students** (SL and HL/AH
 - **Concrete before abstract** — lead with examples, visuals, or real-world hooks before formalizing definitions
 - **Active voice** — "We solve for $x$" not "It can be shown that $x$ is solved for"
 - **Second person welcome** — address the reader as "you" freely
+- **US English spelling only** — this textbook targets US English readers. Always use US spellings: color (not colour), behavior (not behaviour), center (not centre), meter (not metre), analyze (not analyse), visualize (not visualise), recognize (not recognise), modeling (not modelling), labeled (not labelled), practice (not practise as a verb), etc. The one exception is the proper noun "International Baccalaureate Diploma Programme," which retains its official British spelling.
 
 ### Chapter Content Conventions
 

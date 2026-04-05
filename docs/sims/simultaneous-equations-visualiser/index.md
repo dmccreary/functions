@@ -1,6 +1,6 @@
 ---
-title: Simultaneous Equations Visualiser
-description: Interactive p5.js MicroSim for simultaneous equations visualiser.
+title: Simultaneous Equations Visualizer
+description: Interactive p5.js MicroSim for simultaneous equations visualizer.
 image: /sims/simultaneous-equations-visualiser/simultaneous-equations-visualiser.png
 og:image: /sims/simultaneous-equations-visualiser/simultaneous-equations-visualiser.png
 twitter:image: /sims/simultaneous-equations-visualiser/simultaneous-equations-visualiser.png
@@ -9,11 +9,11 @@ social:
 quality_score: 0
 ---
 
-# Simultaneous Equations Visualiser
+# Simultaneous Equations Visualizer
 
 <iframe src="main.html" height="522" width="100%" scrolling="no"></iframe>
 
-[Run the Simultaneous Equations Visualiser MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run the Simultaneous Equations Visualizer MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>
 [Edit in the p5.js Editor](https://editor.p5js.org/)
 

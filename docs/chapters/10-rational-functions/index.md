@@ -14,7 +14,7 @@ version: 0.07
 
 ## Summary
 
-This chapter analyzes rational functions and their distinctive graphical behaviors. Students study the hyperbola as the graph of the reciprocal function, then explore vertical, horizontal, and oblique asymptotes. The chapter covers sketching rational functions of the form $f(x) = \frac{ax + b}{cx + d}$ and AHL extensions, identifying asymptotic behaviour, and detecting holes in graphs caused by common factors.
+This chapter analyzes rational functions and their distinctive graphical behaviors. Students study the hyperbola as the graph of the reciprocal function, then explore vertical, horizontal, and oblique asymptotes. The chapter covers sketching rational functions of the form $f(x) = \frac{ax + b}{cx + d}$ and AHL extensions, identifying asymptotic behavior, and detecting holes in graphs caused by common factors.
 
 ## Concepts Covered
 
@@ -56,7 +56,7 @@ The hyperbola is the prototype for all rational functions. Every concept we deve
 
 ## Asymptotes
 
-An asymptote is a line that a graph approaches but never reaches (or reaches only in the limit). Asymptotes are invisible boundaries that shape the graph's behaviour. There are three types.
+An asymptote is a line that a graph approaches but never reaches (or reaches only in the limit). Asymptotes are invisible boundaries that shape the graph's behavior. There are three types.
 
 ### Vertical Asymptotes
 
@@ -72,7 +72,7 @@ The vertical asymptote is $x = 2$. As $x$ approaches $2$ from the right, $f(x) \
 
 ### Horizontal Asymptotes
 
-A **horizontal asymptote** is a horizontal line $y = k$ that the graph approaches as $x \to \pm\infty$. It describes the function's end behaviour.
+A **horizontal asymptote** is a horizontal line $y = k$ that the graph approaches as $x \to \pm\infty$. It describes the function's end behavior.
 
 To find horizontal asymptotes, compare the degrees of the numerator and denominator:
 
@@ -107,11 +107,11 @@ As $x \to \pm\infty$, the remainder $\frac{2}{x-1} \to 0$, so the oblique asympt
 ??? note "Click to reveal answer"
     Vertical: $x = -4$. Horizontal: $y = 0$ (numerator degree $<$ denominator degree). No oblique asymptote.
 
-### Asymptotic Behaviour
+### Asymptotic Behavior
 
-**Asymptotic behaviour** describes how the function behaves near its asymptotes. Near a vertical asymptote, the function values grow without bound. Near a horizontal or oblique asymptote, the function values settle toward the asymptote line.
+**Asymptotic behavior** describes how the function behaves near its asymptotes. Near a vertical asymptote, the function values grow without bound. Near a horizontal or oblique asymptote, the function values settle toward the asymptote line.
 
-Understanding asymptotic behaviour is essential for accurate graphing. You need to know not just *where* the asymptotes are, but *how* the graph approaches them — from above or below, from the left or right.
+Understanding asymptotic behavior is essential for accurate graphing. You need to know not just *where* the asymptotes are, but *how* the graph approaches them — from above or below, from the left or right.
 
 !!! mascot-thinking "Rick's Key Insight"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Rick is thinking">
@@ -123,7 +123,7 @@ A **rational function** is the ratio of two polynomials:
 
 $$f(x) = \frac{p(x)}{q(x)}, \quad q(x) \neq 0$$
 
-The domain excludes all values where the denominator is zero. Rational functions exhibit the asymptotic behaviour we've just described, and their graphs can have complex, multi-branched shapes.
+The domain excludes all values where the denominator is zero. Rational functions exhibit the asymptotic behavior we've just described, and their graphs can have complex, multi-branched shapes.
 
 ### The Form $\frac{ax + b}{cx + d}$
 
@@ -173,7 +173,7 @@ The graph looks like the line $y = x + 2$ with a single point removed at $(2, 4)
 
 !!! mascot-warning "Rick's Common Mistake Alert"
     <img src="../../img/mascot/warning.png" class="mascot-admonition-img" alt="Rick warns you">
-    When the numerator and denominator share a common factor, you get a hole — NOT a vertical asymptote. Cancel the common factor first, then check what's left. If the denominator still has factors that equal zero, *those* give vertical asymptotes. The cancelled factors give holes. Don't confuse the two!
+    When the numerator and denominator share a common factor, you get a hole — NOT a vertical asymptote. Cancel the common factor first, then check what's left. If the denominator still has factors that equal zero, *those* give vertical asymptotes. The canceled factors give holes. Don't confuse the two!
 
 **Try it yourself:** Does $g(x) = \frac{x^2 - 9}{x^2 - x - 6}$ have a hole, an asymptote, or both?
 
@@ -189,7 +189,7 @@ The graph looks like the line $y = x + 2$ with a single point removed at $(2, 4)
 3. **Find vertical asymptotes** — remaining zeros of the denominator
 4. **Find horizontal/oblique asymptotes** — compare degrees
 5. **Find intercepts** — $y$-intercept ($x = 0$) and $x$-intercepts (numerator $= 0$)
-6. **Test behaviour near asymptotes** — determine which direction the graph goes
+6. **Test behavior near asymptotes** — determine which direction the graph goes
 7. **Plot and sketch** — connect the pieces smoothly
 
 #### Diagram: Rational Function Grapher
@@ -204,7 +204,7 @@ Type: microsim
 
 Purpose: Let students explore rational functions by adjusting the coefficients in $\frac{ax+b}{cx+d}$ and observing how the asymptotes, intercepts, and graph shape change in real time.
 
-Learning Objective: Students will analyse how the parameters of a rational function determine its asymptotes, intercepts, and overall graph shape (Analyze L4 — examine, differentiate).
+Learning Objective: Students will analyze how the parameters of a rational function determine its asymptotes, intercepts, and overall graph shape (Analyze L4 — examine, differentiate).
 
 Instructional Rationale: Real-time parameter manipulation makes the relationship between coefficients and graph features immediate. Students can experiment with "what if" questions: "What happens to the vertical asymptote if I change $d$?"
 
@@ -238,9 +238,9 @@ This chapter explored the world of rational functions — where polynomials meet
 
 - The **hyperbola** $y = \frac{1}{x}$ is the prototype rational function, with two branches and axes as asymptotes
 - **Vertical asymptotes** occur where the denominator is zero (function blows up)
-- **Horizontal asymptotes** describe end behaviour and depend on the degree comparison of numerator and denominator
+- **Horizontal asymptotes** describe end behavior and depend on the degree comparison of numerator and denominator
 - **Oblique asymptotes** appear when the numerator's degree exceeds the denominator's by exactly one
-- **Asymptotic behaviour** describes how the graph approaches its boundary lines
+- **Asymptotic behavior** describes how the graph approaches its boundary lines
 - A **rational function** $\frac{p(x)}{q(x)}$ has domain restrictions wherever $q(x) = 0$
 - The **rational form** $\frac{ax+b}{cx+d}$ produces a transformed hyperbola with one vertical and one horizontal asymptote
 - **Holes** occur when numerator and denominator share a common factor — they're missing dots, not asymptotes
@@ -248,4 +248,4 @@ This chapter explored the world of rational functions — where polynomials meet
 
 !!! mascot-celebration "Nice Work!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Rick celebrates">
-    You've navigated the world of asymptotes like a pro! Vertical, horizontal, oblique — you know them all. And you can spot a hole from a mile away. Rational functions might look intimidating with their dramatic behaviour, but underneath it all, they're just polynomials being divided. Next up: function classifications!
+    You've navigated the world of asymptotes like a pro! Vertical, horizontal, oblique — you know them all. And you can spot a hole from a mile away. Rational functions might look intimidating with their dramatic behavior, but underneath it all, they're just polynomials being divided. Next up: function classifications!

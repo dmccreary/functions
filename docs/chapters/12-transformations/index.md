@@ -10,7 +10,7 @@ version: 0.07
 
 !!! mascot-welcome "Rick Says Welcome!"
     <img src="../../img/mascot/welcome.png" class="mascot-admonition-img" alt="Rick waving welcome">
-    Time to give functions a makeover! In this chapter, we learn to slide, flip, and stretch any graph — turning one function into a whole family of related functions. Master transformations and you'll never need to memorise the graph of every function from scratch. Just start with the parent function and transform it. Every input has its output — and transformations show us how to move them around!
+    Time to give functions a makeover! In this chapter, we learn to slide, flip, and stretch any graph — turning one function into a whole family of related functions. Master transformations and you'll never need to memorize the graph of every function from scratch. Just start with the parent function and transform it. Every input has its output — and transformations show us how to move them around!
 
 ## Summary
 
@@ -98,7 +98,7 @@ Horizontal translation $2$ units left (replace $x$ with $x + 2$) and vertical tr
 ??? note "Click to reveal answer"
     Shift right $1$, up $4$: $(3 + 1, 7 + 4) = (4, 11)$.
 
-The following table summarises translations using **transformation notation** — a vector that describes the shift:
+The following table summarizes translations using **transformation notation** — a vector that describes the shift:
 
 | Transformation | Equation | Notation | Effect on $(x, y)$ |
 |---------------|----------|----------|-------------------|
@@ -234,7 +234,7 @@ where:
 - $p$ = vertical stretch factor
 - $q$ = horizontal compression factor
 
-The **effect on coordinates** summarises how a point $(x, y)$ on $y = f(x)$ moves under this transformation:
+The **effect on coordinates** summarizes how a point $(x, y)$ on $y = f(x)$ moves under this transformation:
 
 $$(x, y) \to \left(\frac{x}{q} + a, \; py + b\right)$$
 
@@ -310,4 +310,4 @@ This chapter gave you the tools to transform any function graph:
 
 !!! mascot-celebration "Nice Work!"
     <img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Rick celebrates">
-    You can now take any function and slide it, flip it, stretch it, and squish it — and predict exactly where every point ends up. That's an incredibly powerful skill. In the final chapter, we'll bring everything together with modelling and applications. The grand finale awaits!
+    You can now take any function and slide it, flip it, stretch it, and squish it — and predict exactly where every point ends up. That's an incredibly powerful skill. In the final chapter, we'll bring everything together with modeling and applications. The grand finale awaits!

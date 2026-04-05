@@ -12,7 +12,7 @@ These interactive simulations let you explore the mathematical concepts from eac
 
     ![Number System Hierarchy](./number-system-hierarchy/number-system-hierarchy.png)
 
-    Visualise nested number systems — integers, rationals, irrationals — with an interactive number line and classification tooltips.
+    Visualize nested number systems — integers, rationals, irrationals — with an interactive number line and classification tooltips.
 
 -   **[Factoring Decision Flowchart](./factoring-decision-flowchart/index.md)**
 
@@ -98,9 +98,9 @@ These interactive simulations let you explore the mathematical concepts from eac
 
     Adjust the gradient and y-intercept with sliders and see the rise/run triangle update in real time.
 
--   **[Simultaneous Equations Visualiser](./simultaneous-equations-visualiser/index.md)**
+-   **[Simultaneous Equations Visualizer](./simultaneous-equations-visualiser/index.md)**
 
-    ![Simultaneous Equations Visualiser](./simultaneous-equations-visualiser/simultaneous-equations-visualiser.png)
+    ![Simultaneous Equations Visualizer](./simultaneous-equations-visualiser/simultaneous-equations-visualiser.png)
 
     Graph two lines and find their intersection. Detects parallel and perpendicular relationships.
 

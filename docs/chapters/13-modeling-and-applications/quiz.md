@@ -84,7 +84,7 @@ Test your understanding of mathematical modeling, regression, interpolation, and
 
 ---
 
-#### 6. A tap fills a bucket at $2$ litres per minute. How many litres does it fill in $1.5$ hours?
+#### 6. A tap fills a bucket at $2$ liters per minute. How many liters does it fill in $1.5$ hours?
 
 <div class="upper-alpha" markdown>
 1. $3$

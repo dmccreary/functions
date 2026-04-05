@@ -253,7 +253,7 @@ Type: microsim
 **Library:** p5.js<br/>
 **Status:** Specified
 
-Purpose: Visualise the solution of exponential and logarithmic equations by showing the graphs of both sides and highlighting the intersection as the solution.
+Purpose: Visualize the solution of exponential and logarithmic equations by showing the graphs of both sides and highlighting the intersection as the solution.
 
 Learning Objective: Students will solve exponential and logarithmic equations graphically and algebraically, verifying that solutions correspond to graph intersections (Apply L3 — solve, demonstrate).
 

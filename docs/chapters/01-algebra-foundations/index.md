@@ -61,7 +61,7 @@ A **coefficient** is a number that multiplies a variable. In the term $7x$, the 
 
 A **parameter** is a special kind of constant that stays fixed within a particular problem but can take different values in different contexts. For example, in $y = mx + c$, the letters $m$ and $c$ are parameters — they are constant for any single line, but they change when you describe a different line. Think of parameters as "adjustable constants."
 
-The following table summarises these four building blocks:
+The following table summarizes these four building blocks:
 
 | Term | Definition | Example in $3x^2 + 5x - 7$ |
 |------|-----------|----------------------------|
@@ -85,6 +85,12 @@ Expressions can be evaluated by substituting specific values for the variables. 
 !!! mascot-thinking "Rick's Key Insight"
     <img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Rick is thinking">
     Here's a way to remember this: an **expression** is like a phrase (no verb). "Three more than twice a number" is an expression. But add an equals sign and you get a full sentence — "Three more than twice a number *equals* fifteen." That's called an **equation**, and we'll define it properly in the next section.
+
+#### Diagram: Expression Explorer
+
+The **Expression Explorer** below lets you experiment with algebraic expressions in real time. Adjust the variable values and watch how each term contributes to the overall result — a great way to see how coefficients, variables, and constants interact before we move on to equations. This MicroSim comes from our companion Algebra 1 course.
+
+<iframe src="https://dmccreary.github.io/algebra-1/sims/expression-explorer/main.html" height="400px" scrolling="no"></iframe>
 
 ## Number Systems
 
@@ -116,7 +122,7 @@ An **irrational number** cannot be expressed as a fraction of two integers. Its 
 
 ### The Real Number Line
 
-Together, the rational and irrational numbers form the **real numbers**, denoted $\mathbb{R}$. Every real number has a unique position on the **real number line** — a continuous line stretching from $-\infty$ to $+\infty$ with zero at the centre.
+Together, the rational and irrational numbers form the **real numbers**, denoted $\mathbb{R}$. Every real number has a unique position on the **real number line** — a continuous line stretching from $-\infty$ to $+\infty$ with zero at the center.
 
 The number system hierarchy looks like this:
 
@@ -134,7 +140,7 @@ Type: diagram
 **Library:** p5.js<br/>
 **Status:** Specified
 
-Purpose: Visualise the nested relationship between integers, rational numbers, irrational numbers, and real numbers as concentric regions on a number line.
+Purpose: Visualize the nested relationship between integers, rational numbers, irrational numbers, and real numbers as concentric regions on a number line.
 
 Learning Objective: Students will classify numbers into the correct number system (Remember L1 — identify, classify).
 
@@ -237,7 +243,7 @@ $$\begin{aligned}
 
 !!! mascot-tip "Rick's Tip"
     <img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Rick shares a tip">
-    When collecting like terms, I like to underline or circle each group of like terms in a different colour before combining. It's like sorting laundry — socks with socks, shirts with shirts. Except way more fun. Okay, maybe not *way* more fun, but definitely more useful.
+    When collecting like terms, I like to underline or circle each group of like terms in a different color before combining. It's like sorting laundry — socks with socks, shirts with shirts. Except way more fun. Okay, maybe not *way* more fun, but definitely more useful.
 
 ## Factoring Techniques
 
@@ -262,7 +268,7 @@ Always look for a common factor first — it makes every other technique easier.
 
 ### Difference of Squares
 
-The **difference of squares** pattern recognises that:
+The **difference of squares** pattern recognizes that:
 
 $$a^2 - b^2 = (a + b)(a - b)$$
 
@@ -270,7 +276,7 @@ This works because the middle terms cancel when you expand: $(a + b)(a - b) = a^
 
 **Worked Example 4:** Factor $x^2 - 25$.
 
-Recognise that $x^2 = (x)^2$ and $25 = (5)^2$:
+Recognize that $x^2 = (x)^2$ and $25 = (5)^2$:
 
 $$x^2 - 25 = (x + 5)(x - 5)$$
 
@@ -321,7 +327,7 @@ A helpful mnemonic: **SOAP** — Same sign, Opposite sign, Always Positive.
 
 **Worked Example 7:** Factor $x^3 - 8$.
 
-Recognise $8 = 2^3$, so this is a difference of cubes:
+Recognize $8 = 2^3$, so this is a difference of cubes:
 
 $$x^3 - 8 = (x - 2)(x^2 + 2x + 4)$$
 
@@ -344,7 +350,7 @@ Purpose: Guide students through choosing the correct factoring technique for any
 
 Learning Objective: Students will select and apply the appropriate factoring strategy for a given polynomial (Apply L3 — execute, implement).
 
-Instructional Rationale: A decision tree helps students internalise the factoring selection process by making implicit expert reasoning explicit and visual.
+Instructional Rationale: A decision tree helps students internalize the factoring selection process by making implicit expert reasoning explicit and visual.
 
 Flowchart steps:
 
@@ -451,7 +457,7 @@ Interactive controls:
 Data Visibility Requirements:
 
 - Stage 1: Show the raw expression as tiles are placed (e.g., $3x + 2 + 5x - 1$)
-- Stage 2: Show grouping by like terms with colour highlighting ($3x + 5x$ in blue, $2 + (-1)$ in green)
+- Stage 2: Show grouping by like terms with color highlighting ($3x + 5x$ in blue, $2 + (-1)$ in green)
 - Stage 3: Show simplified result ($8x + 1$)
 
 Default: Workspace starts empty. Challenge mode off.
