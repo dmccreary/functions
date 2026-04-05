@@ -1280,6 +1280,115 @@
   
   
   
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../faq/" class="md-nav__link">
         
@@ -1442,6 +1551,21 @@
       Expressions
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Expressions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-expression-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Expression Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1775,7 +1899,7 @@ Welcome to the very first chapter! Before we dive into the world of functions, w
 <p>A <strong>constant</strong> is a fixed value that does not change. The number <span class="arithmatex">\(5\)</span>, the fraction <span class="arithmatex">\(\frac{3}{4}\)</span>, and the famous <span class="arithmatex">\(\pi \approx 3.14159\)</span> are all constants. Constants are the anchors in any mathematical phrase — no matter what the variables do, constants stay put.</p>
 <p>A <strong>coefficient</strong> is a number that multiplies a variable. In the term <span class="arithmatex">\(7x\)</span>, the coefficient is <span class="arithmatex">\(7\)</span>. In <span class="arithmatex">\(-3y^2\)</span>, the coefficient is <span class="arithmatex">\(-3\)</span>. If you see a variable standing alone, like <span class="arithmatex">\(x\)</span>, its coefficient is <span class="arithmatex">\(1\)</span> (because <span class="arithmatex">\(x = 1 \cdot x\)</span>). Coefficients tell you <em>how much</em> of a variable you have.</p>
 <p>A <strong>parameter</strong> is a special kind of constant that stays fixed within a particular problem but can take different values in different contexts. For example, in <span class="arithmatex">\(y = mx + c\)</span>, the letters <span class="arithmatex">\(m\)</span> and <span class="arithmatex">\(c\)</span> are parameters — they are constant for any single line, but they change when you describe a different line. Think of parameters as "adjustable constants."</p>
-<p>The following table summarises these four building blocks:</p>
+<p>The following table summarizes these four building blocks:</p>
 <table>
 <thead>
 <tr>
@@ -1821,6 +1945,10 @@ Welcome to the very first chapter! Before we dive into the world of functions, w
 <p><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Rick is thinking">
 Here's a way to remember this: an <strong>expression</strong> is like a phrase (no verb). "Three more than twice a number" is an expression. But add an equals sign and you get a full sentence — "Three more than twice a number <em>equals</em> fifteen." That's called an <strong>equation</strong>, and we'll define it properly in the next section.</p>
 </div>
+<h4 id="diagram-expression-explorer">Diagram: Expression Explorer</h4>
+<p>The <strong>Expression Explorer</strong> below lets you experiment with algebraic expressions in real time. Adjust the variable values and watch how each term contributes to the overall result — a great way to see how coefficients, variables, and constants interact before we move on to equations. This MicroSim comes from our companion Algebra 1 course.</p>
+<iframe src="https://dmccreary.github.io/algebra-1/sims/expression-explorer/main.html" height="400px" scrolling="no"></iframe>
+
 <h2 id="number-systems">Number Systems</h2>
 <p>Not all numbers are created equal — they form a family tree, with each branch building on the one before it. Understanding these <strong>number systems</strong> helps you know what kinds of answers to expect when working through problems.</p>
 <h3 id="integers">Integers</h3>
@@ -1842,7 +1970,7 @@ Here's a way to remember this: an <strong>expression</strong> is like a phrase (
 <li><span class="arithmatex">\(e \approx 2.71828182...\)</span></li>
 </ul>
 <h3 id="the-real-number-line">The Real Number Line</h3>
-<p>Together, the rational and irrational numbers form the <strong>real numbers</strong>, denoted <span class="arithmatex">\(\mathbb{R}\)</span>. Every real number has a unique position on the <strong>real number line</strong> — a continuous line stretching from <span class="arithmatex">\(-\infty\)</span> to <span class="arithmatex">\(+\infty\)</span> with zero at the centre.</p>
+<p>Together, the rational and irrational numbers form the <strong>real numbers</strong>, denoted <span class="arithmatex">\(\mathbb{R}\)</span>. Every real number has a unique position on the <strong>real number line</strong> — a continuous line stretching from <span class="arithmatex">\(-\infty\)</span> to <span class="arithmatex">\(+\infty\)</span> with zero at the center.</p>
 <p>The number system hierarchy looks like this:</p>
 <div class="arithmatex">\[\mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}\]</div>
 <p>This means every integer is rational, and every rational number is real, but not every real number is rational.</p>
@@ -1855,7 +1983,7 @@ Here's a way to remember this: an <strong>expression</strong> is like a phrase (
 <strong>sim-id:</strong> number-system-hierarchy<br/>
 <strong>Library:</strong> p5.js<br/>
 <strong>Status:</strong> Specified</p>
-<p>Purpose: Visualise the nested relationship between integers, rational numbers, irrational numbers, and real numbers as concentric regions on a number line.</p>
+<p>Purpose: Visualize the nested relationship between integers, rational numbers, irrational numbers, and real numbers as concentric regions on a number line.</p>
 <p>Learning Objective: Students will classify numbers into the correct number system (Remember L1 — identify, classify).</p>
 <p>Visual elements:</p>
 <ul>
@@ -1954,7 +2082,7 @@ Here's a way to remember this: an <strong>expression</strong> is like a phrase (
 <div class="admonition mascot-tip">
 <p class="admonition-title">Rick's Tip</p>
 <p><img src="../../img/mascot/tip.png" class="mascot-admonition-img" alt="Rick shares a tip">
-When collecting like terms, I like to underline or circle each group of like terms in a different colour before combining. It's like sorting laundry — socks with socks, shirts with shirts. Except way more fun. Okay, maybe not <em>way</em> more fun, but definitely more useful.</p>
+When collecting like terms, I like to underline or circle each group of like terms in a different color before combining. It's like sorting laundry — socks with socks, shirts with shirts. Except way more fun. Okay, maybe not <em>way</em> more fun, but definitely more useful.</p>
 </div>
 <h2 id="factoring-techniques">Factoring Techniques</h2>
 <p>Factoring is the reverse of expanding — you take an expression and rewrite it as a product of simpler factors. Factoring is one of the most important skills in algebra because it lets you solve equations, simplify expressions, and reveal hidden structure.</p>
@@ -1970,11 +2098,11 @@ When collecting like terms, I like to underline or circle each group of like ter
 <p>The common factor is <span class="arithmatex">\(4a\)</span>: <span class="arithmatex">\(12a^3 - 8a^2 + 4a = 4a(3a^2 - 2a + 1)\)</span></p>
 </details>
 <h3 id="difference-of-squares">Difference of Squares</h3>
-<p>The <strong>difference of squares</strong> pattern recognises that:</p>
+<p>The <strong>difference of squares</strong> pattern recognizes that:</p>
 <div class="arithmatex">\[a^2 - b^2 = (a + b)(a - b)\]</div>
 <p>This works because the middle terms cancel when you expand: <span class="arithmatex">\((a + b)(a - b) = a^2 - ab + ab - b^2 = a^2 - b^2\)</span>.</p>
 <p><strong>Worked Example 4:</strong> Factor <span class="arithmatex">\(x^2 - 25\)</span>.</p>
-<p>Recognise that <span class="arithmatex">\(x^2 = (x)^2\)</span> and <span class="arithmatex">\(25 = (5)^2\)</span>:</p>
+<p>Recognize that <span class="arithmatex">\(x^2 = (x)^2\)</span> and <span class="arithmatex">\(25 = (5)^2\)</span>:</p>
 <div class="arithmatex">\[x^2 - 25 = (x + 5)(x - 5)\]</div>
 <p><strong>Worked Example 5:</strong> Factor <span class="arithmatex">\(4y^2 - 9\)</span>.</p>
 <p>Here <span class="arithmatex">\(4y^2 = (2y)^2\)</span> and <span class="arithmatex">\(9 = (3)^2\)</span>:</p>
@@ -2008,7 +2136,7 @@ The <em>sum</em> of two squares <span class="arithmatex">\(a^2 + b^2\)</span> do
 <li>The last term (<span class="arithmatex">\(b^2\)</span>) is <strong>Always Positive</strong></li>
 </ul>
 <p><strong>Worked Example 7:</strong> Factor <span class="arithmatex">\(x^3 - 8\)</span>.</p>
-<p>Recognise <span class="arithmatex">\(8 = 2^3\)</span>, so this is a difference of cubes:</p>
+<p>Recognize <span class="arithmatex">\(8 = 2^3\)</span>, so this is a difference of cubes:</p>
 <div class="arithmatex">\[x^3 - 8 = (x - 2)(x^2 + 2x + 4)\]</div>
 <p><strong>Try it yourself:</strong> Factor <span class="arithmatex">\(27y^3 + 1\)</span>.</p>
 <details class="note">
@@ -2026,7 +2154,7 @@ The <em>sum</em> of two squares <span class="arithmatex">\(a^2 + b^2\)</span> do
 <strong>Status:</strong> Specified</p>
 <p>Purpose: Guide students through choosing the correct factoring technique for any given expression.</p>
 <p>Learning Objective: Students will select and apply the appropriate factoring strategy for a given polynomial (Apply L3 — execute, implement).</p>
-<p>Instructional Rationale: A decision tree helps students internalise the factoring selection process by making implicit expert reasoning explicit and visual.</p>
+<p>Instructional Rationale: A decision tree helps students internalize the factoring selection process by making implicit expert reasoning explicit and visual.</p>
 <p>Flowchart steps:</p>
 <ol>
 <li>Start: "Given expression to factor"</li>
@@ -2107,7 +2235,7 @@ x &amp;= 3
 <p>Data Visibility Requirements:</p>
 <ul>
 <li>Stage 1: Show the raw expression as tiles are placed (e.g., <span class="arithmatex">\(3x + 2 + 5x - 1\)</span>)</li>
-<li>Stage 2: Show grouping by like terms with colour highlighting (<span class="arithmatex">\(3x + 5x\)</span> in blue, <span class="arithmatex">\(2 + (-1)\)</span> in green)</li>
+<li>Stage 2: Show grouping by like terms with color highlighting (<span class="arithmatex">\(3x + 5x\)</span> in blue, <span class="arithmatex">\(2 + (-1)\)</span> in green)</li>
 <li>Stage 3: Show simplified result (<span class="arithmatex">\(8x + 1\)</span>)</li>
 </ul>
 <p>Default: Workspace starts empty. Challenge mode off.</p>

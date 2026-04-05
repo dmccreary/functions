@@ -1280,6 +1280,115 @@
   
   
   
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../faq/" class="md-nav__link">
         
@@ -1564,7 +1673,7 @@ Welcome to the grand finale! This is where all the mathematics we've learned com
 </ul>
 <hr />
 <h2 id="the-mathematical-modeling-cycle">The Mathematical Modeling Cycle</h2>
-<p><strong>Mathematical modeling</strong> is the process of using mathematics to represent, analyse, and solve real-world problems. It's not a one-step process — it's a cycle that you repeat and refine.</p>
+<p><strong>Mathematical modeling</strong> is the process of using mathematics to represent, analyze, and solve real-world problems. It's not a one-step process — it's a cycle that you repeat and refine.</p>
 <p>The <strong>mathematical modeling cycle</strong> has four stages:</p>
 <ol>
 <li>
@@ -1613,7 +1722,7 @@ Welcome to the grand finale! This is where all the mathematics we've learned com
 <div class="admonition mascot-thinking">
 <p class="admonition-title">Rick's Key Insight</p>
 <p><img src="../../img/mascot/thinking.png" class="mascot-admonition-img" alt="Rick is thinking">
-Models are like maps — they're not the territory, they're a simplification of it. A map that was as detailed as the real world would be useless! The art of modelling is choosing the right level of simplification: detailed enough to be useful, simple enough to be manageable. And just like maps, you should always check whether your model matches reality before trusting it.</p>
+Models are like maps — they're not the territory, they're a simplification of it. A map that was as detailed as the real world would be useless! The art of modeling is choosing the right level of simplification: detailed enough to be useful, simple enough to be manageable. And just like maps, you should always check whether your model matches reality before trusting it.</p>
 </div>
 <h2 id="regression-models">Regression Models</h2>
 <p>A <strong>regression model</strong> uses statistical techniques to find the function that best fits a set of data points. Your GDC can perform regression automatically for several function types.</p>
@@ -1654,7 +1763,7 @@ Models are like maps — they're not the territory, they're a simplification of 
 </tr>
 </tbody>
 </table>
-<p>Each regression calculates the "line (or curve) of best fit" — the function that minimises the overall distance between the data points and the curve.</p>
+<p>Each regression calculates the "line (or curve) of best fit" — the function that minimizes the overall distance between the data points and the curve.</p>
 <p><strong>Worked Example 2:</strong> The table shows the population of a bacterial colony over time:</p>
 <table>
 <thead>
@@ -1692,7 +1801,7 @@ Models are like maps — they're not the territory, they're a simplification of 
 <p><strong>Curve fitting</strong> is the broader practice of finding a mathematical function that passes through or near a set of data points. While regression is the most common method, curve fitting also includes:</p>
 <ul>
 <li><strong>Exact fit:</strong> Finding a function that passes through every data point (possible with polynomial interpolation — a degree-<span class="arithmatex">\(n\)</span> polynomial can pass through <span class="arithmatex">\(n + 1\)</span> points exactly)</li>
-<li><strong>Best fit:</strong> Finding the function that minimises the overall error (regression)</li>
+<li><strong>Best fit:</strong> Finding the function that minimizes the overall error (regression)</li>
 <li><strong>Model selection:</strong> Deciding which type of function (linear, quadratic, exponential, etc.) best describes the data pattern</li>
 </ul>
 <p>The key question in curve fitting is: <strong>which function family should I choose?</strong> Here are visual clues:</p>
@@ -1741,7 +1850,7 @@ Models are like maps — they're not the territory, they're a simplification of 
 <p>Visual elements:</p>
 <ul>
 <li>A coordinate grid with data points plotted as large dots</li>
-<li>Up to three regression curves displayed simultaneously in different colours (linear = blue, quadratic = green, exponential = red)</li>
+<li>Up to three regression curves displayed simultaneously in different colors (linear = blue, quadratic = green, exponential = red)</li>
 <li><span class="arithmatex">\(R^2\)</span> (coefficient of determination) displayed for each active model, indicating goodness of fit</li>
 <li>Residuals optionally shown as vertical lines from each data point to the curve</li>
 </ul>
@@ -1799,20 +1908,20 @@ Extrapolation is the most dangerous thing you can do with a model. Just because 
 <p><strong>Units and dimensions</strong> are often overlooked but critically important in mathematical modeling. Every variable in a real-world model should have a unit, and the units must be consistent throughout your work.</p>
 <p>Common practices:</p>
 <ul>
-<li>Always state units when defining variables (<span class="arithmatex">\(t\)</span> in seconds, <span class="arithmatex">\(d\)</span> in metres, <span class="arithmatex">\(C\)</span> in dollars)</li>
+<li>Always state units when defining variables (<span class="arithmatex">\(t\)</span> in seconds, <span class="arithmatex">\(d\)</span> in meters, <span class="arithmatex">\(C\)</span> in dollars)</li>
 <li>Check that both sides of an equation have the same units</li>
 <li>Convert units before substituting into formulas (e.g., convert minutes to hours if the rate is per hour)</li>
 </ul>
-<p><strong>Worked Example 4:</strong> A car travelling at <span class="arithmatex">\(v\)</span> km/h covers a distance <span class="arithmatex">\(d\)</span> km in <span class="arithmatex">\(t\)</span> hours:</p>
+<p><strong>Worked Example 4:</strong> A car traveling at <span class="arithmatex">\(v\)</span> km/h covers a distance <span class="arithmatex">\(d\)</span> km in <span class="arithmatex">\(t\)</span> hours:</p>
 <div class="arithmatex">\[d = vt\]</div>
 <p>Check units: (km/h) × (h) = km ✓</p>
 <p>If the speed is <span class="arithmatex">\(80\)</span> km/h and the time is <span class="arithmatex">\(2.5\)</span> hours:</p>
 <div class="arithmatex">\[d = 80 \times 2.5 = 200 \text{ km}\]</div>
 <p>If you accidentally use minutes instead of hours: <span class="arithmatex">\(d = 80 \times 150 = 12{,}000\)</span> — clearly wrong! Units matter.</p>
-<p><strong>Try it yourself:</strong> A tank fills at <span class="arithmatex">\(3\)</span> litres per minute. How many litres does it contain after <span class="arithmatex">\(2\)</span> hours? Be careful with units.</p>
+<p><strong>Try it yourself:</strong> A tank fills at <span class="arithmatex">\(3\)</span> liters per minute. How many liters does it contain after <span class="arithmatex">\(2\)</span> hours? Be careful with units.</p>
 <details class="note">
 <summary>Click to reveal answer</summary>
-<p>Convert: <span class="arithmatex">\(2\)</span> hours <span class="arithmatex">\(= 120\)</span> minutes. Volume <span class="arithmatex">\(= 3 \times 120 = 360\)</span> litres.</p>
+<p>Convert: <span class="arithmatex">\(2\)</span> hours <span class="arithmatex">\(= 120\)</span> minutes. Volume <span class="arithmatex">\(= 3 \times 120 = 360\)</span> liters.</p>
 </details>
 <h2 id="exact-vs-approximate-values">Exact vs Approximate Values</h2>
 <p>In mathematical modeling, it's important to understand the distinction between <strong>exact</strong> and <strong>approximate</strong> values.</p>
@@ -1914,7 +2023,7 @@ In IB exams, a common instruction is "Give your answer correct to 3 significant 
 <div class="admonition mascot-celebration">
 <p class="admonition-title">Nice Work!</p>
 <p><img src="../../img/mascot/celebration.png" class="mascot-admonition-img" alt="Rick celebrates">
-You've made it to the end of the book! From algebraic foundations all the way to real-world modelling, you've built an incredible toolkit of mathematical skills. Linear, quadratic, exponential, logarithmic, polynomial, rational — you know them all. You can transform them, compose them, invert them, and model the real world with them. That's not just a function worth knowing — that's a whole <em>course</em> worth knowing! Trust the process — and the math. You've earned this! 🎓</p>
+You've made it to the end of the book! From algebraic foundations all the way to real-world modeling, you've built an incredible toolkit of mathematical skills. Linear, quadratic, exponential, logarithmic, polynomial, rational — you know them all. You can transform them, compose them, invert them, and model the real world with them. That's not just a function worth knowing — that's a whole <em>course</em> worth knowing! Trust the process — and the math. You've earned this! 🎓</p>
 </div>
 
 

@@ -104,7 +104,7 @@ context, including transferring a graph from screen
 to paper.
 Using technology to graph functions including their
 sums and differences.
-All axes and key features should be labelled.
+All axes and key features should be labeled.
 This may include functions not specifically
 mentioned in topic 2.
 Connections
@@ -252,7 +252,7 @@ Link to: exponential growth (SL 2.9)
 Connections
 Other contexts: Radioactive decay and population growth and decay, compound interest, projectile
 motion, braking distances.
-Links to other subjects: Radioactive decay (physics); modelling (sciences group subjects); production
+Links to other subjects: Radioactive decay (physics); modeling (sciences group subjects); production
 possibilities curve model (economics).
 TOK: What assumptions do mathematicians make when they apply mathematics to real-life situations?
 Download connections template
@@ -305,7 +305,7 @@ an
 Link to: complex roots of quadratic and polynomial
 equations (AHL 1.14).
 Connections
-Links to other subjects: Modelling (sciences group subjects)
+Links to other subjects: Modeling (sciences group subjects)
 TOK: Is it an oversimplification to say that some areas of knowledge give us facts whereas other areas of
 knowledge give us interpretations?
 Enrichment: Viete’s theorem in full, “The equation that couldn’t be solved” quadratic formula reducing a

@@ -1,0 +1,1833 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How Joseph Fourier discovered that any complicated wave can be built from simple sines and cosines, inventing the math behind music, heat, and modern signal processing.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/functions/stories/joseph-fourier/">
+      
+      
+        <link rel="prev" href="../leonhard-euler/">
+      
+      
+        <link rel="next" href="../ada-lovelace/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Joseph Fourier - From Waves to Music - IB Mathematics Functions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Joseph Fourier - From Waves to Music - IB Mathematics Functions" >
+      
+        <meta  property="og:description"  content="How Joseph Fourier discovered that any complicated wave can be built from simple sines and cosines, inventing the math behind music, heat, and modern signal processing." >
+      
+        <meta property="og:image" content="https://dmccreary.github.io/functions/stories/joseph-fourier/cover.png">
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/functions/stories/joseph-fourier/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Joseph Fourier - From Waves to Music - IB Mathematics Functions" >
+      
+        <meta  name="twitter:description"  content="How Joseph Fourier discovered that any complicated wave can be built from simple sines and cosines, inventing the math behind music, heat, and modern signal processing." >
+      
+        <meta name="twitter:image" content="https://dmccreary.github.io/functions/stories/joseph-fourier/cover.png">
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#joseph-fourier-from-waves-to-music" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="IB Mathematics Functions" class="md-header__button md-logo" aria-label="IB Mathematics Functions" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IB Mathematics Functions
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Joseph Fourier - From Waves to Music
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/functions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IB Mathematics Functions" class="md-nav__button md-logo" aria-label="IB Mathematics Functions" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    IB Mathematics Functions
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/functions" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Stories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rene-descartes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    René Descartes - The Language of Change
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leibniz-vs-newton/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leibniz vs. Newton - The Notation Wars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../leonhard-euler/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Leonhard Euler - The Symbol That Stuck
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Joseph Fourier - From Waves to Music
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Joseph Fourier - From Waves to Music
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prologue-the-boy-who-loved-heat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prologue – The Boy Who Loved Heat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-the-orphan-in-auxerre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: The Orphan in Auxerre
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-revolution-in-the-classroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: Revolution in the Classroom
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-egypt-and-the-pyramids" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: Egypt and the Pyramids
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-the-prefect-who-could-not-stop-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: The Prefect Who Could Not Stop Thinking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-the-heated-ring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: The Heated Ring
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-the-bold-claim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: The Bold Claim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-building-a-wave-from-waves" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: Building a Wave From Waves
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-music-math-and-the-violin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: Music, Math, and the Violin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-the-theory-of-heat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: The Theory of Heat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-the-greenhouse-insight" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: The Greenhouse Insight
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-legacy-in-every-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: Legacy in Every Signal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-the-mathematician-of-warmth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: The Mathematician of Warmth
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Panel 12: The Mathematician of Warmth">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#epilogue-what-made-fourier-different" class="md-nav__link">
+    <span class="md-ellipsis">
+      Epilogue – What Made Fourier Different?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#call-to-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Call to Action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ada-lovelace/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ada Lovelace - The First Programmer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ronald-ross/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ronald Ross - The Pandemic Modeler
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emmy-noether/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Emmy Noether - The Equation of Hope
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../srinivasa-ramanujan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Srinivasa Ramanujan - The Infinity Dreamer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../alan-turing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Alan Turing - The Secret Codebreaker
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../claude-shannon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Claude Shannon - The Network Weaver
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../katherine-johnson/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Katherine Johnson - Mapping the Unknown
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../benoit-mandelbrot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Benoit Mandelbrot - The Shape of Nature
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frank-drake/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Frank Drake - Are We Alone?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../syukuro-manabe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Syukuro Manabe - The Climate Function
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../karen-uhlenbeck/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Karen Uhlenbeck - Functions for the Future
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maryam-mirzakhani/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Maryam Mirzakhani - The Invisible Architect
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teachers-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teachers Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prologue-the-boy-who-loved-heat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prologue – The Boy Who Loved Heat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-1-the-orphan-in-auxerre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 1: The Orphan in Auxerre
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-2-revolution-in-the-classroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 2: Revolution in the Classroom
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-3-egypt-and-the-pyramids" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 3: Egypt and the Pyramids
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-4-the-prefect-who-could-not-stop-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 4: The Prefect Who Could Not Stop Thinking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-5-the-heated-ring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 5: The Heated Ring
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-6-the-bold-claim" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 6: The Bold Claim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-7-building-a-wave-from-waves" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 7: Building a Wave From Waves
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-8-music-math-and-the-violin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 8: Music, Math, and the Violin
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-9-the-theory-of-heat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 9: The Theory of Heat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-10-the-greenhouse-insight" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 10: The Greenhouse Insight
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-11-legacy-in-every-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 11: Legacy in Every Signal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panel-12-the-mathematician-of-warmth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Panel 12: The Mathematician of Warmth
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Panel 12: The Mathematician of Warmth">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#epilogue-what-made-fourier-different" class="md-nav__link">
+    <span class="md-ellipsis">
+      Epilogue – What Made Fourier Different?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#call-to-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Call to Action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/functions/edit/master/docs/stories/joseph-fourier/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="joseph-fourier-from-waves-to-music">Joseph Fourier: From Waves to Music</h1>
+<p><img alt="Cover image" src="cover.png" /></p>
+<details>
+<summary>Cover Image Prompt</summary>
+Please generate a wide-landscape 16:9 cover image in Napoleonic Empire-era illustration style depicting Joseph Fourier at his desk in early 1800s Paris, surrounded by hand-drawn sine and cosine curves floating in the air, a heated iron ring on the table glowing faintly, and quill in hand. Include the title text "From Waves to Music" rendered in a period-appropriate serif typeface reminiscent of early 19th-century French engravings. Color palette: deep navy, burgundy, cream parchment, muted gold, and copper. Emotional tone: contemplative, intellectually triumphant, quietly revolutionary. Include: Empire-style furniture, candlelight, a window showing Parisian rooftops, overlapping waves morphing into a square wave, a handwritten equation on parchment, Fourier in a dark tailcoat. Generate the image immediately without asking clarifying questions.
+</details>
+
+<details>
+<summary>Narrative Prompt</summary>
+This graphic novel tells the story of Jean-Baptiste Joseph Fourier (1768-1830), French mathematician and physicist who lived through the French Revolution, served as a scientific advisor on Napoleon's Egyptian campaign, and later became prefect of Isere. His greatest contribution was the idea that any periodic function can be decomposed into a sum of sines and cosines - now called a Fourier series. The style should evoke Napoleonic Empire-era France with hints of Egyptian expedition imagery. Themes: revolution, curiosity, heat, sound, the hidden unity of waves. Keep the tone contemplative and triumphant, suitable for IB Diploma students meeting periodic functions for the first time.
+</details>
+
+<h3 id="prologue-the-boy-who-loved-heat">Prologue – The Boy Who Loved Heat</h3>
+<p>In a drafty stone house in Auxerre, France, a nine-year-old orphan named Joseph wraps himself in a blanket and stares at the fireplace. He wonders why the metal poker gets hot at the handle long after the flame stops touching the tip. That simple question about how heat travels will one day reshape every branch of mathematics and give the modern world everything from MP3 files to medical scans.</p>
+<h2 id="panel-1-the-orphan-in-auxerre">Panel 1: The Orphan in Auxerre</h2>
+<p><img alt="" src="panel-01.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 1 of 12. The scene should include a nine-year-old Joseph Fourier in worn 1770s French clothing, holding a metal poker by the fire in a modest stone home in Auxerre, France, 1777. Color palette: amber firelight, deep brown, charcoal gray, cream. The emotional tone should be quiet curiosity and vulnerability. Include: flickering hearth, stone walls, wooden beams, a kind-faced monk in the doorway, a worn book on a table, thermal glow on the boy's face, snow visible through a small window. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>Joseph Fourier loses both parents before age ten and is taken in by the Benedictine monks of Auxerre. The monks recognize his sharp mind and give him access to their library. By twelve he is already devouring every mathematics text he can find. Heat, light, and numbers become his lifelong companions.</p>
+<h2 id="panel-2-revolution-in-the-classroom">Panel 2: Revolution in the Classroom</h2>
+<p><img alt="" src="panel-02.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 2 of 12. The scene should include a young adult Joseph Fourier teaching mathematics to students at the Ecole Normale in revolutionary Paris, 1795. Color palette: tricolor red-white-blue accents, chalky slate, wood browns, candlelight yellow. The emotional tone should be energetic and hopeful amid political chaos. Include: a large blackboard with geometric proofs, students in post-Revolution clothing, a bust of a philosopher, tall windows showing Paris, a liberty cap on a peg, Fourier gesturing at an equation. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>As a young man, Fourier nearly loses his head - literally - during the Reign of Terror. He survives and becomes a star teacher at the brand-new Ecole Normale, then at the Ecole Polytechnique. His lectures are legendary for their clarity and warmth. Mathematics, he insists, should be understood, not merely memorized.</p>
+<h2 id="panel-3-egypt-and-the-pyramids">Panel 3: Egypt and the Pyramids</h2>
+<p><img alt="" src="panel-03.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 3 of 12. The scene should include Joseph Fourier in 1798 on Napoleon's Egyptian expedition, standing near the Great Pyramid of Giza with a group of French savants taking measurements. Color palette: desert ochre, sandstone, Nile blue, faded tricolor, sun-bleached whites. The emotional tone should be awe and scholarly adventure. Include: measuring instruments, a telescope, camels in the distance, notebooks, hieroglyphs on a stele, Fourier in a dark coat despite the heat, shimmering heat waves rising from the sand. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>In 1798, Napoleon invites Fourier to join his expedition to Egypt as a scientific advisor. For three years Fourier studies ancient monuments, helps found the Institut d'Egypte, and becomes obsessed with the desert heat. He notices how warmth flows through stone, sand, and air in strangely predictable ways. A question begins forming in his mind: can heat itself be described by an equation?</p>
+<h2 id="panel-4-the-prefect-who-could-not-stop-thinking">Panel 4: The Prefect Who Could Not Stop Thinking</h2>
+<p><img alt="" src="panel-04.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 4 of 12. The scene should include Joseph Fourier as Prefect of Isere, working late at an elegant desk in Grenoble, France, around 1807. Color palette: burgundy, deep green, polished mahogany, candle gold, ink black. The emotional tone should be focused obsession balanced with civic duty. Include: official documents stamped with wax seals, an oil lamp, a map of the Isere region, a heated metal ring on the desk, scattered equations on parchment, a portrait of Napoleon on the wall, heavy velvet curtains. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>Back in France, Napoleon appoints Fourier prefect of the Isere department. He drains swamps, builds roads, and governs fairly by day. But every night he returns to his true obsession: writing equations that describe how heat spreads through solid objects. He works on the problem for nearly a decade.</p>
+<h2 id="panel-5-the-heated-ring">Panel 5: The Heated Ring</h2>
+<p><img alt="" src="panel-05.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 5 of 12. The scene should include a close-up of a circular iron ring on a laboratory table, one side glowing red-hot, the other cool, with temperature gradients visualized as colored bands. Color palette: fiery orange, cool slate blue, parchment cream, iron gray. The emotional tone should be scientific wonder and discovery. Include: a mercury thermometer, Fourier's hand tracing a curve on paper, a small sand hourglass, graph sketches, candles casting shadows, a sinusoidal curve emerging from the ring's temperature pattern. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>Fourier imagines a simple thought experiment. Heat one side of an iron ring and let it cool. How does the temperature vary around the ring at each moment? He realizes the answer looks like a wave - and that wave can be described as a sum of simple sines and cosines. This is the seed of one of the most powerful ideas in mathematics.</p>
+<h2 id="panel-6-the-bold-claim">Panel 6: The Bold Claim</h2>
+<p><img alt="" src="panel-06.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 6 of 12. The scene should include Fourier presenting his 1807 memoir to the French Academy of Sciences in Paris, with Lagrange, Laplace, and other skeptical mathematicians listening. Color palette: rich maroon, academic gold, deep shadows, parchment white. The emotional tone should be tense intellectual confrontation. Include: an ornate hall with columns, a large chalkboard showing a square wave being decomposed into sine curves, Lagrange frowning, Laplace leaning forward with interest, Fourier standing confident in a dark tailcoat, bound journals on a table. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>In 1807, Fourier submits his memoir to the Academy of Sciences. His claim sounds outrageous. Even discontinuous shapes - like a square wave - can be built by adding together enough smooth sine and cosine curves. The great Lagrange refuses to believe it and blocks publication for years.</p>
+<h2 id="panel-7-building-a-wave-from-waves">Panel 7: Building a Wave From Waves</h2>
+<p><img alt="" src="panel-07.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 7 of 12. The scene should include a diagrammatic illustration showing how a square wave is built from successive sine harmonics, styled as an illuminated manuscript page with Fourier's handwritten notes around it. Color palette: ink navy, cream parchment, rust red, antique gold. The emotional tone should be mathematical elegance and revelation. Include: a fundamental sine curve, a third harmonic, a fifth harmonic, the growing approximation of a square wave, French marginal notes, a quill and inkwell, small sketches of a violin string and a drumhead. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>The core idea is beautiful in its simplicity. Every periodic function <span class="arithmatex">\(f(x)\)</span> can be written as an infinite sum of sines and cosines with different frequencies and amplitudes. Add a few terms and you get a rough shape. Add more, and the rough shape sharpens until it matches any curve you want, no matter how jagged.</p>
+<h2 id="panel-8-music-math-and-the-violin">Panel 8: Music, Math, and the Violin</h2>
+<p><img alt="" src="./panel-08.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 8 of 12. The scene should include a violinist in an elegant Parisian salon playing a single note, with the sound visualized as a complex wave breaking apart into pure sine harmonics floating through the room. Color palette: warm candlelight, deep rose, chocolate brown, ivory, glints of brass. The emotional tone should be lyrical and magical. Include: a violin with visible string vibration, wave curves drifting through the air, an attentive audience in Empire fashion, a grand piano, floral wallpaper, a chandelier, Fourier watching from a corner and smiling. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>Fourier's idea explains why a violin and a flute playing the same note sound different. Each instrument adds its own mix of harmonics on top of the fundamental frequency. The ear, it turns out, is a tiny natural Fourier analyzer - separating sounds into their pure sine components every second of every day.</p>
+<h2 id="panel-9-the-theory-of-heat">Panel 9: The Theory of Heat</h2>
+<p><img alt="" src="./panel-09.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 9 of 12. The scene should include Fourier holding his newly published 1822 book "Theorie analytique de la chaleur" in his Paris study. Color palette: leather brown, gilt gold, parchment, deep teal. The emotional tone should be quiet vindication and pride. Include: bookshelves filled with leather volumes, the book's ornate title page, an inkwell, a globe, afternoon light through tall windows, a small iron ring as a keepsake on the desk, Fourier in elder statesman attire. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>In 1822 Fourier finally publishes his masterpiece, Theorie analytique de la chaleur - The Analytical Theory of Heat. It contains the heat equation, the Fourier series, and the seeds of the Fourier transform. The book becomes a foundation stone for physics, engineering, and pure mathematics alike.</p>
+<h2 id="panel-10-the-greenhouse-insight">Panel 10: The Greenhouse Insight</h2>
+<p><img alt="" src="./panel-10.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 10 of 12. The scene should include Fourier gazing out a Paris window at Earth and the Sun, with diagrammatic arrows showing sunlight reaching Earth and heat being trapped by the atmosphere, 1824. Color palette: sky blue, solar gold, atmospheric haze, earth green and brown. The emotional tone should be visionary and slightly prophetic. Include: a small globe, a thermometer, Fourier's thoughtful profile, rays of sunlight, wispy clouds representing atmosphere, a notebook sketch of the Earth energy balance, subtle hints of the future. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>In 1824, Fourier asks a question no one has asked before. Given how far Earth sits from the Sun, why is our planet so warm? He concludes the atmosphere must trap some of the Sun's heat like a glass box - the first scientific description of what we now call the greenhouse effect. His waves and his heat are connected to the climate itself.</p>
+<h2 id="panel-11-legacy-in-every-signal">Panel 11: Legacy in Every Signal</h2>
+<p><img alt="" src="./panel-11.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style blended with subtle modern elements depicting panel 11 of 12. The scene should include a split image: on the left, Fourier at his desk in 1820s Paris; on the right, translucent modern technologies glowing faintly - an MRI scanner, audio waveforms, a JPEG image, a radio tower - all emerging from his original wave diagrams. Color palette: classical burgundy and parchment fading into contemporary cyan and silver. The emotional tone should be timeless wonder. Include: Fourier's equations flowing like a river into the future, a stethoscope, a smartphone silhouette, musical notes transforming into spectra, a tasteful ghostly bridge of time. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>Every time you stream music, take a digital photo, get an MRI scan, or use Wi-Fi, you are riding on Fourier's idea. Modern signal processing is built entirely on decomposing complicated waves into simple ones. Fourier's 1807 insight is now baked into nearly every piece of technology you own.</p>
+<h2 id="panel-12-the-mathematician-of-warmth">Panel 12: The Mathematician of Warmth</h2>
+<p><img alt="" src="./panel-12.png" /></p>
+<details><summary>Image Prompt</summary>
+I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
+
+Please generate a 16:9 image in Napoleonic Empire-era illustration style depicting panel 12 of 12. The scene should include an elderly Joseph Fourier by a warm fire in Paris, 1830, wrapped in heavy blankets, smiling gently as sine and cosine curves dance in the flames. Color palette: firelight amber, deep crimson, aged parchment, soft shadows. The emotional tone should be peaceful reflection and gentle farewell. Include: a cat asleep on a chair, his book "Theorie analytique de la chaleur" on the side table, a window showing Paris rooftops at dusk, waves faintly visible in the smoke, a quill resting, a small bronze bust of Napoleon. Generate the image immediately without asking clarifying questions.
+</details>
+
+<p>Fourier spent his later years famously bundled in blankets, convinced heat was essential to health. He died in 1830, still searching for the perfect warm room. He left behind a mathematical language that connects heat, sound, light, and data - all through the humble sine and cosine.</p>
+<h3 id="epilogue-what-made-fourier-different">Epilogue – What Made Fourier Different?</h3>
+<p>Fourier refused to accept that messy, jagged, real-world functions were beyond the reach of smooth mathematics. Where others saw chaos, he saw a symphony of simple waves hiding inside. His courage to make an outrageous claim - and his patience to defend it for decades - turned a question about heat into the most reusable idea in applied math.</p>
+<table>
+<thead>
+<tr>
+<th>Challenge</th>
+<th>How Fourier Responded</th>
+<th>Lesson for Today</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Orphaned young in a turbulent France</td>
+<td>Immersed himself in study and mentorship</td>
+<td>Curiosity can be a refuge</td>
+</tr>
+<tr>
+<td>Nearly executed during the Terror</td>
+<td>Kept teaching and believing in reason</td>
+<td>Stay grounded when the world is chaotic</td>
+</tr>
+<tr>
+<td>Rejected by Lagrange and the Academy</td>
+<td>Kept refining the work for 15 years</td>
+<td>Great ideas deserve patience</td>
+</tr>
+<tr>
+<td>Describing heat seemed impossible</td>
+<td>Invented a new kind of function decomposition</td>
+<td>Build new tools when old ones fail</td>
+</tr>
+<tr>
+<td>Linking math to the climate was unheard of</td>
+<td>Proposed the greenhouse effect anyway</td>
+<td>Follow the math wherever it leads</td>
+</tr>
+</tbody>
+</table>
+<h3 id="call-to-action">Call to Action</h3>
+<p>Next time you hear a chord, see a pixel, or feel a warm breeze, remember Joseph Fourier. Every complicated wave in your life - sound, light, heat, even your heartbeat - can be broken into simple pieces. Look for the hidden sines and cosines in the world around you. They are everywhere, waiting to be noticed.</p>
+<hr />
+<p><em>"The profound study of nature is the most fertile source of mathematical discoveries."</em>
+—Joseph Fourier</p>
+<p><em>"Mathematics compares the most diverse phenomena and discovers the secret analogies that unite them."</em>
+—Joseph Fourier</p>
+<hr />
+<h2 id="references">References</h2>
+<ol>
+<li><a href="PLACEHOLDER">Joseph Fourier - MacTutor History of Mathematics</a> - Biographical overview from the University of St Andrews archive.</li>
+<li><a href="PLACEHOLDER">The Analytical Theory of Heat (1822)</a> - Fourier's original treatise translated into English.</li>
+<li><a href="PLACEHOLDER">Fourier: A Life in Mathematics</a> - Modern biography covering his scientific and political life.</li>
+<li><a href="PLACEHOLDER">The Remarkable Ideas of Joseph Fourier</a> - Overview of Fourier series and transforms for students.</li>
+<li><a href="PLACEHOLDER">Fourier and the Greenhouse Effect</a> - History of his 1824 climate paper and its modern relevance.</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../leonhard-euler/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Leonhard Euler - The Symbol That Stuck">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Leonhard Euler - The Symbol That Stuck
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../ada-lovelace/" class="md-footer__link md-footer__link--next" aria-label="Next: Ada Lovelace - The First Programmer">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Ada Lovelace - The First Programmer
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+    
+  </body>
+</html>

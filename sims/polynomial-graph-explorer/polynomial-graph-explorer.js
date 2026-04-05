@@ -205,7 +205,7 @@ function draw() {
     }
   }
 
-  // End behaviour arrows
+  // End behavior arrows
   let leftY = evalPoly(-gridRange) * yScale;
   let rightY = evalPoly(gridRange) * yScale;
   stroke('blue');
