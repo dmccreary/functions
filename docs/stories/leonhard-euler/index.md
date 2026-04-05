@@ -162,8 +162,8 @@ Open your notebook right now, write the letters $f(x)$, and notice how automatic
 
 ## References
 
-1. [MacTutor: Leonhard Euler](PLACEHOLDER) - University of St Andrews biography
-2. [Euler: The Master of Us All by William Dunham](PLACEHOLDER) - Mathematical Association of America, 1999
-3. [Introductio in analysin infinitorum (1748)](PLACEHOLDER) - Euler's textbook introducing f(x) notation
-4. [Letters to a German Princess](PLACEHOLDER) - Euler's popular science letters, English translation
-5. [The Euler Archive](PLACEHOLDER) - Digital archive of Euler's complete works at eulerarchive.maa.org
+1. [Wikipedia: Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler) - Biography of the Swiss mathematician (1707–1783)
+2. [Wikipedia: Function (mathematics)](https://en.wikipedia.org/wiki/Function_(mathematics)) - The mathematical concept Euler gave the notation f(x)
+3. [Wikipedia: Euler's identity](https://en.wikipedia.org/wiki/Euler%27s_identity) - The famous equation e^(iπ) + 1 = 0
+4. [MacTutor: Leonhard Euler](https://mathshistory.st-andrews.ac.uk/Biographies/Euler/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Leonhard Euler](https://www.britannica.com/biography/Leonhard-Euler) - Overview of Euler's life, discoveries, and legacy

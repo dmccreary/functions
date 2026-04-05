@@ -185,8 +185,8 @@ Next time you see a weather forecast, a climate graph, or a news story about ris
 
 ## References
 
-1. [Syukuro Manabe - Nobel Prize Biographical 2021](PLACEHOLDER) - Official biography from the Nobel Foundation.
-2. [Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity (1967)](PLACEHOLDER) - The landmark Manabe-Wetherald paper.
-3. [Beyond Global Warming: How Numerical Models Revealed the Secrets of Climate Change](PLACEHOLDER) - Manabe's own popular book on his career.
-4. [GFDL History of Climate Modeling](PLACEHOLDER) - Princeton GFDL overview of Manabe's contributions.
-5. [The Man Who Predicted Climate Change - Quanta Magazine](PLACEHOLDER) - Profile following his Nobel Prize.
+1. [Wikipedia: Syukuro Manabe](https://en.wikipedia.org/wiki/Syukuro_Manabe) - Biography of the Japanese-American climatologist (born 1931)
+2. [Wikipedia: Climate model](https://en.wikipedia.org/wiki/Climate_model) - The mathematical models of Earth's atmosphere Manabe helped pioneer
+3. [Wikipedia: General circulation model](https://en.wikipedia.org/wiki/General_circulation_model) - The specific class of climate model Manabe built at GFDL
+4. [Nobel Prize: Syukuro Manabe – Facts](https://www.nobelprize.org/prizes/physics/2021/manabe/facts/) - Official Nobel Foundation page (Physics, 2021)
+5. [Encyclopaedia Britannica: Syukuro Manabe](https://www.britannica.com/biography/Syukuro-Manabe) - Overview of Manabe's climate modeling career

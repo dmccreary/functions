@@ -184,8 +184,8 @@ Next time you notice something staying the same while everything else changes, a
 
 ## References
 
-1. [Emmy Noether: The Mother of Modern Algebra](PLACEHOLDER) - Biography by M. B. W. Tent
-2. [Invariant Variational Problems (1918)](PLACEHOLDER) - Noether's original paper on her theorem
-3. [The Mathematical Intelligencer: Emmy Noether Articles](PLACEHOLDER) - Historical retrospectives
-4. [Bryn Mawr College Archives](PLACEHOLDER) - Records from her American professorship
-5. [The Noether Theorems by Yvette Kosmann-Schwarzbach](PLACEHOLDER) - Modern analysis of her mathematical legacy
+1. [Wikipedia: Emmy Noether](https://en.wikipedia.org/wiki/Emmy_Noether) - Biography of the German mathematician (1882–1935)
+2. [Wikipedia: Noether's theorem](https://en.wikipedia.org/wiki/Noether%27s_theorem) - Her landmark result connecting symmetries and conservation laws
+3. [Wikipedia: Abstract algebra](https://en.wikipedia.org/wiki/Abstract_algebra) - The field Noether helped establish in its modern form
+4. [MacTutor: Emmy Amalie Noether](https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Emmy Noether](https://www.britannica.com/biography/Emmy-Noether) - Overview of Noether's life and contributions to algebra and physics

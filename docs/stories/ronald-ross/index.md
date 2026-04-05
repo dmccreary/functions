@@ -185,8 +185,8 @@ The next time you hear about $R_0$ or a flattening curve, remember Ronald Ross h
 
 ## References
 
-1. [Ronald Ross - Nobel Prize Biographical](PLACEHOLDER) - Official biography from the Nobel Foundation.
-2. [The Prevention of Malaria (1910)](PLACEHOLDER) - Ross's own book outlining his mathematical models.
-3. [Mathematical Epidemiology: Ross to Kermack-McKendrick](PLACEHOLDER) - Historical overview of the SIR framework.
-4. [Ronald Ross: Malariologist and Polymath](PLACEHOLDER) - Modern biography of his life and work.
-5. [R-zero and the Threshold Theorem](PLACEHOLDER) - Accessible explanation of Ross's reproduction number concept.
+1. [Wikipedia: Ronald Ross](https://en.wikipedia.org/wiki/Ronald_Ross) - Biography of the British doctor who used math to model malaria
+2. [Wikipedia: Mathematical modelling of infectious disease](https://en.wikipedia.org/wiki/Mathematical_modelling_of_infectious_disease) - The field Ross helped found
+3. [Wikipedia: History of malaria](https://en.wikipedia.org/wiki/History_of_malaria) - Historical context for Ross's discovery of the malaria transmission cycle
+4. [Nobel Prize: Ronald Ross – Biographical](https://www.nobelprize.org/prizes/medicine/1902/ross/biographical/) - Official Nobel Foundation biography (Physiology or Medicine, 1902)
+5. [Encyclopaedia Britannica: Sir Ronald Ross](https://www.britannica.com/biography/Ronald-Ross) - Overview of Ross's career and malaria research

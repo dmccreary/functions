@@ -185,8 +185,8 @@ The next time you text a friend, stream a song, or run a Boolean expression in c
 
 ## References
 
-1. [Claude Shannon - MacTutor History of Mathematics](PLACEHOLDER) - Biography and scientific contributions
-2. [A Mind at Play by Jimmy Soni and Rob Goodman](PLACEHOLDER) - Definitive biography of Shannon
-3. [A Mathematical Theory of Communication (1948)](PLACEHOLDER) - Shannon's landmark paper
-4. [The Bell Labs Technical Journal Archives](PLACEHOLDER) - Original publications
-5. [Information Theory Society - Claude Shannon Centennial](PLACEHOLDER) - Legacy and modern applications
+1. [Wikipedia: Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon) - Biography of the American engineer and father of information theory
+2. [Wikipedia: Information theory](https://en.wikipedia.org/wiki/Information_theory) - The field Shannon founded with his 1948 paper
+3. [Wikipedia: A Mathematical Theory of Communication](https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication) - Shannon's foundational 1948 paper
+4. [MacTutor: Claude Elwood Shannon](https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Claude Shannon](https://www.britannica.com/biography/Claude-Shannon) - Overview of Shannon's work at Bell Labs and MIT

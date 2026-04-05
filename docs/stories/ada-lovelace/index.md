@@ -162,8 +162,8 @@ The next time you run a piece of code or type an expression into a graphing calc
 
 ## References
 
-1. [Ada, the Enchantress of Numbers by Betty Alexandra Toole](PLACEHOLDER) - Collected letters of Ada Lovelace with commentary
-2. [MacTutor: Augusta Ada King, Countess of Lovelace](PLACEHOLDER) - University of St Andrews biography
-3. [Sketch of the Analytical Engine, with Notes by the Translator (1843)](PLACEHOLDER) - Ada's original translation and notes, including Note G
-4. [The Thrilling Adventures of Lovelace and Babbage by Sydney Padua](PLACEHOLDER) - Graphic novel combining history and imagined alternate history
-5. [Computer History Museum: Ada Lovelace](PLACEHOLDER) - Online exhibit on Ada's contribution to computing
+1. [Wikipedia: Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) - Biography of the English mathematician often called the first programmer
+2. [Wikipedia: Analytical Engine](https://en.wikipedia.org/wiki/Analytical_Engine) - Babbage's proposed mechanical general-purpose computer
+3. [Wikipedia: Note G](https://en.wikipedia.org/wiki/Note_G) - Lovelace's note describing the first published algorithm
+4. [MacTutor: Augusta Ada King, Countess of Lovelace](https://mathshistory.st-andrews.ac.uk/Biographies/Lovelace/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Ada Lovelace](https://www.britannica.com/biography/Ada-Lovelace) - Overview of Lovelace's life and contributions to computing

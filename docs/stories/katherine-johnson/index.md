@@ -184,8 +184,8 @@ When you graph a function in class, imagine an astronaut riding that curve. Kath
 
 ## References
 
-1. [Hidden Figures by Margot Lee Shetterly](PLACEHOLDER) - Book that brought Katherine's story to a wide audience
-2. [NASA Katherine Johnson Biography](PLACEHOLDER) - Official NASA biographical archive
-3. [Presidential Medal of Freedom Citation](PLACEHOLDER) - White House archives 2015
-4. [West Virginia State University Collection](PLACEHOLDER) - Papers from her alma mater
-5. [Notes on Space Technology (1958)](PLACEHOLDER) - Early NASA technical reports she contributed to
+1. [Wikipedia: Katherine Johnson](https://en.wikipedia.org/wiki/Katherine_Johnson) - Biography of the NASA mathematician (1918–2020)
+2. [Wikipedia: Project Mercury](https://en.wikipedia.org/wiki/Project_Mercury) - The first U.S. human spaceflight program, whose orbits Johnson calculated
+3. [Wikipedia: Hidden Figures](https://en.wikipedia.org/wiki/Hidden_Figures) - The book and film that brought Johnson's story to the public
+4. [NASA: Katherine Johnson Biography](https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/) - Official NASA Langley Research Center biography
+5. [Encyclopaedia Britannica: Katherine Johnson](https://www.britannica.com/biography/Katherine-Johnson-mathematician) - Overview of Johnson's NASA career and mathematical contributions

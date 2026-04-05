@@ -185,8 +185,8 @@ Pick a math problem you do not understand yet and sit with it for an hour. Draw 
 
 ## References
 
-1. [Maryam Mirzakhani - Stanford Memorial](PLACEHOLDER) - Stanford University's tribute and biography.
-2. [A Tenacious Explorer of Abstract Surfaces - Quanta Magazine](PLACEHOLDER) - Profile following her Fields Medal.
-3. [The 2014 Fields Medalists Lectures](PLACEHOLDER) - Official ICM citation for her work.
-4. [Secrets of the Surface: The Mathematical Vision of Maryam Mirzakhani](PLACEHOLDER) - Documentary film about her life.
-5. [International Day of Mathematics - May 12](PLACEHOLDER) - Global celebration in her honor.
+1. [Wikipedia: Maryam Mirzakhani](https://en.wikipedia.org/wiki/Maryam_Mirzakhani) - Biography of the Iranian mathematician (1977–2017)
+2. [Wikipedia: Fields Medal](https://en.wikipedia.org/wiki/Fields_Medal) - The top prize in mathematics, which Mirzakhani won in 2014
+3. [Wikipedia: Moduli space](https://en.wikipedia.org/wiki/Moduli_space) - The geometry of Riemann surfaces Mirzakhani studied
+4. [MacTutor: Maryam Mirzakhani](https://mathshistory.st-andrews.ac.uk/Biographies/Mirzakhani/) - University of St Andrews history of mathematics archive
+5. [Stanford News: Maryam Mirzakhani obituary](https://news.stanford.edu/2017/07/15/maryam-mirzakhani-stanford-mathematician-and-fields-medal-winner-dies/) - Stanford University obituary and career retrospective

@@ -162,8 +162,8 @@ The next time you plot a point on a graph, pause for a second and picture a sick
 
 ## References
 
-1. [Stanford Encyclopedia of Philosophy: René Descartes](PLACEHOLDER) - Comprehensive scholarly biography of Descartes
-2. [MacTutor: René Descartes](PLACEHOLDER) - University of St Andrews history of mathematics archive
-3. [La Géométrie (1637) - Full Text](PLACEHOLDER) - English translation of Descartes's original geometry appendix
-4. [Descartes: A Biography by Desmond Clarke](PLACEHOLDER) - Cambridge University Press, 2006
-5. [Encyclopaedia Britannica: Cartesian Coordinate System](PLACEHOLDER) - Overview of the coordinate system and its impact
+1. [Wikipedia: René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes) - Biography of the French philosopher and mathematician (1596–1650)
+2. [Wikipedia: Cartesian coordinate system](https://en.wikipedia.org/wiki/Cartesian_coordinate_system) - The coordinate plane named after Descartes
+3. [Wikipedia: La Géométrie](https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie) - Descartes's 1637 appendix that introduced analytic geometry
+4. [MacTutor: René Descartes](https://mathshistory.st-andrews.ac.uk/Biographies/Descartes/) - University of St Andrews history of mathematics archive
+5. [Stanford Encyclopedia of Philosophy: Descartes](https://plato.stanford.edu/entries/descartes/) - Scholarly overview of Descartes's philosophy and method

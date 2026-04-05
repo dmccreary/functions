@@ -185,8 +185,8 @@ The next time you see an infinite series or a strange new function in your IB cl
 
 ## References
 
-1. [Srinivasa Ramanujan - MacTutor History of Mathematics](PLACEHOLDER) - Biography and mathematical contributions
-2. [The Man Who Knew Infinity by Robert Kanigel](PLACEHOLDER) - Definitive biography of Ramanujan
-3. [Ramanujan's Notebooks edited by Bruce Berndt](PLACEHOLDER) - Analysis of the original notebooks
-4. [The Partition Function and Ramanujan-Hardy Formula](PLACEHOLDER) - Mathematical overview
-5. [Mock Theta Functions and Modern Applications](PLACEHOLDER) - Modern significance of Ramanujan's last work
+1. [Wikipedia: Srinivasa Ramanujan](https://en.wikipedia.org/wiki/Srinivasa_Ramanujan) - Biography of the self-taught Indian mathematical genius (1887–1920)
+2. [Wikipedia: Ramanujan's lost notebook](https://en.wikipedia.org/wiki/Ramanujan%27s_lost_notebook) - The notebooks containing Ramanujan's formulas that mathematicians still study
+3. [Wikipedia: 1729 (number)](https://en.wikipedia.org/wiki/1729_(number)) - The famous Hardy–Ramanujan 'taxicab' number
+4. [MacTutor: Srinivasa Aiyangar Ramanujan](https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Srinivasa Ramanujan](https://www.britannica.com/biography/Srinivasa-Ramanujan) - Overview of Ramanujan's life and number theory contributions

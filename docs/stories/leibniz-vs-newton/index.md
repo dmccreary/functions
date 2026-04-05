@@ -162,8 +162,8 @@ Every time you write $dy/dx$ or $\int f(x)\,dx$ in your IB math notebook, you ar
 
 ## References
 
-1. [Stanford Encyclopedia of Philosophy: Gottfried Wilhelm Leibniz](PLACEHOLDER) - Scholarly biography and philosophy
-2. [MacTutor: Leibniz and the Calculus Priority Dispute](PLACEHOLDER) - Detailed history of the Newton-Leibniz conflict
-3. [Never at Rest: A Biography of Isaac Newton by Richard Westfall](PLACEHOLDER) - Definitive Newton biography
-4. [The Calculus Wars by Jason Socrates Bardi](PLACEHOLDER) - Popular account of the Leibniz-Newton rivalry
-5. [Acta Eruditorum, October 1684 - Leibniz's first calculus paper](PLACEHOLDER) - Primary source introducing dy/dx
+1. [Wikipedia: Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) - Biography of the German polymath and co-inventor of calculus
+2. [Wikipedia: Leibniz–Newton calculus controversy](https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy) - The decades-long priority dispute between Leibniz and Newton
+3. [Wikipedia: History of calculus](https://en.wikipedia.org/wiki/History_of_calculus) - The development of calculus from antiquity to Leibniz and Newton
+4. [MacTutor: Gottfried Wilhelm von Leibniz](https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/) - University of St Andrews history of mathematics archive
+5. [Stanford Encyclopedia of Philosophy: Leibniz](https://plato.stanford.edu/entries/leibniz/) - Scholarly overview of Leibniz's philosophy and mathematics

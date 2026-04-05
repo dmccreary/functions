@@ -185,8 +185,8 @@ The next time you look up at the night sky, remember Frank Drake. Somewhere out 
 
 ## References
 
-1. [Frank Drake - SETI Institute Biography](PLACEHOLDER) - Life and research overview
-2. [Is Anyone Out There? by Frank Drake and Dava Sobel](PLACEHOLDER) - Drake's memoir of SETI
-3. [The Drake Equation - NASA Astrobiology](PLACEHOLDER) - Scientific overview of each factor
-4. [Project Ozma 1960 - NRAO Green Bank Archives](PLACEHOLDER) - Historical records of first SETI search
-5. [The Arecibo Message 1974](PLACEHOLDER) - Encoding and transmission details
+1. [Wikipedia: Frank Drake](https://en.wikipedia.org/wiki/Frank_Drake) - Biography of the American astronomer (1930–2022)
+2. [Wikipedia: Drake equation](https://en.wikipedia.org/wiki/Drake_equation) - The 1961 equation estimating the number of communicating civilizations
+3. [Wikipedia: Search for extraterrestrial intelligence](https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence) - The scientific field Drake helped found with Project Ozma
+4. [SETI Institute: Frank Drake](https://www.seti.org/frank-drake-trustee-emeritus) - SETI Institute biography and memorial
+5. [Encyclopaedia Britannica: Frank Drake](https://www.britannica.com/biography/Frank-Drake) - Overview of Drake's life and contributions to astrobiology

@@ -185,8 +185,8 @@ Next time you hear a chord, see a pixel, or feel a warm breeze, remember Joseph 
 
 ## References
 
-1. [Joseph Fourier - MacTutor History of Mathematics](PLACEHOLDER) - Biographical overview from the University of St Andrews archive.
-2. [The Analytical Theory of Heat (1822)](PLACEHOLDER) - Fourier's original treatise translated into English.
-3. [Fourier: A Life in Mathematics](PLACEHOLDER) - Modern biography covering his scientific and political life.
-4. [The Remarkable Ideas of Joseph Fourier](PLACEHOLDER) - Overview of Fourier series and transforms for students.
-5. [Fourier and the Greenhouse Effect](PLACEHOLDER) - History of his 1824 climate paper and its modern relevance.
+1. [Wikipedia: Joseph Fourier](https://en.wikipedia.org/wiki/Joseph_Fourier) - Biography of the French mathematician and physicist (1768–1830)
+2. [Wikipedia: Fourier series](https://en.wikipedia.org/wiki/Fourier_series) - The decomposition of periodic functions into sines and cosines
+3. [Wikipedia: Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform) - Fourier's idea extended to non-periodic functions
+4. [MacTutor: Jean Baptiste Joseph Fourier](https://mathshistory.st-andrews.ac.uk/Biographies/Fourier/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Joseph, Baron Fourier](https://www.britannica.com/biography/Joseph-Baron-Fourier) - Overview of Fourier's life and contributions to mathematics

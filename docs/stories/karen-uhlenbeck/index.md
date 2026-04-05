@@ -185,8 +185,8 @@ The next time you blow a soap bubble, remember Karen Uhlenbeck. Its perfect shap
 
 ## References
 
-1. [Karen Uhlenbeck - Abel Prize 2019 Citation](PLACEHOLDER) - Official prize documentation
-2. [Karen Uhlenbeck - MacTutor History of Mathematics](PLACEHOLDER) - Biography and contributions
-3. [Women and Mathematics Program - Institute for Advanced Study](PLACEHOLDER) - Program Uhlenbeck co-founded
-4. [Geometric Analysis and Gauge Theory Papers](PLACEHOLDER) - Research overview
-5. [Karen Uhlenbeck Interview - Quanta Magazine](PLACEHOLDER) - Personal and mathematical reflections
+1. [Wikipedia: Karen Uhlenbeck](https://en.wikipedia.org/wiki/Karen_Uhlenbeck) - Biography of the American mathematician and Abel Prize laureate
+2. [Wikipedia: Abel Prize](https://en.wikipedia.org/wiki/Abel_Prize) - The top prize in mathematics, which Uhlenbeck won in 2019
+3. [Wikipedia: Minimal surface](https://en.wikipedia.org/wiki/Minimal_surface) - The geometry of soap bubbles and membranes Uhlenbeck studied
+4. [MacTutor: Karen Keskulla Uhlenbeck](https://mathshistory.st-andrews.ac.uk/Biographies/Uhlenbeck/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Karen Uhlenbeck](https://www.britannica.com/biography/Karen-Uhlenbeck) - Overview of Uhlenbeck's geometric analysis contributions

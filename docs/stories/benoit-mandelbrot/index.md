@@ -184,8 +184,8 @@ Next time you see a tree branching, a coastline curving, or a cloud puffing, rem
 
 ## References
 
-1. [The Fractal Geometry of Nature (1982)](PLACEHOLDER) - Mandelbrot's landmark book
-2. [The Fractalist: Memoir of a Scientific Maverick](PLACEHOLDER) - His autobiography
-3. [How Long Is the Coast of Britain? (1967)](PLACEHOLDER) - The paper that launched fractal geometry
-4. [IBM Research: Benoit Mandelbrot](PLACEHOLDER) - IBM archives on his work
-5. [Yale University Mathematics Department](PLACEHOLDER) - His academic home in later years
+1. [Wikipedia: Benoit Mandelbrot](https://en.wikipedia.org/wiki/Benoit_Mandelbrot) - Biography of the Polish-French-American mathematician (1924–2010)
+2. [Wikipedia: Fractal](https://en.wikipedia.org/wiki/Fractal) - The geometric objects Mandelbrot named and studied
+3. [Wikipedia: Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) - The most famous fractal, named after Mandelbrot
+4. [MacTutor: Benoit Mandelbrot](https://mathshistory.st-andrews.ac.uk/Biographies/Mandelbrot/) - University of St Andrews history of mathematics archive
+5. [Encyclopaedia Britannica: Benoit Mandelbrot](https://www.britannica.com/biography/Benoit-Mandelbrot) - Overview of Mandelbrot's work on fractal geometry

@@ -184,8 +184,8 @@ Next time you use a computer, remember: you are holding a descendant of Turing's
 
 ## References
 
-1. [Alan Turing: The Enigma](PLACEHOLDER) - Andrew Hodges' definitive biography of Turing
-2. [Bletchley Park Official Site](PLACEHOLDER) - History of the codebreaking operation
-3. [The Turing Digital Archive](PLACEHOLDER) - King's College Cambridge collection of Turing's papers
-4. [On Computable Numbers (1936)](PLACEHOLDER) - Turing's original paper introducing the Turing machine
-5. [Imperial War Museum: Codebreakers](PLACEHOLDER) - Archive materials on WWII cryptography
+1. [Wikipedia: Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) - Biography of the English mathematician and computer-science pioneer
+2. [Wikipedia: Turing machine](https://en.wikipedia.org/wiki/Turing_machine) - The theoretical model of computation Turing introduced in 1936
+3. [Wikipedia: Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine) - The Nazi cipher device Turing helped defeat at Bletchley Park
+4. [MacTutor: Alan Mathison Turing](https://mathshistory.st-andrews.ac.uk/Biographies/Turing/) - University of St Andrews history of mathematics archive
+5. [Stanford Encyclopedia of Philosophy: Alan Turing](https://plato.stanford.edu/entries/turing/) - Scholarly overview of Turing's work and its significance
