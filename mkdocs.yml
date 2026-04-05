@@ -23,13 +23,8 @@ nav:
     - 11. Function Classifications: chapters/11-function-classifications/index.md
     - 12. Transformations: chapters/12-transformations/index.md
     - 13. Modeling and Applications: chapters/13-modeling-and-applications/index.md
-  - Learning Graph:
-    - Introduction: learning-graph/index.md
-    - Concept List: learning-graph/concept-list.md
-    - Concept Taxonomy: learning-graph/concept-taxonomy.md
-    - Quality Metrics: learning-graph/quality-metrics.md
-    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
-    - Mascot Render Test: learning-graph/mascot-render-test.md
+
+
   - MicroSims:
     - List of MicroSims: sims/index.md
     - Composite Function Machine: sims/composite-function-machine/index.md
@@ -60,6 +55,21 @@ nav:
     - Simultaneous Equations Visualiser: sims/simultaneous-equations-visualiser/index.md
     - Transformation Explorer: sims/transformation-explorer/index.md
     - Window Settings Simulator: sims/window-settings-simulator/index.md
+  
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Concept List: learning-graph/concept-list.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Quality Metrics: learning-graph/quality-metrics.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Mascot Render Test: learning-graph/mascot-render-test.md
+    - learning-graph/book-metrics.md
+    - learning-graph/chapter-metrics.md
+    - learning-graph/cover-description.md
+    - learning-graph/diagram-details.md
+    - learning-graph/diagram-table.md
+
+
   - FAQ: faq.md
   - Glossary: glossary.md
   - Teachers Guide: teachers-guide/index.md
