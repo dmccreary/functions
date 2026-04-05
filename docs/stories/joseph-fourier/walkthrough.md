@@ -10,19 +10,19 @@ I have successfully generated and refined all 13 images (1 cover + 12 story pane
 ### Story Assets
 All images were generated in a consistent Napoleonic Empire-era illustration style and saved to the story directory:
 
-1. [cover.png](./cover.png)
-2. [panel-01.png](./panel-01.png)
-3. [panel-02.png](./panel-02.png)
-4. [panel-03.png](./panel-03.png)
-5. [panel-04.png](./panel-04.png)
-6. [panel-05.png](./panel-05.png)
-7. [panel-06.png](./panel-06.png)
-8. [panel-07.png](./panel-07.png)
-9. [panel-08.png](./panel-08.png)
-10. [panel-09.png](./panel-09.png)
-11. [panel-10.png](./panel-10.png)
-12. [panel-11.png](./panel-11.png)
-13. [panel-12.png](./panel-12.png)
+1. ![cover.png](./cover.png)
+2. ![panel-01.png](./panel-01.png)
+3. ![panel-02.png](./panel-02.png)
+4. ![panel-03.png](./panel-03.png)
+5. ![panel-04.png](./panel-04.png)
+6. ![panel-05.png](./panel-05.png)
+7. ![panel-06.png](./panel-06.png)
+8. ![panel-07.png](./panel-07.png)
+9. ![panel-08.png](./panel-08.png)
+10. ![panel-09.png](./panel-09.png)
+11. ![panel-10.png](./panel-10.png)
+12. ![panel-11.png](./panel-11.png)
+13. ![panel-12.png](./panel-12.png)
 
 ## Verification Results
 
@@ -32,15 +32,3 @@ I verified all images using the `sips` utility. Every image is exactly **1280x72
 ```bash
 sips -g pixelWidth -g pixelHeight docs/stories/joseph-fourier/*.png
 ```
-
-### Gallery Preview
-````carousel
-![Cover](file:///Users/dan/Documents/ws/functions/docs/stories/joseph-fourier/cover.png)
-<!-- slide -->
-![Panel 1](file:///Users/dan/Documents/ws/functions/docs/stories/joseph-fourier/panel-01.png)
-<!-- slide -->
-![Panel 2](file:///Users/dan/Documents/ws/functions/docs/stories/joseph-fourier/panel-02.png)
-<!-- slide -->
-![Panel 3](file:///Users/dan/Documents/ws/functions/docs/stories/joseph-fourier/panel-12.png)
-````
-*(Note: Previewing a selection due to gallery length constraints)*
