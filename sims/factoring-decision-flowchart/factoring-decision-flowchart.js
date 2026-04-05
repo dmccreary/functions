@@ -28,7 +28,7 @@ function buildFlowchart() {
   // Node structure: {id, x, y, w, h, text, type, example, color}
   nodes.push({ id: 0, x: cx, y: 55, w: 200, h: 36, text: 'Expression to Factor', type: 'start', example: '', color: color(100, 150, 230) });
   nodes.push({ id: 1, x: cx, y: 115, w: 200, h: 36, text: 'Common factor?', type: 'decision', example: 'e.g. 6x² + 9x → 3x(2x+3)', color: color(255, 210, 100) });
-  nodes.push({ id: 2, x: cx + 140, y: 115, w: 110, h: 30, text: 'Factor it out', type: 'action', example: 'GCF first, then continue', color: color(150, 220, 150) });
+  nodes.push({ id: 2, x: cx + 190, y: 115, w: 110, h: 30, text: 'Factor it out', type: 'action', example: 'GCF first, then continue', color: color(150, 220, 150) });
   nodes.push({ id: 3, x: cx, y: 185, w: 200, h: 36, text: 'How many terms?', type: 'decision', example: '', color: color(255, 210, 100) });
   nodes.push({ id: 4, x: cx - 130, y: 260, w: 100, h: 30, text: '2 terms', type: 'decision', example: '', color: color(255, 230, 150) });
   nodes.push({ id: 5, x: cx, y: 260, w: 100, h: 30, text: '3 terms', type: 'decision', example: '', color: color(255, 230, 150) });
@@ -71,24 +71,34 @@ function draw() {
   text('Factoring Decision Flowchart', canvasWidth / 2, 8);
 
   // Draw edges
-  stroke(120);
-  strokeWeight(1.5);
   for (let e of edges) {
     let from = nodes[e[0]];
     let to = nodes[e[1]];
-    line(from.x, from.y + from.h / 2, to.x, to.y - to.h / 2);
-    // Arrow
-    let angle = atan2(to.y - to.h / 2 - (from.y + from.h / 2), to.x - from.x);
-    let ax = to.x - cos(angle) * 0;
-    let ay = to.y - to.h / 2;
+    let x1 = from.x;
+    let y1 = from.y + from.h / 2;
+    let x2 = to.x;
+    let y2 = to.y - to.h / 2;
+    stroke(80);
+    strokeWeight(1.5);
+    line(x1, y1, x2, y2);
+    // Arrowhead
+    let angle = atan2(y2 - y1, x2 - x1);
+    let arrowSize = 7;
+    fill(80);
+    noStroke();
+    push();
+    translate(x2, y2);
+    rotate(angle);
+    triangle(0, 0, -arrowSize, -arrowSize / 2, -arrowSize, arrowSize / 2);
+    pop();
     // Label
     if (e[2]) {
       noStroke();
       fill('blue');
       textSize(11);
       textAlign(CENTER, CENTER);
-      let mx = (from.x + to.x) / 2;
-      let my = (from.y + from.h / 2 + to.y - to.h / 2) / 2;
+      let mx = (x1 + x2) / 2;
+      let my = (y1 + y2) / 2;
       text(e[2], mx + 15, my);
     }
   }

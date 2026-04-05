@@ -5,7 +5,9 @@ let drawHeight = 400;
 let controlHeight = 80;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 45;
-let defaultTextSize = 14;
+let defaultTextSize = 16;
+let sliderLeftMargin = 100;
+let sliderWidth = 200;
 
 let baseSlider;
 let showRefCheckbox;
@@ -18,8 +20,8 @@ function setup() {
   textSize(defaultTextSize);
 
   baseSlider = createSlider(0.1, 5, 2, 0.1);
-  baseSlider.position(80, drawHeight + 8);
-  baseSlider.size(160);
+  baseSlider.position(sliderLeftMargin, drawHeight + 8);
+  baseSlider.size(sliderWidth);
 
   showRefCheckbox = createCheckbox('Show eˣ reference', false);
   showRefCheckbox.position(10, drawHeight + 38);
@@ -157,27 +159,44 @@ function draw() {
   noStroke();
   text('(0, 1)', intPx + 6, intPy - 2);
 
+  // Title
+  noStroke();
+  fill('black');
+  textStyle(BOLD);
+  textSize(24);
+  textAlign(CENTER, TOP);
+  text('Exponential Growth and Decay Explorer', canvasWidth / 2, 8);
+  textStyle(NORMAL);
+
   // Growth / Decay label
   noStroke();
   textSize(14);
   textAlign(CENTER, TOP);
   if (a > 1) {
     fill('green');
-    text('Growth (a > 1)', canvasWidth / 2, 10);
+    text('Growth (a > 1)', canvasWidth / 2, 40);
   } else if (a < 1) {
     fill('red');
-    text('Decay (0 < a < 1)', canvasWidth / 2, 10);
+    text('Decay (0 < a < 1)', canvasWidth / 2, 40);
   } else {
     fill('black');
-    text('Constant (a = 1)', canvasWidth / 2, 10);
+    text('Constant (a = 1)', canvasWidth / 2, 40);
   }
 
   // Current equation
   noStroke();
   fill('darkblue');
   textSize(15);
-  textAlign(CENTER, TOP);
-  text('f(x) = ' + nf(a, 0, 1) + 'ˣ', canvasWidth / 2, 28);
+  textAlign(RIGHT, TOP);
+  let baseStr = 'f(x) = ' + nf(a, 0, 1);
+  let baseW = textWidth(baseStr);
+  let expSize = 30;
+  let totalW = baseW + textWidth('ˣ') * (expSize / 15);
+  let eqStartX = canvasWidth / 2 - totalW / 2;
+  textAlign(LEFT, TOP);
+  text(baseStr, eqStartX, 58);
+  textSize(expSize);
+  text('ˣ', eqStartX + baseW, 52);
 
   // Table
   if (showTableCheckbox.checked()) {
@@ -238,7 +257,7 @@ function draw() {
   // Control labels
   noStroke();
   fill('black');
-  textSize(12);
+  textSize(16);
   textAlign(LEFT, CENTER);
   text('Base a: ' + nf(a, 0, 1), 10, drawHeight + 18);
 }

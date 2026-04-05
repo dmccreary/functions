@@ -170,11 +170,23 @@ function draw() {
   // Feedback
   if (feedback && feedbackTimer > 0) {
     feedbackTimer--;
-    fill(feedback.startsWith('Correct') ? 'green' : 'orangered');
-    noStroke();
+    let isCorrect = feedback.startsWith('Correct');
+    let fbColor = isCorrect ? 'green' : 'orangered';
     textSize(16);
     textAlign(CENTER, CENTER);
-    text(feedback, canvasWidth / 2, drawHeight - 16);
+    let fbW = textWidth(feedback) + 24;
+    let fbH = 28;
+    let fbX = canvasWidth / 2;
+    let fbY = drawHeight - 20;
+    rectMode(CENTER);
+    fill('white');
+    stroke(fbColor);
+    strokeWeight(2);
+    rect(fbX, fbY, fbW, fbH, 8);
+    rectMode(CORNER);
+    noStroke();
+    fill(fbColor);
+    text(feedback, fbX, fbY);
   }
 
   // Control labels
@@ -183,6 +195,9 @@ function draw() {
   textSize(defaultTextSize);
   textAlign(LEFT, CENTER);
   text('Range:', 85, drawHeight + 55);
+
+  // Celebration animation overlay
+  updateAndDrawYellowStars();
 }
 
 function canvasClicked() {
@@ -207,8 +222,9 @@ function canvasClicked() {
     let dist = sqrt((gx - targetPoint.x) ** 2 + (gy - targetPoint.y) ** 2);
     if (dist < 1) {
       feedback = 'Correct!';
-      feedbackTimer = 90;
-      setTimeout(generateTarget, 1000);
+      feedbackTimer = 180;
+      createYellowStars(canvasWidth / 2, drawHeight - 50, 250, 1.0);
+      setTimeout(generateTarget, 3000);
     } else {
       feedback = 'Try again (distance: ' + nf(dist, 0, 1) + ')';
       feedbackTimer = 90;

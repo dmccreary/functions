@@ -6,6 +6,7 @@ let controlHeight = 100;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 20;
 let defaultTextSize = 14;
+let sliderLeftMargin = 150;
 
 let fSelect, gSelect;
 let inputSlider;
@@ -37,8 +38,8 @@ function setup() {
   gSelect.selected('x+4');
 
   inputSlider = createSlider(-5, 5, 2, 0.5);
-  inputSlider.position(80, drawHeight + 42);
-  inputSlider.size(140);
+  inputSlider.position(sliderLeftMargin, drawHeight + 42);
+  inputSlider.size(200);
 
   swapCheckbox = createCheckbox('Swap Order (g∘f)', false);
   swapCheckbox.position(10, drawHeight + 68);
@@ -100,12 +101,16 @@ function draw() {
   // Title
   noStroke();
   fill('black');
-  textSize(18);
+  textSize(20);
   textAlign(CENTER, TOP);
+  text('Composite Function Machine', canvasWidth / 2, 10);
+
+  // Subtitle
+  textSize(18);
   if (!swapped) {
-    text('(f ∘ g)(x) = f(g(x))', canvasWidth / 2, 10);
+    text('(f ∘ g)(x) = f(g(x))', canvasWidth / 2, 35);
   } else {
-    text('(g ∘ f)(x) = g(f(x))', canvasWidth / 2, 10);
+    text('(g ∘ f)(x) = g(f(x))', canvasWidth / 2, 35);
   }
 
   // Layout
@@ -247,11 +252,11 @@ function draw() {
   // Control labels
   noStroke();
   fill('black');
-  textSize(12);
+  textSize(16);
   textAlign(LEFT, CENTER);
   text('f(x):', 10, drawHeight + 18);
   text('g(x):', 130, drawHeight + 18);
-  text('Input x: ' + nf(xVal, 0, 1), 10, drawHeight + 52);
+  text('Input x: ' + nf(xVal, 0, 1), sliderLeftMargin - 90, drawHeight + 52);
 }
 
 function windowResized() {
