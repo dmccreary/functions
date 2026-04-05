@@ -162,17 +162,43 @@ def generate_one(client: genai.Client, prompt: str, out_path: Path,
     print(f"-> generating {out_path}")
     limiter.wait()
     t0 = time.monotonic()
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-image",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_modalities=["IMAGE"],
-            image_config=types.ImageConfig(aspect_ratio="16:9"),
-        ),
-    )
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-image",
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_modalities=["IMAGE"],
+                image_config=types.ImageConfig(aspect_ratio="16:9"),
+            ),
+        )
+    except Exception as e:
+        print(f"   ERROR: API call failed: {type(e).__name__}: {e}")
+        return False, None
     wall_clock_sec = time.monotonic() - t0
 
-    for part in response.candidates[0].content.parts:
+    # Gemini sometimes returns a candidate with no content (safety filter,
+    # refusal, or empty response). Handle all of these gracefully.
+    candidates = getattr(response, "candidates", None) or []
+    if not candidates:
+        print(f"   ERROR: response has no candidates (likely blocked by safety filter)")
+        prompt_feedback = getattr(response, "prompt_feedback", None)
+        if prompt_feedback:
+            print(f"   prompt_feedback: {prompt_feedback}")
+        return False, None
+
+    candidate = candidates[0]
+    finish_reason = getattr(candidate, "finish_reason", None)
+    content = getattr(candidate, "content", None)
+    if content is None:
+        print(f"   ERROR: candidate has no content "
+              f"(finish_reason={finish_reason}) — likely safety filter")
+        safety = getattr(candidate, "safety_ratings", None)
+        if safety:
+            print(f"   safety_ratings: {safety}")
+        return False, None
+
+    parts = getattr(content, "parts", None) or []
+    for part in parts:
         inline = getattr(part, "inline_data", None)
         if inline and inline.data:
             out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -194,7 +220,7 @@ def generate_one(client: genai.Client, prompt: str, out_path: Path,
 
     print(f"   ERROR: no image data returned")
     # Dump any text parts for debugging
-    for part in response.candidates[0].content.parts:
+    for part in parts:
         if getattr(part, "text", None):
             print(f"   text part: {part.text[:300]}")
     return False, None
@@ -392,7 +418,8 @@ def main():
             continue
         ok, rec = generate_one(client, prompt, out_path, limiter)
         if not ok or rec is None:
-            sys.exit(1)
+            print(f"   SKIPPING {out_path} — will continue with next image\n")
+            continue
         dims = verify_dimensions(out_path)
         if dims:
             w, h = dims
