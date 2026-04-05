@@ -11,7 +11,7 @@ quality_score: 0
 
 # Constant and Identity Function Grapher
 
-<iframe src="main.html" height="602" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="562" width="100%" scrolling="no"></iframe>
 
 [Run the Constant and Identity Function Grapher MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

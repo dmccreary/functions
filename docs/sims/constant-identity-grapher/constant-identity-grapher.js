@@ -2,10 +2,12 @@
 // CANVAS_HEIGHT: 600
 let canvasWidth = 400;
 let drawHeight = 450;
-let controlHeight = 150;
+let controlHeight = 110;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 25;
 let defaultTextSize = 16;
+let sliderLeftMargin = 70;
+let sliderWidth = 240;
 
 let cSlider, traceSlider;
 let showTableCb;
@@ -19,13 +21,13 @@ function setup() {
 
   // Slider for constant c
   cSlider = createSlider(-8, 8, 3, 0.5);
-  cSlider.position(100, drawHeight + 10);
-  cSlider.style('width', '180px');
+  cSlider.position(sliderLeftMargin, drawHeight + 10);
+  cSlider.size(sliderWidth);
 
   // Slider for trace x
   traceSlider = createSlider(-8, 8, 2, 0.5);
-  traceSlider.position(100, drawHeight + 45);
-  traceSlider.style('width', '180px');
+  traceSlider.position(sliderLeftMargin, drawHeight + 45);
+  traceSlider.size(sliderWidth);
 
   // Checkbox for table
   showTableCb = createCheckbox('Show Table of Values', false);
@@ -196,16 +198,17 @@ function draw() {
   // Control labels
   noStroke();
   fill('black');
-  textSize(14);
+  textSize(16);
   textAlign(LEFT, CENTER);
   text('c = ' + nf(c, 0, 1), 10, drawHeight + 22);
   text('x = ' + nf(traceX, 0, 1), 10, drawHeight + 57);
 
   // Slider end labels
-  textSize(11);
-  fill(120);
-  text('-8', 290, drawHeight + 22);
-  text('8', 290, drawHeight + 57);
+  // not needed since we have the current value labels right next to sliders
+  //textSize(11);
+  //fill(120);
+  //text('-8', 290, drawHeight + 22);
+  //text('8', 290, drawHeight + 57);
 }
 
 function drawTable(c) {

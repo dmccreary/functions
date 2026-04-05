@@ -6,6 +6,8 @@ let controlHeight = 140;
 let canvasHeight = drawHeight + controlHeight;
 let margin = 50;
 let defaultTextSize = 14;
+let sliderLeftMargin = 140;
+let sliderWidth = 200;
 
 let modelSelect;
 let slider1, slider2, slider3;
@@ -33,25 +35,49 @@ function setup() {
   modelSelect.selected('Compound Interest');
 
   slider1 = createSlider(100, 10000, 1000, 100);
-  slider1.position(100, drawHeight + 38);
-  slider1.size(120);
+  slider1.position(sliderLeftMargin, drawHeight + 38);
+  slider1.size(sliderWidth);
 
   slider2 = createSlider(1, 15, 5, 0.5);
-  slider2.position(100, drawHeight + 62);
-  slider2.size(120);
+  slider2.position(sliderLeftMargin, drawHeight + 62);
+  slider2.size(sliderWidth);
 
   slider3 = createSlider(1, 365, 12, 1);
-  slider3.position(100, drawHeight + 86);
-  slider3.size(120);
+  slider3.position(sliderLeftMargin, drawHeight + 86);
+  slider3.size(sliderWidth);
 
   timeSlider = createSlider(5, 50, 20, 1);
-  timeSlider.position(100, drawHeight + 110);
-  timeSlider.size(120);
+  timeSlider.position(sliderLeftMargin, drawHeight + 110);
+  timeSlider.size(sliderWidth);
 
   showMarkersCheckbox = createCheckbox('Show doubling/halving', false);
-  showMarkersCheckbox.position(240, drawHeight + 108);
+  showMarkersCheckbox.position(sliderLeftMargin + 20, drawHeight + 10);
 
   describe('Exponential model simulator for compound interest, population growth, and half-life decay', LABEL);
+}
+
+// Draws a line of text with selected segments rendered as smaller, raised
+// superscripts. `segments` is an array of { text, sup } objects. `hAlign`
+// may be LEFT, CENTER, or RIGHT and controls horizontal anchoring at (x, y).
+// y is treated as the top of the base text.
+function drawSuperscriptLine(segments, x, y, baseSize, hAlign) {
+  let supSize = baseSize * 0.65 + 2;
+  let totalW = 0;
+  for (let s of segments) {
+    textSize(s.sup ? supSize : baseSize);
+    totalW += textWidth(s.text);
+  }
+  let startX = x;
+  if (hAlign === CENTER) startX = x - totalW / 2;
+  else if (hAlign === RIGHT) startX = x - totalW;
+  textAlign(LEFT, TOP);
+  let curX = startX;
+  for (let s of segments) {
+    textSize(s.sup ? supSize : baseSize);
+    let yOff = s.sup ? -baseSize * 0.3 : 0;
+    text(s.text, curX, y + yOff);
+    curX += textWidth(s.text);
+  }
 }
 
 function getModelValue(model, t) {
@@ -160,7 +186,7 @@ function draw() {
   fill('black');
   textSize(12);
   textAlign(CENTER, TOP);
-  text('Time', originX + plotW / 2, originY + 18);
+  text('Time (years)', originX + plotW / 2, originY + 18);
   push();
   translate(15, margin + plotH / 2);
   rotate(-HALF_PI);
@@ -207,10 +233,11 @@ function draw() {
         fill('red');
         noStroke();
         ellipse(px, py, 7, 7);
-        textSize(9);
-        textAlign(LEFT, BOTTOM);
         noStroke();
-        text('½^' + (h + 1), px + 4, py - 2);
+        drawSuperscriptLine(
+          [{ text: '½', sup: false }, { text: String(h + 1), sup: true }],
+          px + 4, py - 11, 9, LEFT
+        );
       }
     } else {
       // Doubling markers
@@ -239,28 +266,44 @@ function draw() {
     }
   }
 
-  // Title and equation
+  // Main title
   noStroke();
   fill('black');
-  textSize(16);
+  textStyle(BOLD);
+  textSize(22);
   textAlign(CENTER, TOP);
-  text(model, canvasWidth / 2, 6);
+  text('Exponential Model Simulator', canvasWidth / 2, 6);
+
+  // Model subtitle
+  fill('blue');
+  textSize(18);
+  text(model, canvasWidth / 2, 36);
+  textStyle(NORMAL);
 
   fill('darkblue');
-  textSize(13);
-  let eqStr = '';
   let p = slider1.value();
   let r = slider2.value();
+  let eqSegments = [];
   if (model === 'Compound Interest') {
     let n = slider3.value();
     let nLabel = n === 1 ? 'Annual' : (n === 4 ? 'Quarterly' : (n === 12 ? 'Monthly' : (n === 365 ? 'Daily' : 'n=' + n)));
-    eqStr = 'A = ' + p + '(1 + ' + nf(r / 100, 0, 3) + '/' + n + ')^(' + n + 't)  [' + nLabel + ']';
+    eqSegments = [
+      { text: 'A = ' + p + '(1 + ' + nf(r / 100, 0, 3) + '/' + n + ')', sup: false },
+      { text: n + 't', sup: true },
+      { text: '  [' + nLabel + ']', sup: false }
+    ];
   } else if (model === 'Population Growth') {
-    eqStr = 'P = ' + p + ' × ' + nf(1 + r / 100, 0, 2) + 'ᵗ';
+    eqSegments = [
+      { text: 'P = ' + p + ' × ' + nf(1 + r / 100, 0, 2), sup: false },
+      { text: 't', sup: true }
+    ];
   } else if (model === 'Half-Life Decay') {
-    eqStr = 'N = ' + p + ' × (½)^(t/' + nf(r, 0, 1) + ')';
+    eqSegments = [
+      { text: 'N = ' + p + ' × (½)', sup: false },
+      { text: 't/' + nf(r, 0, 1), sup: true }
+    ];
   }
-  text(eqStr, canvasWidth / 2, 24);
+  drawSuperscriptLine(eqSegments, canvasWidth / 2, 69, 13, CENTER);
 
   // Data table (compact, top right)
   let finalVal = values[values.length - 1].v;
@@ -273,7 +316,7 @@ function draw() {
   // Control labels
   noStroke();
   fill('black');
-  textSize(11);
+  textSize(16);
   textAlign(LEFT, CENTER);
   if (model === 'Compound Interest') {
     text('Principal: ' + slider1.value(), 10, drawHeight + 48);
